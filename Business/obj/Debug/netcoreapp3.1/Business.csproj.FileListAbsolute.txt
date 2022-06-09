@@ -1,0 +1,10 @@
+E:\Epam\Final project\Internet auction\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+E:\Epam\Final project\Internet auction\Business\bin\Debug\netcoreapp3.1\Business.dll
+E:\Epam\Final project\Internet auction\Business\bin\Debug\netcoreapp3.1\Business.pdb
+E:\Epam\Final project\Internet auction\Business\obj\Debug\netcoreapp3.1\Business.csproj.AssemblyReference.cache
+E:\Epam\Final project\Internet auction\Business\obj\Debug\netcoreapp3.1\Business.GeneratedMSBuildEditorConfig.editorconfig
+E:\Epam\Final project\Internet auction\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+E:\Epam\Final project\Internet auction\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+E:\Epam\Final project\Internet auction\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+E:\Epam\Final project\Internet auction\Business\obj\Debug\netcoreapp3.1\Business.dll
+E:\Epam\Final project\Internet auction\Business\obj\Debug\netcoreapp3.1\Business.pdb
