@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7QS8IapzPxc4cJhFXSFqPzf4Vmxj3sX+uRTi1ZfKniB3OpLHMPC8iXDRE8pWiccgLVmd7mLEL3CLDd9Sg3f6jA==",
+  "dgSpecHash": "AgBo1mVp7zLWl/hyw+0qOfWkLaeivb6b5hheZOidWpR50uosNPipNM6JBweRyCzAgumvYzoQDeNSRmmofK6VMw==",
   "success": true,
   "projectFilePath": "E:\\Epam\\Final project\\Internet auction\\Data\\Data.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\Sergey\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.25\\microsoft.entityframeworkcore.abstractions.3.1.25.nupkg.sha512",
     "C:\\Users\\Sergey\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.25\\microsoft.entityframeworkcore.analyzers.3.1.25.nupkg.sha512",
     "C:\\Users\\Sergey\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.25\\microsoft.entityframeworkcore.design.3.1.25.nupkg.sha512",
+    "C:\\Users\\Sergey\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\3.1.25\\microsoft.entityframeworkcore.inmemory.3.1.25.nupkg.sha512",
     "C:\\Users\\Sergey\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.25\\microsoft.entityframeworkcore.relational.3.1.25.nupkg.sha512",
     "C:\\Users\\Sergey\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\3.1.25\\microsoft.entityframeworkcore.sqlserver.3.1.25.nupkg.sha512",
     "C:\\Users\\Sergey\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\3.1.25\\microsoft.entityframeworkcore.tools.3.1.25.nupkg.sha512",

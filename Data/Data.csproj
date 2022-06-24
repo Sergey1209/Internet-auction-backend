@@ -5,12 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Repositories\" />
-    <Folder Include="Interfaces\" />
+    <Compile Remove="Public\**" />
+    <EmbeddedResource Remove="Public\**" />
+    <None Remove="Public\**" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.25" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.25" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.25" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.25">
       <PrivateAssets>all</PrivateAssets>

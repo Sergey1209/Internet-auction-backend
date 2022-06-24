@@ -8,11 +8,13 @@ namespace Data.Entities
     {
         public string Name { get; set; }
         public string Description { get; set; }
-        public decimal InitialPrice { get; set; }
+        public decimal? InitialPrice { get; set; }
         public int CategoryId { get; set; }
+        public DateTime? Deadline { get; set; }
+        public int OwnerId { get; set; }
 
-        public LotCategory Category { get; set; }
-        public Receipt Receipt { get; set; }
-
+        public virtual LotCategory Category { get; set; }
+        public virtual Receipt Receipt { get; set; }
+        public virtual IEnumerable<LotImage> LotImages { get; set; }
     }
 }

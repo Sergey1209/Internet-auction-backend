@@ -10,10 +10,7 @@ namespace Data.Entities
         public DateTime OperationDate { get; set; }
         public decimal Cost { get; set; }
         public int CustomerId { get; set; }
-        public int SellerId { get; set; }       
 
-        public Lot Lot { get; set; }
-        public Customer Customer { get; set; }
-        public Seller Seller { get; set; }
+        public virtual Lot Lot { get; set; }
     }
 }

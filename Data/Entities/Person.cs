@@ -1,12 +1,11 @@
-﻿namespace Data.Entities
+﻿using System.Collections.Generic;
+
+namespace Data.Entities
 {
     public class Person : BaseEntity
     {
-        public string Name { get; set; }
-        public string Surname { get; set; }        
+        public string Nickname { get; set; }
         
-        public Customer Customer { get; set; }
-        public Seller Seller { get; set; }
-        public PersonAuth PersonAuth { get; set; }  
+        public virtual PersonAuth PersonAuth { get; set; }
     }
 }
