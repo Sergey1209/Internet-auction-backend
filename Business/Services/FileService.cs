@@ -1,6 +1,7 @@
 ﻿using Business.Helpers;
 using Business.Interfaces;
 using Business.Models;
+using Business.Validation;
 using Data.Entities;
 using Data.Interfaces;
 using Microsoft.AspNetCore.Http;
@@ -57,7 +58,7 @@ namespace Business.Services
         public async Task<int> AddAsync(IFormFile image)
         {
             if (image == null)
-                throw new ArgumentNullException("image");
+                throw new NullModelException("image");
 
             var fileName = await SaveImage(image);
                 
@@ -71,7 +72,7 @@ namespace Business.Services
         public async Task<IEnumerable<int>> AddAsync(IEnumerable<IFormFile> images)
         {
             if (images == null)
-                throw new ArgumentNullException("images");
+                throw new NullModelException("images");
 
             var ids = new List<int>();
             foreach (var imageEntity in images)
@@ -89,7 +90,7 @@ namespace Business.Services
         public async Task<string> SaveImage(IFormFile image)
         {
             if (image == null)
-                throw new ArgumentNullException("image");
+                throw new NullModelException("image");
 
             var fileName = _imageFileHelper.GetFullNameForSaveFile(image.FileName);
             var path = $@"{_imageFileHelper.Directory}\{fileName}";
@@ -105,7 +106,7 @@ namespace Business.Services
         public async Task UpdateAsync(int id, IFormFile newFile)
         {
             if (newFile == null)
-                throw new ArgumentNullException("newFile");
+                throw new NullModelException("newFile");
 
             var dbFile = await _repository.GetByIdAsync(id);
 

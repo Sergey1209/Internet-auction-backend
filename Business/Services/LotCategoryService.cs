@@ -6,6 +6,7 @@ using Business.Validation;
 using Data.Entities;
 using Data.Interfaces;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace Business.Services
@@ -49,7 +50,7 @@ namespace Business.Services
         public async Task<IEnumerable<LotCategoryModel>> GetAllAsync()
         {
             var list = await _repository.GetAllByDetalsAsync();
-            var result = _mapper.Map<IEnumerable<LotCategoryModel>>(list);
+            var result = _mapper.Map<IEnumerable<LotCategoryModel>>(list.OrderBy(categ => categ.Name));
             return result;
         }
 

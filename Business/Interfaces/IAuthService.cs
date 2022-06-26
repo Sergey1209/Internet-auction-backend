@@ -8,7 +8,7 @@ namespace Business.Interfaces
 {
     public interface IAuthService
     {
-        public Task<string> LoginAsync(LoginModel login);
+        public Task<object> LoginAsync(LoginModel login);
         public Task RegistrationAsync(RegistrationModel registration);
         public Task DeleteAsync(string login);
         public Task UpdateAsyc(PersonAuthModel model);

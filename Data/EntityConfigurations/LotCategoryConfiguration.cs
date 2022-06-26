@@ -15,7 +15,7 @@ namespace Data.EntityConfigurations
             builder.HasOne(a => a.File).WithOne(b => b.LotCategory).OnDelete(DeleteBehavior.Cascade);
 
             builder.HasData(
-                new LotCategory() { Id = 1, Name = "Category 1", FileId = 1 },
+                new LotCategory() { Id = 1, Name = "Miscellaneous", FileId = 1 },
                 new LotCategory() { Id = 2, Name = "Category 2", FileId = 2 },
                 new LotCategory() { Id = 3, Name = "Category 3", FileId = 3 }
             );

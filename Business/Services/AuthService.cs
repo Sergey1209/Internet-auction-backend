@@ -31,7 +31,7 @@ namespace Business.Services
             _authRepository = unitOfWorkAuth.PersonAuthRepository;
         }
 
-        public async Task<string> LoginAsync(LoginModel login)
+        public async Task<object> LoginAsync(LoginModel login)
         {
             var identity = await _authRepository.GetByLoginAsync(login: login.Email);
             if (identity == null || identity.Password != login.Password)
@@ -39,7 +39,7 @@ namespace Business.Services
 
             var token = GenerateJWT(login: identity.Email, personId: identity.PersonId, role: identity.Role);
 
-            return token;
+            return new { access_token = token };
         }
 
         public async Task RegistrationAsync(RegistrationModel registration)

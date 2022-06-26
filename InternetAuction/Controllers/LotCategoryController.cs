@@ -5,6 +5,9 @@ using Business.Models;
 using Business.Interfaces;
 using System.Linq;
 using InternetAuction.Validation;
+using Microsoft.AspNetCore.Authorization;
+using Data.Entities;
+using Business.Validation;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -24,7 +27,6 @@ namespace InternetAuction.Controllers
             _fileService = filsService;
         }
 
-        // GET: api/<LotCategory>
         [HttpGet]
         public async Task<IEnumerable<LotCategoryModel>> GetAll()
         {
@@ -32,7 +34,6 @@ namespace InternetAuction.Controllers
             return res;
         }
 
-        // GET api/<LotCategory>/5
         [HttpGet("{id}")]
         public async Task<LotCategoryModel> Get(int id)
         {
@@ -40,12 +41,12 @@ namespace InternetAuction.Controllers
             return res;
         }
 
-        // POST api/<LotCategory>
+        [Authorize(Roles = "Administrator")]
         [HttpPost]
         public async Task Post([FromForm] InputLotCategoryModel inputLotCategory)
         {
             if (inputLotCategory == null)
-                throw new System.ArgumentNullException("inputLotCategory");
+                throw new NullModelException("inputLotCategory");
 
             var img = inputLotCategory.Files?.First();
             int? fileId = default;
@@ -55,12 +56,12 @@ namespace InternetAuction.Controllers
             await _service.AddAsync(name: inputLotCategory.Name, fileId: fileId);
         }
 
-        // Put api/<LotCategory>
+        [Authorize(Roles = "Administrator")]
         [HttpPut]
         public async Task Put([FromForm] InputLotCategoryModel inputLotCategory)
         {
             if (inputLotCategory == null)
-                throw new System.ArgumentNullException("inputLotCategory");
+                throw new NullModelException ("inputLotCategory");
 
             var oldFileId = await _service.GetFileId(lotCategoryId: inputLotCategory.Id);
             await _fileService.UpdateAsync(id: oldFileId, newFile: inputLotCategory.Files.First());
@@ -68,7 +69,7 @@ namespace InternetAuction.Controllers
             await _service.UpdateAsyc(inputLotCategory);
         }
 
-        // DELETE api/<LotCategory>/5
+        [Authorize(Roles = "Administrator")]
         [HttpDelete("{id}")]
         public async Task Delete(int id)
         {

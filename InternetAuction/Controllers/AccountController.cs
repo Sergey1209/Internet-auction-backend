@@ -4,6 +4,7 @@ using Business.Services;
 using Data.Data;
 using Data.Entities;
 using InternetAuction.Validation;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
@@ -29,18 +30,20 @@ namespace InternetAuction.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<string> Login([FromBody] LoginModel login)
+        public async Task<object> Login([FromBody] LoginModel login)
         {
-            return await _service.LoginAsync(login);
+            var res = await _service.LoginAsync(login);
+            return res;
         }
 
         [HttpPost("registration")]
-        public async Task<string> Registration([FromBody] RegistrationModel registration)
+        public async Task<object> Registration([FromBody] RegistrationModel registration)
         {
             await _service.RegistrationAsync(registration);
             return await _service.LoginAsync(registration);
         }
 
+        [Authorize(Roles = "Administrator, RegisteredUser")]
         [HttpPost("update")]
         public async Task Update([FromBody] PersonAuthModel registration)
         {

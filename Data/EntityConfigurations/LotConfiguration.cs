@@ -14,7 +14,7 @@ namespace Data.EntityConfigurations
             builder.Property(x => x.Name).IsRequired().IsUnicode().HasMaxLength(30);
             builder.Property(x => x.Description).IsUnicode().HasMaxLength(1024);
             builder.Property(x => x.InitialPrice).HasColumnType("money");
-            builder.Property(x => x.CategoryId).IsRequired();
+            builder.Property(x => x.CategoryId).IsRequired().HasDefaultValue(1);
             builder.Property(x => x.OwnerId).IsRequired();
 
             builder.HasOne(a => a.Category).WithMany(b => b.Lots).OnDelete(DeleteBehavior.NoAction);

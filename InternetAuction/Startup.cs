@@ -46,6 +46,8 @@ namespace InternetAuction
         {
             services.AddControllers();
 
+            
+
             var connectionString_internetAuction = Configuration.GetConnectionString("Internet auction localhost");
             services.AddDbContext<InternetAuctionDbContext>(option => option.UseSqlServer(connectionString_internetAuction));
 
@@ -110,6 +112,7 @@ namespace InternetAuction
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Test API", Version = "v1" });
             });
+
         }
 
         private void CheckinAuthOptions(AuthOptions options)
@@ -141,8 +144,9 @@ namespace InternetAuction
 
             app.UseCors();
 
-            app.UseAuthorization();
+            
             app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseSwagger();
             app.UseSwaggerUI(x =>

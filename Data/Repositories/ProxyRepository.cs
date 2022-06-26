@@ -1,5 +1,6 @@
 ﻿using Data.Data;
 using Data.Entities;
+using Data.Extensions;
 using Data.Interfaces;
 using Data.Validation;
 using Microsoft.EntityFrameworkCore;
@@ -25,6 +26,7 @@ namespace Data.Repositories
         {
             Validate(entity);
             entity.Id = 0;
+            _dbContext.TruncateStringsBasedOnMaxLength(entity);
             await _dbSet.AddAsync(entity);
         }
 
@@ -62,6 +64,7 @@ namespace Data.Repositories
         public void Update(TEntity entity)
         {
             Validate(entity);
+            _dbContext.TruncateStringsBasedOnMaxLength(entity);
             _dbSet.Update(entity);
         }
 

@@ -4,8 +4,11 @@ using Business.Models;
 using Business.Validation;
 using Data.Entities;
 using Data.Interfaces;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
+using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -16,24 +19,22 @@ namespace Business.Services
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
         private readonly ILotRepository _repository;
+        private readonly ILotImageRepository _lotImageRepository;
+
         public LotService(IUnitOfWork unitOfWork, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
             _repository = unitOfWork.LotRepository;
+            _lotImageRepository = unitOfWork.LotImageRepository;
         }
 
         public async Task<int> AddAsync(InputLotModel model)
         {
-            ValidateModel(model);
-            await _repository.AddAsync(_mapper.Map<Lot>(model));
+            var entity = _mapper.Map<Lot>(model);
+            await _repository.AddAsync(entity);
             await _unitOfWork.SaveAsync();
-
-            var lot = _mapper.Map<Lot>(model);
-            var lots = await _repository.GetIdAsync(lot);
-
-            var result = lots?.Count() > 0 ? lots.Max(x => x.Id) : 0;
-            return result;
+            return entity.Id;
         }
 
         public async Task DeleteAsync(int id)
@@ -67,17 +68,8 @@ namespace Business.Services
 
         public async Task UpdateAsyc(InputLotModel model)
         {
-            ValidateModel(model);
             _repository.Update(_mapper.Map<Lot>(model));
             await _unitOfWork.SaveAsync();
-        }
-
-        private void ValidateModel(IValidatelyModel model)
-        {
-            if (model == null)
-                throw new NullModelException("The Model is null");
-
-            model.Validate();
         }
     }
 }

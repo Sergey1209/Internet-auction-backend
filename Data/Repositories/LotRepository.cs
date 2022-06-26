@@ -6,6 +6,8 @@ using Data.Data;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Linq;
+using Newtonsoft.Json;
+using Data.Extensions;
 
 namespace Data.Repositories
 {
@@ -99,6 +101,8 @@ namespace Data.Repositories
         public void Update(Lot entity)
         {
             _proxyRepository.Update(entity);
+            
         }
     }
+
 }
