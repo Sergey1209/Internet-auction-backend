@@ -34,6 +34,7 @@ namespace InternetAuction.Controllers
             return res;
         }
 
+        [Authorize(Roles = "Administrator")]
         [HttpGet("{id}")]
         public async Task<LotCategoryModel> Get(int id)
         {

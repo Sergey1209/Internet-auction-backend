@@ -2,12 +2,7 @@
 using Business.Interfaces;
 using Business.Models;
 using Data.Entities;
-using Microsoft.AspNetCore.Http;
-using Microsoft.Extensions.Configuration;
 using System.Linq;
-using System;
-using System.IO;
-using System.Threading.Tasks;
 
 namespace Business
 {
@@ -47,7 +42,10 @@ namespace Business
 
             CreateMap<LoginModel, PersonAuth>();
 
-            CreateMap<Data.Entities.File, FileModel>();
+            CreateMap<File, FileModel>();
+
+            CreateMap<Receipt, ReceiptModel>();
+            CreateMap<ReceiptModel, Receipt>();
 
         }
 

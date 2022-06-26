@@ -11,8 +11,8 @@ namespace Data.Repositories
     public class ReceiptRepository : IReceiptRepository
     {
         private readonly InternetAuctionDbContext _dbContext;
-        private DbSet<Receipt> _dbSet;
-        private ProxyRepository<Receipt> _proxyRepository;
+        private readonly DbSet<Receipt> _dbSet;
+        private readonly ProxyRepository<Receipt> _proxyRepository;
 
         public ReceiptRepository(InternetAuctionDbContext dbContext)
         {
@@ -49,6 +49,21 @@ namespace Data.Repositories
         public void Update(Receipt entity)
         {
             _proxyRepository.Update(entity);
+        }
+
+        public async Task<IEnumerable<Receipt>> GetAllWithDetailsAsync()
+        {
+            return await _dbSet
+                .Include(x => x.Lot)
+                .ToListAsync();
+        }
+
+        public async Task<Receipt> GetByIdWithDetailsAsync(int id)
+        {
+            return await _dbSet
+                .AsQueryable()
+                .Include(x => x.Lot)
+                .FirstOrDefaultAsync(x => x.Id == id);
         }
     }
 }

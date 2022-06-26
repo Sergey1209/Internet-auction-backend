@@ -19,14 +19,12 @@ namespace Business.Services
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
         private readonly ILotRepository _repository;
-        private readonly ILotImageRepository _lotImageRepository;
 
         public LotService(IUnitOfWork unitOfWork, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
             _repository = unitOfWork.LotRepository;
-            _lotImageRepository = unitOfWork.LotImageRepository;
         }
 
         public async Task<int> AddAsync(InputLotModel model)

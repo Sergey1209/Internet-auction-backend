@@ -46,8 +46,6 @@ namespace InternetAuction
         {
             services.AddControllers();
 
-            
-
             var connectionString_internetAuction = Configuration.GetConnectionString("Internet auction localhost");
             services.AddDbContext<InternetAuctionDbContext>(option => option.UseSqlServer(connectionString_internetAuction));
 
@@ -71,6 +69,7 @@ namespace InternetAuction
             services.AddScoped<ILotService, LotService>();
             services.AddScoped<IAuctionService, AuctionService>();
             services.AddScoped<ILotImageService, LotImageService>();
+            services.AddScoped<IReceiptService, ReceiptService>();
 
             services.AddScoped<IUnitOfWorkAuth, UnitOfWorkAuth>();
             services.AddScoped<IAuthService, AuthService>();
