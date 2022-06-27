@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using Business.Helpers;
 using Business.Interfaces;
 using Business.Models;
 using Business.Validation;
@@ -82,7 +81,7 @@ namespace Business.Services
 
             var dbLotCategory = await _repository.GetByIdAsync(inputModel.Id);
             dbLotCategory.Name = inputModel.Name;
-           
+
             _repository.Update(dbLotCategory);
             await _unitOfWork.SaveAsync();
         }

@@ -5,7 +5,7 @@ using System;
 
 namespace InternetAuction.Validation
 {
-    public class ValidateModelStateAttribute : ActionFilterAttribute
+    public class ExceptionsAttribute : ActionFilterAttribute
     {
         public override void OnActionExecuted(ActionExecutedContext context)
         {

@@ -12,7 +12,7 @@ namespace Data.EntityConfigurations
             builder.Property(x => x.LotId).IsRequired();
             builder.Property(x => x.FileId).IsRequired();
 
-            builder.HasIndex(x => new { x.LotId, x.FileId});
+            builder.HasIndex(x => new { x.LotId, x.FileId });
 
             builder.HasOne(x => x.File).WithMany(b => b.LotImages).OnDelete(DeleteBehavior.Cascade);
             builder.HasOne(a => a.Lot).WithMany(b => b.LotImages).OnDelete(DeleteBehavior.Cascade);

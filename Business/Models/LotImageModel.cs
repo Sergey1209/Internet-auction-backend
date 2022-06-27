@@ -1,6 +1,4 @@
-﻿using Business.Interfaces;
-
-namespace Business.Models
+﻿namespace Business.Models
 {
     public class LotImageModel
     {

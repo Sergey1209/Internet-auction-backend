@@ -2,14 +2,12 @@
 using Business.Services;
 using Data.Entities;
 using Data.Interfaces;
+using FluentAssertions;
 using Moq;
 using NUnit.Framework;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
-using FluentAssertions;
 
 namespace InternetAuction.Tests.BusinessTests.ServicesTests
 {

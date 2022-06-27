@@ -9,6 +9,6 @@ namespace Business.Interfaces
         public Task<TModel> GetByIdAsync(int modelId);
         public Task AddAsync(TModel model);
         public Task DeleteAsync(int modelId);
-        public Task UpdateAsyc(TModel model);   
+        public Task UpdateAsyc(TModel model);
     }
 }

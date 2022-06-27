@@ -15,7 +15,9 @@ namespace Data.EntityConfigurations
             builder.Property(x => x.LotId).IsRequired();
             builder.Property(x => x.OperationDate).IsRequired();
 
-            builder.HasOne(a => a.Lot).WithOne(b => b.Receipt).OnDelete(DeleteBehavior.Cascade);
+            builder.HasIndex(x => x.LotId);
+
+            builder.HasOne(a => a.Lot).WithOne(b => b.Receipt).OnDelete(DeleteBehavior.NoAction);
         }
     }
 }

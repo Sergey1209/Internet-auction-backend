@@ -1,13 +1,7 @@
 ﻿using Business.Interfaces;
-using Business.Services;
-using InternetAuction.Extensions;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.IO;
-using System.Threading.Tasks;
 using InternetAuction.Validation;
-using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -15,7 +9,7 @@ namespace InternetAuction.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [ValidateModelState]
+    [Exceptions]
     public class FilesController : ControllerBase
     {
         private readonly IFileService _service;

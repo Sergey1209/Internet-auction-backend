@@ -6,7 +6,7 @@ namespace Data.Extensions
 {
     public static class DbContextExtensions
     {
-        public static void TruncateStringsBasedOnMaxLength<T>(this DbContext context, T entityObject) where T: BaseEntity
+        public static void TruncateStringsBasedOnMaxLength<T>(this DbContext context, T entityObject) where T : BaseEntity
         {
             var entityTypes = context.Model.GetEntityTypes();
             var properties = entityTypes.First(e => e.Name == entityObject.GetType().FullName).GetProperties().ToDictionary(p => p.Name, p => p.GetMaxLength());

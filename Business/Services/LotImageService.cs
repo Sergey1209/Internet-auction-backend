@@ -33,7 +33,7 @@ namespace Business.Services
             var newFilesIds = await _fileService.AddAsync(images);
             foreach (var fileId in newFilesIds)
             {
-                await _repository.AddAsync(new LotImage() {LotId = lotId, FileId = fileId });
+                await _repository.AddAsync(new LotImage() { LotId = lotId, FileId = fileId });
             }
 
             await _unitOfWork.SaveAsync();

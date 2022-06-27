@@ -1,10 +1,9 @@
-﻿using System;
+﻿using Data.Entities;
+using Data.Repositories;
+using NUnit.Framework;
+using System;
 using System.Linq;
 using System.Threading.Tasks;
-using Data.Entities;
-using Data.Repositories;
-using Data.Validation;
-using NUnit.Framework;
 
 namespace InternetAuction.Tests.DataTests.RepositoriesTests
 {

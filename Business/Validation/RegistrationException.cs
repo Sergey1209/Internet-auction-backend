@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Business.Validation
+﻿namespace Business.Validation
 {
     public class RegistrationException : AuctionBusinessException
     {

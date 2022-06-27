@@ -1,11 +1,11 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using Data.Data;
 using Data.Entities;
 using Data.Interfaces;
-using Data.Data;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace Data.Repositories
 {
@@ -66,7 +66,7 @@ namespace Data.Repositories
                 .AsQueryable()
                 .Where(x => x.Id == id)
                 .Include(x => x.Lot)
-                .Include(x=> x.File)
+                .Include(x => x.File)
                 .FirstOrDefaultAsync();
 
             return res;

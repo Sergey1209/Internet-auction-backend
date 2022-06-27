@@ -6,7 +6,7 @@
         public int FileId { get; set; }
 
         public virtual Lot Lot { get; set; }
-        public virtual File File { get;set; }
+        public virtual File File { get; set; }
 
     }
 }

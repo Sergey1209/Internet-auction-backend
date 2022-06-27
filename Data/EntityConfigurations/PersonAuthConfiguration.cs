@@ -21,9 +21,9 @@ namespace Data.EntityConfigurations
             builder.HasIndex(x => x.PersonId).IsUnique(true);
 
             builder.HasData(
-                new PersonAuth() {Email = "mail10@gmail.com", Password = "pass1", Role = Role.RegisteredUser, PersonId = 1 },
-                new PersonAuth() {Email = "mail12@gmail.com", Password = "pass2", Role = Role.RegisteredUser, PersonId = 2 },
-                new PersonAuth() {Email = "mail13@gmail.com", Password = "pass3", Role = Role.Administrator, PersonId = 3 }
+                new PersonAuth() { Email = "mail10@gmail.com", Password = "pass1", Role = Role.RegisteredUser, PersonId = 1 },
+                new PersonAuth() { Email = "mail12@gmail.com", Password = "pass2", Role = Role.RegisteredUser, PersonId = 2 },
+                new PersonAuth() { Email = "mail13@gmail.com", Password = "pass3", Role = Role.Administrator, PersonId = 3 }
             );
         }
     }

@@ -1,9 +1,6 @@
 ﻿using Data.Data;
 using Data.Interfaces;
 using Data.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Data.Infrastructure

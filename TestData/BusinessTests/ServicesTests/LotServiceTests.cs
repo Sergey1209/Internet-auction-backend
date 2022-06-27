@@ -2,14 +2,13 @@
 using Business.Services;
 using Data.Entities;
 using Data.Interfaces;
+using FluentAssertions;
 using Moq;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
-using FluentAssertions;
 
 namespace InternetAuction.Tests.BusinessTests.ServicesTests
 {
@@ -27,7 +26,7 @@ namespace InternetAuction.Tests.BusinessTests.ServicesTests
                 .Setup(x => x.LotRepository.GetAllByDetalsAsync())
                 .ReturnsAsync(GetTestLotEntities());
 
-            var LotService = new LotService(mockUnitOfWork.Object, UnitTestHelper.CreateMapperProfile());
+            var LotService = new LotService(mockUnitOfWork.Object, UnitTestHelper.CreateMapperProfile(), new HostConfigFake());
 
             //act
             var actual = await LotService.GetAllAsync();
@@ -45,16 +44,16 @@ namespace InternetAuction.Tests.BusinessTests.ServicesTests
             var mockUnitOfWork = new Mock<IUnitOfWork>();
             mockUnitOfWork.Setup(x => x.LotRepository.AddAsync(It.IsAny<Lot>()));
 
-            var LotService = new LotService(mockUnitOfWork.Object, UnitTestHelper.CreateMapperProfile());
+            var LotService = new LotService(mockUnitOfWork.Object, UnitTestHelper.CreateMapperProfile(), new HostConfigFake());
             var lotModel = GetTestInputLotModels().First();
             //act
             await LotService.AddAsync(lotModel);
 
             //assert
             mockUnitOfWork.Verify(x => x.LotRepository.AddAsync(It.Is<Lot>(x =>
-                                x.Id == lotModel.Id && 
-                                x.OwnerId == lotModel.OwnerId && 
-                                x.CategoryId == lotModel.CategoryId && 
+                                x.Id == lotModel.Id &&
+                                x.OwnerId == lotModel.OwnerId &&
+                                x.CategoryId == lotModel.CategoryId &&
                                 x.Name == lotModel.Name)), Times.Once);
             mockUnitOfWork.Verify(x => x.SaveAsync(), Times.Once);
         }
@@ -69,14 +68,14 @@ namespace InternetAuction.Tests.BusinessTests.ServicesTests
                 new LotModel() { Id = 2, Name = "Lot2", OwnerId = 1, CategoryId = 1, Images = new string[]{ "http://test/file2" },
                     Deadline = DateTime.Parse("2022-2-2"), Description = "Description1", InitialPrice = 12},
                 new LotModel() { Id = 3, Name = "Lot3", OwnerId = 2, CategoryId = 2, Images = new string[]{ "http://test/file3" },
-                    Deadline = DateTime.Parse("2022-3-3"), Description = "Description3", InitialPrice = 13} 
+                    Deadline = DateTime.Parse("2022-3-3"), Description = "Description3", InitialPrice = 13}
                 }.AsEnumerable();
         }
 
         private IEnumerable<InputLotModel> GetTestInputLotModels()
         {
             return new InputLotModel[] {
-                new InputLotModel() { Id = 1, Name = "Lot1", OwnerId = 1, CategoryId = 1, 
+                new InputLotModel() { Id = 1, Name = "Lot1", OwnerId = 1, CategoryId = 1,
                     Deadline = DateTime.Parse("2022-1-1"), Description = "Description1", InitialPrice = 11 },
                 new InputLotModel() { Id = 2, Name = "Lot2", OwnerId = 1, CategoryId = 1,
                     Deadline = DateTime.Parse("2022-2-2"), Description = "Description1", InitialPrice = 12},
@@ -91,14 +90,14 @@ namespace InternetAuction.Tests.BusinessTests.ServicesTests
                 new Lot() { Id = 1, Name = "Lot1", Deadline = DateTime.Parse("2022-1-1"), Description = "Description1", InitialPrice = 11,
                     CategoryId = 1, Category = new LotCategory(){Id = 1, Name = "LotCategory1" },
                     OwnerId = 1,
-                    LotImages = new LotImage[]{ 
+                    LotImages = new LotImage[]{
                         new LotImage(){
                             Id = 1,
                             FileId = 1,
                             LotId = 1,
-                            File = new File() { Id = 1, Name = "file1"} 
+                            File = new File() { Id = 1, Name = "file1"}
                         }
-                    } 
+                    }
                 },
                 new Lot() { Id = 2, Name = "Lot2", Deadline = DateTime.Parse("2022-2-2"), Description = "Description1", InitialPrice = 12,
                     CategoryId = 1, Category = new LotCategory(){Id = 1, Name = "LotCategory1" },

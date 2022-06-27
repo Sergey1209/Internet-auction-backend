@@ -1,11 +1,11 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using Data.Data;
 using Data.Entities;
 using Data.Interfaces;
-using Data.Data;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace Data.Repositories
 {
@@ -48,7 +48,7 @@ namespace Data.Repositories
 
         public async Task DeleteByLoginAsync(string login)
         {
-            var entity = 
+            var entity =
                 await _dbSet.SingleOrDefaultAsync(x => x.Email == login);
 
             if (entity == null)

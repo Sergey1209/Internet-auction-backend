@@ -1,15 +1,11 @@
 ﻿using AutoMapper;
+using Business.Helpers;
 using Business.Interfaces;
 using Business.Models;
-using Business.Validation;
 using Data.Entities;
 using Data.Interfaces;
-using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Http;
-using System;
 using System.Collections.Generic;
-using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace Business.Services
@@ -19,26 +15,18 @@ namespace Business.Services
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
         private readonly ILotRepository _repository;
+        private readonly IFileRepository _fileRepository;
+        private readonly ILotImageRepository _lotImageRepository;
+        private readonly FileHelper _imageFileHelper;
 
-        public LotService(IUnitOfWork unitOfWork, IMapper mapper)
+        public LotService(IUnitOfWork unitOfWork, IMapper mapper, IHostConfig hostConfig)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
             _repository = unitOfWork.LotRepository;
-        }
-
-        public async Task<int> AddAsync(InputLotModel model)
-        {
-            var entity = _mapper.Map<Lot>(model);
-            await _repository.AddAsync(entity);
-            await _unitOfWork.SaveAsync();
-            return entity.Id;
-        }
-
-        public async Task DeleteAsync(int id)
-        {
-            await _repository.DeleteByIdAsync(id);
-            await _unitOfWork.SaveAsync();
+            _fileRepository = unitOfWork.FileRepository;
+            _lotImageRepository = unitOfWork.LotImageRepository;
+            _imageFileHelper = new FileHelper(hostConfig.ImagesDirectory);
         }
 
         public async Task<IEnumerable<LotModel>> GetAllAsync()
@@ -64,10 +52,60 @@ namespace Business.Services
             return _mapper.Map<LotModel>(result);
         }
 
+        public async Task AddAsync(InputLotModel inputModel)
+        {
+            var lot = _mapper.Map<Lot>(inputModel);
+            await _repository.AddAsync(lot);
+
+            await SaveImagesOfLot(lot, inputModel.Files);
+
+            await _unitOfWork.SaveAsync();
+        }
+
+        public async Task DeleteAsync(int id)
+        {
+            var lot = await _repository.GetByIdWithDetailsAsync(id);
+            await DeleteImagesOfLot(lot.LotImages);
+            await _repository.DeleteByIdAsync(id);
+            await _unitOfWork.SaveAsync();
+        }
+
         public async Task UpdateAsyc(InputLotModel model)
         {
+            var lot = await _repository.GetByIdWithDetailsAsync(model.Id);
+            await DeleteImagesOfLot(lot.LotImages);
+            await SaveImagesOfLot(lot, model.Files);
+
             _repository.Update(_mapper.Map<Lot>(model));
+
             await _unitOfWork.SaveAsync();
+        }
+
+        private async Task DeleteImagesOfLot(IEnumerable<LotImage> lotImages)
+        {
+            if (lotImages == null)
+                return;
+
+            foreach (var lotImage in lotImages)
+            {
+                await _imageFileHelper.RemoveFileAsync(lotImage.File.Name);
+                await _fileRepository.DeleteByIdAsync(lotImage.FileId);
+            }
+        }
+
+        private async Task SaveImagesOfLot(Lot lot, IEnumerable<IFormFile> files)
+        {
+            if (files == null)
+                return;
+
+            foreach (var image in files)
+            {
+                var fileName = await _imageFileHelper.SaveImage(image);
+                var file = new File() { Name = fileName };
+                await _fileRepository.AddAsync(file);
+
+                await _lotImageRepository.AddAsync(new LotImage() { Lot = lot, File = file });
+            }
         }
     }
 }

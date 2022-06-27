@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using Business.Interfaces;
-using Business.Models;
 using Business.Validation;
 using Data.Entities;
 using Data.Interfaces;
@@ -9,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Business.Services
 {
-    public class ProxyService<TEntity, TModel> where TEntity: BaseEntity where TModel : IValidatelyModel
+    public class ProxyService<TEntity, TModel> where TEntity : BaseEntity where TModel : IValidatelyModel
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;

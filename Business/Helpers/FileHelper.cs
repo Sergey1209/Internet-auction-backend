@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Business.Models;
+using Business.Validation;
+using Microsoft.AspNetCore.Http;
+using System;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
@@ -65,7 +68,7 @@ namespace Business.Helpers
         /// <param name="fileName">Source file name. The file name must have the extension</param>
         public void RemoveFile(string fileName)
         {
-            if (string.IsNullOrEmpty(fileName)) 
+            if (string.IsNullOrEmpty(fileName))
                 return;
 
             string path = $@"{Directory}\{fileName}";
@@ -75,6 +78,65 @@ namespace Business.Helpers
         public async Task RemoveFileAsync(string fileName)
         {
             await Task.Factory.StartNew(() => RemoveFile(fileName));
+        }
+
+        public async Task<string> SaveImage(IFormFile image)
+        {
+            if (image == null)
+                throw new NullModelException("image");
+
+            var fileName = GetFullNameForSaveFile(image.FileName);
+            var path = $@"{Directory}\{fileName}";
+
+            using (Stream fileStream = new FileStream(path: path, mode: FileMode.Create))
+            {
+                await image.CopyToAsync(fileStream);
+            }
+
+            return fileName;
+        }
+
+
+        /// <summary>
+        /// Returns file for upload
+        /// </summary>
+        /// <param name="urlFile"></param>
+        /// <returns></returns>
+        /// <exception cref="Exception"></exception>
+        public async Task<FileModel> GetSerializedImageByUrl(string urlFile)
+        {
+            var path = $"{Directory}\\{urlFile}";
+            if (!File.Exists(path))
+                throw new Exception("File not found");
+
+            byte[] contentData = await File.ReadAllBytesAsync(path);
+            string name = urlFile.Split(@"\").Last();
+
+            return new FileModel() { ContentData = contentData, ContentType = GetContentType(urlFile), Name = name };
+        }
+
+        private string GetContentType(string urlFile)
+        {
+            var imgExt = urlFile.Split('.')?.Last();
+            if (imgExt == null)
+                throw new Exception("Image has no extension");
+
+            string contentType;
+            switch (imgExt)
+            {
+                case "png":
+                case "jpg":
+                case "jpeg":
+                case "pjpeg":
+                case "gif":
+                case "tiff":
+                    contentType = $"Image/{imgExt}";
+                    break;
+                default:
+                    throw new Exception("Image type is not valid");
+            }
+
+            return contentType;
         }
     }
 }

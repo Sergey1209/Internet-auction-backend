@@ -1,34 +1,22 @@
 using AutoMapper;
 using Business;
+using Business.Helpers;
 using Business.Interfaces;
+using Business.Models;
 using Business.Services;
 using Data.Data;
 using Data.Infrastructure;
 using Data.Interfaces;
+using InternetAuction.Validation;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Hosting.Server.Features;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using InternetAuction.Validation;
-using Microsoft.AspNetCore.Hosting.Server;
-using Business.Helpers;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Business.Models;
-using Microsoft.Extensions.Options;
 
 namespace InternetAuction
 {
@@ -56,7 +44,7 @@ namespace InternetAuction
             CheckinAuthOptions(authConfig.Get<AuthOptions>());
             services.Configure<AuthOptions>(authConfig);
 
-            var hostConfig = new HostConfig(Configuration);
+            IHostConfig hostConfig = new HostConfig(Configuration);
             services.AddSingleton(hostConfig);
 
             AutomapperProfile automapper = new AutomapperProfile(hostConfig);
@@ -74,7 +62,9 @@ namespace InternetAuction
             services.AddScoped<IUnitOfWorkAuth, UnitOfWorkAuth>();
             services.AddScoped<IAuthService, AuthService>();
 
-            services.AddSingleton<ValidateModelStateAttribute>();
+            services.AddSingleton<ExceptionsAttribute>();
+
+            services.AddScoped<TokenHelper>();
 
             services.AddCors(options =>
             {
@@ -128,7 +118,7 @@ namespace InternetAuction
             if (options.TokenLifetime == default)
                 throw new ArgumentNullException(nameof(options.TokenLifetime));
         }
-        
+
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
@@ -143,7 +133,7 @@ namespace InternetAuction
 
             app.UseCors();
 
-            
+
             app.UseAuthentication();
             app.UseAuthorization();
 

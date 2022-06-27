@@ -1,9 +1,9 @@
-﻿using Data.EntityConfigurations;
-using Data.Entities;
+﻿using Data.Entities;
+using Data.EntityConfigurations;
 using Microsoft.EntityFrameworkCore;
 
 namespace Data.Data
-{ 
+{
     public class InternetAuctionDbContext : DbContext
     {
         public DbSet<Lot> Lots { get; set; }

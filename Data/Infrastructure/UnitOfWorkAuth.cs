@@ -1,9 +1,6 @@
 ﻿using Data.Data;
 using Data.Interfaces;
 using Data.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Data.Infrastructure
@@ -19,14 +16,16 @@ namespace Data.Infrastructure
             _dbContext = dbContext;
         }
 
-        public IPersonAuthRepository PersonAuthRepository {
-            get {
+        public IPersonAuthRepository PersonAuthRepository
+        {
+            get
+            {
                 if (_personAuthRepository == null)
                     _personAuthRepository = new PersonAuthRepository(_dbContext);
 
                 return _personAuthRepository;
             }
-            
+
         }
 
         public IPersonRepository PersonRepository
@@ -40,8 +39,8 @@ namespace Data.Infrastructure
             }
 
         }
-    
-    
+
+
         public async Task SaveAsync()
         {
             await _dbContext.SaveChangesAsync();

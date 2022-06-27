@@ -1,11 +1,9 @@
-﻿using System.Collections.Generic;
-
-namespace Data.Entities
+﻿namespace Data.Entities
 {
     public class Person : BaseEntity
     {
         public string Nickname { get; set; }
-        
+
         public virtual PersonAuth PersonAuth { get; set; }
     }
 }

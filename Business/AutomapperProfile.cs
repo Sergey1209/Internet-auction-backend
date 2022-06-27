@@ -20,7 +20,7 @@ namespace Business
         {
             CreateMap<LotCategory, LotCategoryModel>()
                 .ForMember(cm => cm.UrlIcon, c => c.MapFrom(x => BuildImagePath(x.File.Name)));
-            
+
             CreateMap<Lot, LotModel>()
                 .ForMember(lm => lm.Images, l => l.MapFrom(x => x.LotImages.Select(y => BuildImagePath(y.File.Name))));
             CreateMap<LotModel, Lot>();
@@ -51,7 +51,7 @@ namespace Business
 
         private string BuildImagePath(string path)
         {
-            return $@"{_hostConfig.GetBaseUrlForUploadImages()}\{path}".Replace(@"\",@"/");
+            return $@"{_hostConfig.GetBaseUrlForUploadImages()}\{path}".Replace(@"\", @"/");
         }
 
     }

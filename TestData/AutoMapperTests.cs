@@ -1,12 +1,9 @@
-﻿using Business;
-using Business.Helpers;
+﻿using Business.Helpers;
 using Business.Models;
 using Data.Entities;
 using NUnit.Framework;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace InternetAuction.Tests
 {

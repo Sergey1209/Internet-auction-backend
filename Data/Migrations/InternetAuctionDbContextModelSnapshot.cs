@@ -114,7 +114,7 @@ namespace Data.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            Deadline = new DateTime(2022, 10, 3, 18, 25, 48, 271, DateTimeKind.Local).AddTicks(3177),
+                            Deadline = new DateTime(2022, 10, 4, 23, 12, 49, 172, DateTimeKind.Local).AddTicks(7262),
                             Description = "Description",
                             InitialPrice = 12m,
                             Name = "lot 1",
@@ -124,7 +124,7 @@ namespace Data.Migrations
                         {
                             Id = 2,
                             CategoryId = 1,
-                            Deadline = new DateTime(2022, 10, 3, 18, 25, 48, 276, DateTimeKind.Local).AddTicks(4932),
+                            Deadline = new DateTime(2022, 10, 4, 23, 12, 49, 177, DateTimeKind.Local).AddTicks(811),
                             Description = "Description",
                             Name = "lot 2",
                             OwnerId = 1
@@ -133,7 +133,7 @@ namespace Data.Migrations
                         {
                             Id = 3,
                             CategoryId = 2,
-                            Deadline = new DateTime(2022, 10, 3, 18, 25, 48, 276, DateTimeKind.Local).AddTicks(5065),
+                            Deadline = new DateTime(2022, 10, 4, 23, 12, 49, 177, DateTimeKind.Local).AddTicks(906),
                             Description = "Description",
                             InitialPrice = 11111m,
                             Name = "lot 3",
@@ -292,7 +292,7 @@ namespace Data.Migrations
                     b.HasOne("Data.Entities.Lot", "Lot")
                         .WithOne("Receipt")
                         .HasForeignKey("Data.Entities.Receipt", "LotId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
                 });
 #pragma warning restore 612, 618

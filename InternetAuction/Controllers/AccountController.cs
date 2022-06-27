@@ -1,25 +1,15 @@
 ﻿using Business.Interfaces;
 using Business.Models;
-using Business.Services;
-using Data.Data;
-using Data.Entities;
 using InternetAuction.Validation;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Options;
-using Microsoft.IdentityModel.Tokens;
-using System;
-using System.Collections.Generic;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace InternetAuction.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [ValidateModelState]
+    [Exceptions]
     public class AuthController : ControllerBase
     {
         private readonly IAuthService _service;

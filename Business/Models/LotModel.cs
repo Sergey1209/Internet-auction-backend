@@ -2,7 +2,6 @@
 using Business.Validation;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Business.Models
 {
@@ -15,7 +14,7 @@ namespace Business.Models
         public int CategoryId { get; set; }
         public DateTime? Deadline { get; set; }
         public int OwnerId { get; set; }
-        
+
         public string OwnerName { get; set; }
         public IEnumerable<string> Images { get; set; }
 

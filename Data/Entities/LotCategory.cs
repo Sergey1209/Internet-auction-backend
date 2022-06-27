@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace Data.Entities
 {
@@ -10,6 +8,6 @@ namespace Data.Entities
         public int? FileId { get; set; }
 
         public virtual IEnumerable<Lot> Lots { get; set; }
-        public virtual File File {get;set;}
+        public virtual File File { get; set; }
     }
 }

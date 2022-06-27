@@ -1,12 +1,8 @@
-﻿using Data.Data;
-using Data.Entities;
+﻿using Data.Entities;
 using Data.Extensions;
-using Data.Interfaces;
-using Data.Validation;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Data.Repositories
@@ -22,7 +18,7 @@ namespace Data.Repositories
             _dbSet = dbSet;
         }
 
-        public async Task AddAsync(TEntity entity) 
+        public async Task AddAsync(TEntity entity)
         {
             Validate(entity);
             entity.Id = 0;
@@ -64,7 +60,6 @@ namespace Data.Repositories
         public void Update(TEntity entity)
         {
             Validate(entity);
-            _dbContext.TruncateStringsBasedOnMaxLength(entity);
             _dbSet.Update(entity);
         }
 

@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Data.Data;
-using Data.Entities;
+﻿using Data.Entities;
 using Data.Repositories;
-using Data.Validation;
 using NUnit.Framework;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace InternetAuction.Tests.DataTests.RepositoriesTests
 {
@@ -34,7 +30,7 @@ namespace InternetAuction.Tests.DataTests.RepositoriesTests
             var dbContext = UnitTestHelper.CreateInternetAuctionDbContextTest();
             var repository = new LotCategoryRepository(dbContext);
 
-            await repository.AddAsync(new LotCategory() { Id = 1});
+            await repository.AddAsync(new LotCategory() { Id = 1 });
             await dbContext.SaveChangesAsync();
 
             Assert.AreEqual(1, dbContext.LotCategories.Count());

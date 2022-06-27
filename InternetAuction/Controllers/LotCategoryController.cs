@@ -1,13 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using Business.Interfaces;
 using Business.Models;
-using Business.Interfaces;
-using System.Linq;
+using Business.Validation;
 using InternetAuction.Validation;
 using Microsoft.AspNetCore.Authorization;
-using Data.Entities;
-using Business.Validation;
+using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -15,7 +14,7 @@ namespace InternetAuction.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [ValidateModelState]
+    [Exceptions]
     public class LotCategoryController : ControllerBase
     {
         private readonly ILotCategoryService _service;
@@ -52,8 +51,8 @@ namespace InternetAuction.Controllers
             var img = inputLotCategory.Files?.First();
             int? fileId = default;
             if (img != null)
-                fileId  = await _fileService.AddAsync(img);
-            
+                fileId = await _fileService.AddAsync(img);
+
             await _service.AddAsync(name: inputLotCategory.Name, fileId: fileId);
         }
 
@@ -62,7 +61,7 @@ namespace InternetAuction.Controllers
         public async Task Put([FromForm] InputLotCategoryModel inputLotCategory)
         {
             if (inputLotCategory == null)
-                throw new NullModelException ("inputLotCategory");
+                throw new NullModelException("inputLotCategory");
 
             var oldFileId = await _service.GetFileId(lotCategoryId: inputLotCategory.Id);
             await _fileService.UpdateAsync(id: oldFileId, newFile: inputLotCategory.Files.First());

@@ -1,13 +1,12 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using Data.Data;
 using Data.Entities;
+using Data.Extensions;
 using Data.Interfaces;
-using Data.Data;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Collections.Generic;
 using System.Linq;
-using Newtonsoft.Json;
-using Data.Extensions;
+using System.Threading.Tasks;
 
 namespace Data.Repositories
 {
@@ -100,8 +99,18 @@ namespace Data.Repositories
 
         public void Update(Lot entity)
         {
-            _proxyRepository.Update(entity);
-            
+            _dbContext.TruncateStringsBasedOnMaxLength(entity);
+
+            var dbEntity = _dbSet.Find(entity.Id);
+
+            dbEntity.Name = entity.Name;
+            dbEntity.Description = entity.Description;
+            dbEntity.CategoryId = entity.CategoryId;
+            dbEntity.InitialPrice = entity.InitialPrice;
+            dbEntity.Deadline = entity.Deadline;
+            dbEntity.OwnerId = entity.OwnerId;
+
+            _dbSet.Update(dbEntity);
         }
     }
 

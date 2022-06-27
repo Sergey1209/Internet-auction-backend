@@ -7,7 +7,7 @@ using System;
 
 namespace InternetAuction.Tests
 {
-    public partial class UnitTestHelper
+    public class UnitTestHelper
     {
         public static InternetAuctionDbContext CreateInternetAuctionDbContextTest()
         {
@@ -118,8 +118,8 @@ namespace InternetAuction.Tests
                 new Person() { Id = 2, Nickname = "person2" });
 
             context.PeopleAuths.AddRange(
-                new PersonAuth() {Email = "e1@gmail.com", Password = "pass1", PersonId = 2 },
-                new PersonAuth() {Email = "e2@gmail.com", Password = "pass2", PersonId = 1 });
+                new PersonAuth() { Email = "e1@gmail.com", Password = "pass1", PersonId = 2 },
+                new PersonAuth() { Email = "e2@gmail.com", Password = "pass2", PersonId = 1 });
 
             context.SaveChanges();
         }

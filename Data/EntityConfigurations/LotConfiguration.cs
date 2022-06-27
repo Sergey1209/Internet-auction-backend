@@ -20,7 +20,7 @@ namespace Data.EntityConfigurations
             builder.HasOne(a => a.Category).WithMany(b => b.Lots).OnDelete(DeleteBehavior.NoAction);
 
             builder.HasData(
-                new Lot() { Id = 1, Name = "lot 1", InitialPrice = 12, CategoryId = 1, Description = "Description", Deadline=DateTime.Now.AddDays(100), OwnerId = 1},
+                new Lot() { Id = 1, Name = "lot 1", InitialPrice = 12, CategoryId = 1, Description = "Description", Deadline = DateTime.Now.AddDays(100), OwnerId = 1 },
                 new Lot() { Id = 2, Name = "lot 2", CategoryId = 1, Description = "Description", Deadline = DateTime.Now.AddDays(100), OwnerId = 1 },
                 new Lot() { Id = 3, Name = "lot 3", InitialPrice = 11111, CategoryId = 2, Description = "Description", Deadline = DateTime.Now.AddDays(100), OwnerId = 2 }
             );

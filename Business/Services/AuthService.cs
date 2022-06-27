@@ -22,7 +22,7 @@ namespace Business.Services
         private readonly IPersonRepository _personRepository;
         private readonly IMapper _mapper;
 
-        public AuthService(IOptions<AuthOptions> authOptions, IUnitOfWorkAuth unitOfWorkAuth, IMapper mapper )
+        public AuthService(IOptions<AuthOptions> authOptions, IUnitOfWorkAuth unitOfWorkAuth, IMapper mapper)
         {
             _mapper = mapper;
             _authOptions = authOptions;
@@ -49,7 +49,7 @@ namespace Business.Services
                 throw new RegistrationException();
 
             var person = _mapper.Map<Person>(registration);
-            
+
             var auth = _mapper.Map<PersonAuth>(registration);
             auth.Person = person;
 
@@ -96,7 +96,7 @@ namespace Business.Services
 
             _personRepository.Update(_mapper.Map<Person>(personAuthModel));
             _authRepository.Update(_mapper.Map<PersonAuth>(personAuthModel));
-            
+
             await _unitOfWork.SaveAsync();
         }
     }
