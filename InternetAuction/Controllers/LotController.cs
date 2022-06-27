@@ -14,16 +14,11 @@ namespace InternetAuction.Controllers
     public class LotController : ControllerBase
     {
         private readonly ILotService _service;
-        private readonly ILotImageService _lotImageService;
         private readonly TokenHelper _token;
 
-        public LotController(
-            ILotService service,
-            ILotImageService lotImageService,
-            TokenHelper token)
+        public LotController(ILotService service, TokenHelper token)
         {
             _service = service;
-            _lotImageService = lotImageService;
             _token = token;
         }
 

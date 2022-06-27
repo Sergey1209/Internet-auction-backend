@@ -59,6 +59,8 @@ namespace Business.Services
 
             await SaveImagesOfLot(lot, inputModel.Files);
 
+            lot.Receipt = new Receipt() { LotId = lot.Id, Cost = lot.InitialPrice ?? 0, CustomerId = lot.OwnerId, OperationDate = System.DateTime.UtcNow };
+
             await _unitOfWork.SaveAsync();
         }
 
@@ -95,15 +97,12 @@ namespace Business.Services
 
         private async Task SaveImagesOfLot(Lot lot, IEnumerable<IFormFile> files)
         {
-            if (files == null)
-                return;
+            if (files == null) return;
 
             foreach (var image in files)
             {
                 var fileName = await _imageFileHelper.SaveImage(image);
                 var file = new File() { Name = fileName };
-                await _fileRepository.AddAsync(file);
-
                 await _lotImageRepository.AddAsync(new LotImage() { Lot = lot, File = file });
             }
         }
