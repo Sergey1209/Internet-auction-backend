@@ -89,7 +89,7 @@ namespace InternetAuction.Tests.DataTests.RepositoriesTests
 
             var repository = new LotRepository(dbContext);
 
-            var entity = new Lot() { Id = 2, Name = "new Name", CategoryId = 11, Description = "new description", InitialPrice = 1234 };
+            var entity = new Lot() { Id = 2, Name = "new Name", CategoryId = 11, Description = "new description" };
 
             repository.Update(entity);
             await dbContext.SaveChangesAsync();
@@ -97,7 +97,6 @@ namespace InternetAuction.Tests.DataTests.RepositoriesTests
             Assert.AreEqual("new Name", dbContext.Lots.Find(2).Name);
             Assert.AreEqual(11, dbContext.Lots.Find(2).CategoryId);
             Assert.AreEqual("new description", dbContext.Lots.Find(2).Description);
-            Assert.AreEqual(1234, dbContext.Lots.Find(2).InitialPrice);
         }
         [Test]
         public void LotRepository_Update_ShouldReturnsArgumentNullException()
@@ -155,38 +154,8 @@ namespace InternetAuction.Tests.DataTests.RepositoriesTests
 
             Assert.That(actualy.Id == 1, "Returns invalid id");
             Assert.That(actualy.Category != null, "Returns invalid Category");
-            Assert.That(actualy.Receipt != null, "Returns invalid Receipt");
+            Assert.That(actualy.Auction != null, "Returns invalid Auction");
             Assert.That(actualy.LotImages.Any, "Returns invalid LotImages");
-        }
-
-        [Test]
-        public async Task LotRepository_GetIdAsync_ReturnsValue()
-        {
-            var lot = GetLot();
-            var dbContext = UnitTestHelper.CreateInternetAuctionDbContextTest();
-            await dbContext.Lots.AddRangeAsync(lot);
-            await dbContext.SaveChangesAsync();
-            var repository = new LotRepository(dbContext);
-
-            var lot0 = GetLot();
-            lot0.Id = 0;
-            var actualy = await repository.GetIdAsync(lot);
-
-            Assert.AreEqual(12, actualy.First().Id);
-        }
-
-        private Lot GetLot()
-        {
-            return new Lot()
-            {
-                Id = 12,
-                Name = "name1",
-                CategoryId = 5,
-                Deadline = DateTime.Now,
-                Description = "ass",
-                InitialPrice = 20,
-                OwnerId = 11
-            };
         }
 
     }

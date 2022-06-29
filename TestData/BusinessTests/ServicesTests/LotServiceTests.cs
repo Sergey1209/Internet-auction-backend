@@ -63,31 +63,28 @@ namespace InternetAuction.Tests.BusinessTests.ServicesTests
         private IEnumerable<LotModel> GetTestLotModels()
         {
             return new LotModel[] {
-                new LotModel() { Id = 1, Name = "Lot1", OwnerId = 1, CategoryId = 1, Images = new string[]{ "http://test/file1" },
-                    Deadline = DateTime.Parse("2022-1-1"), Description = "Description1", InitialPrice = 11 },
-                new LotModel() { Id = 2, Name = "Lot2", OwnerId = 1, CategoryId = 1, Images = new string[]{ "http://test/file2" },
-                    Deadline = DateTime.Parse("2022-2-2"), Description = "Description1", InitialPrice = 12},
-                new LotModel() { Id = 3, Name = "Lot3", OwnerId = 2, CategoryId = 2, Images = new string[]{ "http://test/file3" },
-                    Deadline = DateTime.Parse("2022-3-3"), Description = "Description3", InitialPrice = 13}
+                new LotModel() { Id = 1, Name = "Lot1", OwnerId = 1, CategoryId = 1, 
+                    Images = new string[]{ "http://test/file1" }, Description = "Description1" },
+                new LotModel() { Id = 2, Name = "Lot2", OwnerId = 1, CategoryId = 1, 
+                    Images = new string[]{ "http://test/file2" }, Description = "Description1" },
+                new LotModel() { Id = 3, Name = "Lot3", OwnerId = 2, CategoryId = 2, 
+                    Images = new string[]{ "http://test/file3" }, Description = "Description3" }
                 }.AsEnumerable();
         }
 
         private IEnumerable<InputLotModel> GetTestInputLotModels()
         {
             return new InputLotModel[] {
-                new InputLotModel() { Id = 1, Name = "Lot1", OwnerId = 1, CategoryId = 1,
-                    Deadline = DateTime.Parse("2022-1-1"), Description = "Description1", InitialPrice = 11 },
-                new InputLotModel() { Id = 2, Name = "Lot2", OwnerId = 1, CategoryId = 1,
-                    Deadline = DateTime.Parse("2022-2-2"), Description = "Description1", InitialPrice = 12},
-                new InputLotModel() { Id = 3, Name = "Lot3", OwnerId = 2, CategoryId = 2,
-                    Deadline = DateTime.Parse("2022-3-3"), Description = "Description3", InitialPrice = 13}
+                new InputLotModel() { Id = 1, Name = "Lot1", OwnerId = 1, CategoryId = 1, Description = "Description1" },
+                new InputLotModel() { Id = 2, Name = "Lot2", OwnerId = 1, CategoryId = 1, Description = "Description1"},
+                new InputLotModel() { Id = 3, Name = "Lot3", OwnerId = 2, CategoryId = 2, Description = "Description3"}
                 }.AsEnumerable();
         }
 
         private IEnumerable<Lot> GetTestLotEntities()
         {
             return new Lot[] {
-                new Lot() { Id = 1, Name = "Lot1", Deadline = DateTime.Parse("2022-1-1"), Description = "Description1", InitialPrice = 11,
+                new Lot() { Id = 1, Name = "Lot1", Description = "Description1",
                     CategoryId = 1, Category = new LotCategory(){Id = 1, Name = "LotCategory1" },
                     OwnerId = 1,
                     LotImages = new LotImage[]{
@@ -99,7 +96,7 @@ namespace InternetAuction.Tests.BusinessTests.ServicesTests
                         }
                     }
                 },
-                new Lot() { Id = 2, Name = "Lot2", Deadline = DateTime.Parse("2022-2-2"), Description = "Description1", InitialPrice = 12,
+                new Lot() { Id = 2, Name = "Lot2", Description = "Description1",
                     CategoryId = 1, Category = new LotCategory(){Id = 1, Name = "LotCategory1" },
                     OwnerId = 1,
                     LotImages = new LotImage[]{
@@ -111,7 +108,7 @@ namespace InternetAuction.Tests.BusinessTests.ServicesTests
                         }
                     }
                 },
-                new Lot() { Id = 3, Name = "Lot3", Deadline = DateTime.Parse("2022-3-3"), Description = "Description3", InitialPrice = 13,
+                new Lot() { Id = 3, Name = "Lot3", Description = "Description3",
                     CategoryId = 2, Category = new LotCategory(){Id = 1, Name = "LotCategory1" },
                     OwnerId = 2,
                     LotImages = new LotImage[]{

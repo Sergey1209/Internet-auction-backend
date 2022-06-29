@@ -89,12 +89,11 @@ namespace InternetAuction.Tests.DataTests.RepositoriesTests
 
             var repository = new PersonAuthRepository(dbContext);
 
-            var entity = new PersonAuth() { PersonId = 43, Email = "new Email", Password = "new Password" };
+            var entity = new PersonAuth() { PersonId = 2, Email = "new Email", Password = "new Password" };
 
             repository.Update(entity);
             await dbContext.SaveChangesAsync();
 
-            Assert.AreEqual(43, dbContext.PeopleAuths.Find(2).PersonId);
             Assert.AreEqual("new Email", dbContext.PeopleAuths.Find(2).Email);
             Assert.AreEqual("new Password", dbContext.PeopleAuths.Find(2).Password);
         }

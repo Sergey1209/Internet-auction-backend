@@ -6,7 +6,7 @@ namespace Data.Interfaces
     {
         ILotCategoryRepository LotCategoryRepository { get; }
         ILotRepository LotRepository { get; }
-        IReceiptRepository ReceiptRepository { get; }
+        IAuctionRepository AuctionRepository { get; }
         IFileRepository FileRepository { get; }
         ILotImageRepository LotImageRepository { get; }
         public Task SaveAsync();

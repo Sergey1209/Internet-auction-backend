@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
+using System.Collections.Generic;
 
 namespace Data.EntityConfigurations
 {
@@ -13,17 +14,20 @@ namespace Data.EntityConfigurations
 
             builder.Property(x => x.Name).IsRequired().IsUnicode().HasMaxLength(30);
             builder.Property(x => x.Description).IsUnicode().HasMaxLength(1024);
-            builder.Property(x => x.InitialPrice).HasColumnType("money");
             builder.Property(x => x.CategoryId).IsRequired().HasDefaultValue(1);
             builder.Property(x => x.OwnerId).IsRequired();
 
             builder.HasOne(a => a.Category).WithMany(b => b.Lots).OnDelete(DeleteBehavior.NoAction);
 
-            builder.HasData(
-                new Lot() { Id = 1, Name = "lot 1", InitialPrice = 12, CategoryId = 1, Description = "Description", Deadline = DateTime.Now.AddDays(100), OwnerId = 1 },
-                new Lot() { Id = 2, Name = "lot 2", CategoryId = 1, Description = "Description", Deadline = DateTime.Now.AddDays(100), OwnerId = 1 },
-                new Lot() { Id = 3, Name = "lot 3", InitialPrice = 11111, CategoryId = 2, Description = "Description", Deadline = DateTime.Now.AddDays(100), OwnerId = 2 }
-            );
+            List<Lot> lots = new List<Lot>();
+            for (var i = 1; i < 12; i++)
+            {
+                lots.Add(new Lot() { Id = i, Name = $"lot {i}", CategoryId = 2, Description = $"Description {i}", OwnerId = i < 5 ? 1 : 2 });
+            }
+
+            lots.Add(new Lot() { Id = 12, Name = $"lot 13", CategoryId = 2, Description = $"Description 13", OwnerId = 1 });
+
+            builder.HasData(lots);
         }
     }
 }

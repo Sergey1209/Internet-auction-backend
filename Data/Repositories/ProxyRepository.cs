@@ -32,10 +32,8 @@ namespace Data.Repositories
 
             if (_dbContext.Entry(entity).State == EntityState.Detached)
                 _dbSet.Attach(entity);
-
+            
             _dbSet.Remove(entity);
-
-            var sdas2 = _dbContext.Entry(entity).State;
         }
 
         public async Task DeleteByIdAsync(int id)

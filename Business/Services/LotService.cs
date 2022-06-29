@@ -36,6 +36,13 @@ namespace Business.Services
             return result;
         }
 
+        public async Task<IEnumerable<LotModel>> GetAllByFilter(string searchString)
+        {
+            var lots = await _repository.GetAllByFilterAsync(searchString);
+            var result = _mapper.Map<IEnumerable<LotModel>>(lots);
+            return result;
+        }
+        
         public async Task<IEnumerable<LotModel>> GetAllByCategoryIdAsync(int categoryId)
         {
             if (categoryId == 0)
@@ -59,7 +66,13 @@ namespace Business.Services
 
             await SaveImagesOfLot(lot, inputModel.Files);
 
-            lot.Receipt = new Receipt() { LotId = lot.Id, Cost = lot.InitialPrice ?? 0, CustomerId = lot.OwnerId, OperationDate = System.DateTime.UtcNow };
+            lot.Auction = new Auction() {
+                LotId = lot.Id,
+                Deadline = inputModel.Deadline,
+                InitialPrice = inputModel.InitialPrice ?? 0,
+                BetValue = inputModel.InitialPrice ?? 0, 
+                CustomerId = lot.OwnerId,
+                OperationDate = System.DateTime.UtcNow };
 
             await _unitOfWork.SaveAsync();
         }
@@ -78,15 +91,19 @@ namespace Business.Services
             await DeleteImagesOfLot(lot.LotImages);
             await SaveImagesOfLot(lot, model.Files);
 
-            _repository.Update(_mapper.Map<Lot>(model));
+            lot.Auction.InitialPrice = model.InitialPrice ?? 0;
+            lot.Auction.BetValue = model.InitialPrice ?? 0;
+            lot.Auction.Deadline = model.Deadline;
+            lot.Auction.OperationDate = System.DateTime.UtcNow;
+
+            _repository.Update(lot);
 
             await _unitOfWork.SaveAsync();
         }
 
         private async Task DeleteImagesOfLot(IEnumerable<LotImage> lotImages)
         {
-            if (lotImages == null)
-                return;
+            if (lotImages == null) return;
 
             foreach (var lotImage in lotImages)
             {

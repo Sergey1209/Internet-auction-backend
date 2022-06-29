@@ -51,16 +51,15 @@ namespace InternetAuction
             IMapper mapper = new Mapper(new MapperConfiguration(config => config.AddProfile(automapper)));
             services.AddSingleton(mapper);
 
+            services.AddScoped<IUnitOfWorkAuth, UnitOfWorkAuth>();
+            services.AddScoped<IAuthService, AuthService>();
+
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IFileService, FileService>();
             services.AddScoped<ILotCategoryService, LotCategoryService>();
             services.AddScoped<ILotService, LotService>();
             services.AddScoped<IAuctionService, AuctionService>();
             services.AddScoped<ILotImageService, LotImageService>();
-            services.AddScoped<IReceiptService, ReceiptService>();
-
-            services.AddScoped<IUnitOfWorkAuth, UnitOfWorkAuth>();
-            services.AddScoped<IAuthService, AuthService>();
 
             services.AddSingleton<ExceptionsAttribute>();
 

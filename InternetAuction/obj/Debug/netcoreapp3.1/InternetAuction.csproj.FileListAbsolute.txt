@@ -3,7 +3,6 @@ E:\Epam\Final project\Internet auction\InternetAuction\obj\Debug\netcoreapp3.1\I
 E:\Epam\Final project\Internet auction\InternetAuction\obj\Debug\netcoreapp3.1\InternetAuction.AssemblyInfoInputs.cache
 E:\Epam\Final project\Internet auction\InternetAuction\obj\Debug\netcoreapp3.1\InternetAuction.AssemblyInfo.cs
 E:\Epam\Final project\Internet auction\InternetAuction\obj\Debug\netcoreapp3.1\InternetAuction.csproj.CoreCompileInputs.cache
-E:\Epam\Final project\Internet auction\InternetAuction\obj\Debug\netcoreapp3.1\InternetAuction.MvcApplicationPartsAssemblyInfo.cs
 E:\Epam\Final project\Internet auction\InternetAuction\obj\Debug\netcoreapp3.1\InternetAuction.MvcApplicationPartsAssemblyInfo.cache
 E:\Epam\Final project\Internet auction\InternetAuction\bin\Debug\netcoreapp3.1\appsettings.Development.json
 E:\Epam\Final project\Internet auction\InternetAuction\bin\Debug\netcoreapp3.1\appsettings.json
@@ -86,3 +85,4 @@ E:\Epam\Final project\Internet auction\InternetAuction\obj\Debug\netcoreapp3.1\I
 E:\Epam\Final project\Internet auction\InternetAuction\obj\Debug\netcoreapp3.1\InternetAuction.dll
 E:\Epam\Final project\Internet auction\InternetAuction\obj\Debug\netcoreapp3.1\InternetAuction.pdb
 E:\Epam\Final project\Internet auction\InternetAuction\obj\Debug\netcoreapp3.1\InternetAuction.genruntimeconfig.cache
+E:\Epam\Final project\Internet auction\InternetAuction\obj\Debug\netcoreapp3.1\InternetAuction.MvcApplicationPartsAssemblyInfo.cs

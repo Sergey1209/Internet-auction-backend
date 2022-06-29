@@ -8,7 +8,7 @@ namespace Data.Interfaces
     {
         public Task<IEnumerable<Lot>> GetAllByDetalsAsync();
         public Task<IEnumerable<Lot>> GetAllByDetalsByCategoryIdAsync(int categoryId);
-        public Task<IEnumerable<Lot>> GetIdAsync(Lot lot);
         public Task<Lot> GetByIdWithDetailsAsync(int id);
+        public Task<IEnumerable<Lot>> GetAllByFilterAsync(string searchString);
     }
 }

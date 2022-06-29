@@ -4,9 +4,9 @@ using System.Threading.Tasks;
 
 namespace Data.Interfaces
 {
-    public interface IReceiptRepository : IRepository<Receipt>
+    public interface IAuctionRepository : IRepository<Auction>
     {
-        public Task<IEnumerable<Receipt>> GetAllWithDetailsAsync();
-        public Task<Receipt> GetByIdWithDetailsAsync(int id);
+        public Task<IEnumerable<Auction>> GetAllWithDetailsAsync();
+        public Task<Auction> GetByIdWithDetailsAsync(int id);
     }
 }

@@ -22,7 +22,10 @@ namespace Business
                 .ForMember(cm => cm.UrlIcon, c => c.MapFrom(x => BuildImagePath(x.File.Name)));
 
             CreateMap<Lot, LotModel>()
-                .ForMember(lm => lm.Images, l => l.MapFrom(x => x.LotImages.Select(y => BuildImagePath(y.File.Name))));
+                .ForMember(lm => lm.Images, l => l.MapFrom(x => x.LotImages.Select(y => BuildImagePath(y.File.Name))))
+                .ForMember(lm => lm.Deadline, l => l.MapFrom(x => x.Auction.Deadline))
+                .ForMember(lm => lm.BetValue, l => l.MapFrom(x => x.Auction.BetValue))
+                .ForMember(lm => lm.AuctionId, l => l.MapFrom(x => x.Auction.Id));
             CreateMap<LotModel, Lot>();
 
             CreateMap<InputLotModel, Lot>();
@@ -43,9 +46,6 @@ namespace Business
             CreateMap<LoginModel, PersonAuth>();
 
             CreateMap<File, FileModel>();
-
-            CreateMap<Receipt, ReceiptModel>();
-            CreateMap<ReceiptModel, Receipt>();
 
         }
 

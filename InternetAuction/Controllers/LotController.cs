@@ -37,9 +37,16 @@ namespace InternetAuction.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<LotModel> Get(int id)
+        public async Task<LotModel> GetById(int id)
         {
             var res = await _service.GetByIdAsync(id);
+            return res;
+        }
+
+        [HttpGet("search")]
+        public async Task<IEnumerable<LotModel>> GetAllByFilter(string searchString)
+        {
+            var res = await _service.GetAllByFilter(searchString);
             return res;
         }
 

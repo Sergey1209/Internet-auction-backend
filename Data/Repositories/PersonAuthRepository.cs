@@ -70,7 +70,6 @@ namespace Data.Repositories
         public async Task<PersonAuth> GetByLoginAsync(string login)
         {
             return await _dbSet
-                .AsQueryable()
                 .SingleOrDefaultAsync(x => x.Email == login);
         }
 
@@ -80,13 +79,14 @@ namespace Data.Repositories
                 throw new ArgumentNullException("entity");
 
             var currentEntity = _dbSet
-                .AsQueryable()
                 .SingleOrDefault(x => x.PersonId == entity.PersonId);
 
-            currentEntity.Email = entity.Email;
-            currentEntity.Password = entity.Password;
-
-            _dbSet.Update(currentEntity);
+            if (currentEntity != null)
+            {
+                currentEntity.Email = entity.Email;
+                currentEntity.Password = entity.Password;
+                _dbSet.Update(currentEntity);
+            }
         }
 
         private void Validate(PersonAuth entity)

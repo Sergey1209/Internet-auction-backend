@@ -14,6 +14,8 @@ namespace Business.Models
         public int CategoryId { get; set; }
         public DateTime? Deadline { get; set; }
         public int OwnerId { get; set; }
+        public int AuctionId { get; set; }
+        public decimal? BetValue { get; set; }
 
         public string OwnerName { get; set; }
         public IEnumerable<string> Images { get; set; }

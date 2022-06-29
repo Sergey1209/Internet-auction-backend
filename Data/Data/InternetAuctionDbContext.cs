@@ -8,7 +8,7 @@ namespace Data.Data
     {
         public DbSet<Lot> Lots { get; set; }
         public DbSet<LotCategory> LotCategories { get; set; }
-        public DbSet<Receipt> Receipts { get; set; }
+        public DbSet<Auction> Auctions { get; set; }
         public DbSet<File> Files { get; set; }
         public DbSet<LotImage> LotImages { get; set; }
 
@@ -21,7 +21,7 @@ namespace Data.Data
         {
             modelBuilder.ApplyConfiguration(new LotConfiguration());
             modelBuilder.ApplyConfiguration(new LotCategoryConfiguration());
-            modelBuilder.ApplyConfiguration(new ReceiptConfiguration());
+            modelBuilder.ApplyConfiguration(new AuctionConfiguration());
             modelBuilder.ApplyConfiguration(new FileConfiguration());
             modelBuilder.ApplyConfiguration(new LotImageConfiguration());
         }

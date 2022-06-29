@@ -9,10 +9,9 @@ namespace Business.Interfaces
         public Task<IEnumerable<LotModel>> GetAllAsync();
         public Task<IEnumerable<LotModel>> GetAllByCategoryIdAsync(int categoryId);
         public Task<LotModel> GetByIdAsync(int modelId);
-        //public Task<int> AddAsync(InputLotModel model);
         public Task AddAsync(InputLotModel inputModel);
         public Task UpdateAsyc(InputLotModel model);
         public Task DeleteAsync(int modelId);
-
+        public Task<IEnumerable<LotModel>> GetAllByFilter(string searchString);
     }
 }

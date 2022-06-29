@@ -1,5 +1,4 @@
-﻿using Data.Data;
-using Data.Interfaces;
+﻿using Data.Data;using Data.Interfaces;
 using Data.Repositories;
 using System.Threading.Tasks;
 
@@ -10,7 +9,7 @@ namespace Data.Infrastructure
         private readonly InternetAuctionDbContext _dbContext;
         private ILotCategoryRepository _lotCategoryRepository;
         private ILotRepository _lotRepository;
-        private IReceiptRepository _receiptRepository;
+        private IAuctionRepository _auctionRepository;
         private IFileRepository _imageRepository;
         private ILotImageRepository _lotImagesRepository;
 
@@ -41,14 +40,14 @@ namespace Data.Infrastructure
             }
         }
 
-        public IReceiptRepository ReceiptRepository
+        public IAuctionRepository AuctionRepository
         {
             get
             {
-                if (_receiptRepository == null)
-                    _receiptRepository = new ReceiptRepository(_dbContext);
+                if (_auctionRepository == null)
+                    _auctionRepository = new AuctionRepository(_dbContext);
 
-                return _receiptRepository;
+                return _auctionRepository;
             }
         }
 

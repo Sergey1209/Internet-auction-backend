@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Data.Migrations
 {
     [DbContext(typeof(InternetAuctionDbContext))]
-    [Migration("20220626201249_aaaaas")]
-    partial class aaaaas
+    [Migration("20220628101047_ccc")]
+    partial class ccc
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -20,6 +20,51 @@ namespace Data.Migrations
                 .HasAnnotation("ProductVersion", "3.1.25")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+            modelBuilder.Entity("Data.Entities.Auction", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<decimal>("BetValue")
+                        .HasColumnType("money");
+
+                    b.Property<int>("CustomerId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("Deadline")
+                        .HasColumnType("datetime2");
+
+                    b.Property<decimal?>("InitialPrice")
+                        .HasColumnType("money");
+
+                    b.Property<int>("LotId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("OperationDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("LotId")
+                        .IsUnique();
+
+                    b.ToTable("Auctions");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            BetValue = 11m,
+                            CustomerId = 1,
+                            Deadline = new DateTime(2022, 10, 6, 13, 10, 47, 0, DateTimeKind.Local).AddTicks(9140),
+                            InitialPrice = 11m,
+                            LotId = 1,
+                            OperationDate = new DateTime(2022, 6, 28, 13, 10, 47, 6, DateTimeKind.Local).AddTicks(139)
+                        });
+                });
 
             modelBuilder.Entity("Data.Entities.File", b =>
                 {
@@ -85,16 +130,10 @@ namespace Data.Migrations
                         .HasColumnType("int")
                         .HasDefaultValue(1);
 
-                    b.Property<DateTime?>("Deadline")
-                        .HasColumnType("datetime2");
-
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(1024)")
                         .HasMaxLength(1024)
                         .IsUnicode(true);
-
-                    b.Property<decimal?>("InitialPrice")
-                        .HasColumnType("money");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -116,9 +155,7 @@ namespace Data.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            Deadline = new DateTime(2022, 10, 4, 23, 12, 49, 172, DateTimeKind.Local).AddTicks(7262),
                             Description = "Description",
-                            InitialPrice = 12m,
                             Name = "lot 1",
                             OwnerId = 1
                         },
@@ -126,7 +163,6 @@ namespace Data.Migrations
                         {
                             Id = 2,
                             CategoryId = 1,
-                            Deadline = new DateTime(2022, 10, 4, 23, 12, 49, 177, DateTimeKind.Local).AddTicks(811),
                             Description = "Description",
                             Name = "lot 2",
                             OwnerId = 1
@@ -135,9 +171,7 @@ namespace Data.Migrations
                         {
                             Id = 3,
                             CategoryId = 2,
-                            Deadline = new DateTime(2022, 10, 4, 23, 12, 49, 177, DateTimeKind.Local).AddTicks(906),
                             Description = "Description",
-                            InitialPrice = 11111m,
                             Name = "lot 3",
                             OwnerId = 2
                         });
@@ -230,31 +264,13 @@ namespace Data.Migrations
                         });
                 });
 
-            modelBuilder.Entity("Data.Entities.Receipt", b =>
+            modelBuilder.Entity("Data.Entities.Auction", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<decimal>("Cost")
-                        .HasColumnType("money");
-
-                    b.Property<int>("CustomerId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("LotId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("OperationDate")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("LotId")
-                        .IsUnique();
-
-                    b.ToTable("Receipts");
+                    b.HasOne("Data.Entities.Lot", "Lot")
+                        .WithOne("Auction")
+                        .HasForeignKey("Data.Entities.Auction", "LotId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Data.Entities.Lot", b =>
@@ -286,15 +302,6 @@ namespace Data.Migrations
                         .WithMany("LotImages")
                         .HasForeignKey("LotId")
                         .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("Data.Entities.Receipt", b =>
-                {
-                    b.HasOne("Data.Entities.Lot", "Lot")
-                        .WithOne("Receipt")
-                        .HasForeignKey("Data.Entities.Receipt", "LotId")
-                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
                 });
 #pragma warning restore 612, 618

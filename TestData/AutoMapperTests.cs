@@ -28,7 +28,7 @@ namespace InternetAuction.Tests
                 Description = "descr1",
                 CategoryId = 1,
                 OwnerId = 1,
-                Receipt = null,
+                Auction = null,
                 LotImages = new LotImage[] {
                     new LotImage()
                     {

@@ -81,11 +81,10 @@ namespace InternetAuction.Tests
                     Name = "lot1",
                     Description = "Description1",
                     CategoryId = 2,
-                    InitialPrice = 12.65m,
                     OwnerId = 1
                 },
-                new Lot() { Id = 3, Name = "lot3", Description = "Description3", CategoryId = 2, InitialPrice = 12.65m, OwnerId = 1 },
-                new Lot() { Id = 2, Name = "lot2", Description = "Description2", CategoryId = 1, InitialPrice = 2_000_000m, OwnerId = 1 }
+                new Lot() { Id = 3, Name = "lot3", Description = "Description3", CategoryId = 2, OwnerId = 1 },
+                new Lot() { Id = 2, Name = "lot2", Description = "Description2", CategoryId = 1, OwnerId = 1 }
             );
 
             context.LotImages.AddRange(
@@ -94,9 +93,13 @@ namespace InternetAuction.Tests
                 new LotImage() { Id = 2, LotId = 3, FileId = 13 }
             );
 
-            context.Receipts.AddRange(
-                new Receipt() { Id = 1, Cost = 200m, CustomerId = 1, LotId = 1, OperationDate = new DateTime(year: 2020, month: 9, day: 12) },
-                new Receipt() { Id = 2, Cost = 2_567_898m, CustomerId = 1, LotId = 2, OperationDate = new DateTime(year: 2021, month: 2, day: 13) }
+            context.Auctions.AddRange(
+                new Auction() { Id = 1, BetValue = 200m, CustomerId = 1, LotId = 1, 
+                    Deadline = new DateTime(year: 2022, month: 2, day: 13), InitialPrice = 12, 
+                    OperationDate = new DateTime(year: 2020, month: 9, day: 12) },
+                new Auction() { Id = 2, BetValue = 2m, CustomerId = 1, LotId = 2, 
+                    Deadline = new DateTime(year: 2023, month: 2, day: 13), InitialPrice = 12, 
+                    OperationDate = new DateTime(year: 2021, month: 2, day: 13) }
             );
 
             context.Files.AddRange(

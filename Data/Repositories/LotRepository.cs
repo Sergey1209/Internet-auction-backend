@@ -38,37 +38,32 @@ namespace Data.Repositories
             await _proxyRepository.DeleteByIdAsync(id);
         }
 
-        public async Task<IEnumerable<Lot>> GetIdAsync(Lot lot)
-        {
-            return await _dbSet
-                .AsQueryable()
-                .Where(x => x.Name == lot.Name)
-                .Where(x => x.Description == lot.Description)
-                .Where(x => x.InitialPrice == lot.InitialPrice)
-                .Where(x => x.CategoryId == lot.CategoryId)
-                .Where(x => x.Deadline == lot.Deadline)
-                .Where(x => x.OwnerId == lot.OwnerId)
-                .ToListAsync();
-        }
-
         public async Task<IEnumerable<Lot>> GetAllByDetalsAsync()
         {
             return await _dbSet
-                .AsQueryable()
                 .Include(x => x.Category)
                 .Include(x => x.LotImages).ThenInclude(x => x.File)
-                .Include(x => x.Receipt)
+                .Include(x => x.Auction)
+                .ToListAsync();
+        }
+
+        public async Task<IEnumerable<Lot>> GetAllByFilterAsync(string searchString)
+        {
+            return await _dbSet
+                .Where(x => x.Description.Contains(searchString))
+                .Include(x => x.Category)
+                .Include(x => x.LotImages).ThenInclude(x => x.File)
+                .Include(x => x.Auction)
                 .ToListAsync();
         }
 
         public async Task<IEnumerable<Lot>> GetAllByDetalsByCategoryIdAsync(int categoryId)
         {
             var result = await _dbSet
-                .AsQueryable()
                 .Where(x => x.CategoryId == categoryId)
                 .Include(x => x.Category)
                 .Include(x => x.LotImages).ThenInclude(x => x.File)
-                .Include(x => x.Receipt)
+                .Include(x => x.Auction)
                 .ToListAsync();
 
             return result;
@@ -87,11 +82,10 @@ namespace Data.Repositories
         public async Task<Lot> GetByIdWithDetailsAsync(int id)
         {
             var result = await _dbSet
-                .AsQueryable()
                 .Where(x => x.Id == id)
                 .Include(x => x.Category)
                 .Include(x => x.LotImages).ThenInclude(x => x.File)
-                .Include(x => x.Receipt)
+                .Include(x => x.Auction)
                 .FirstOrDefaultAsync();
 
             return result;
@@ -99,6 +93,9 @@ namespace Data.Repositories
 
         public void Update(Lot entity)
         {
+            if (entity == null)
+                throw new ArgumentNullException("Lot entity");
+
             _dbContext.TruncateStringsBasedOnMaxLength(entity);
 
             var dbEntity = _dbSet.Find(entity.Id);
@@ -106,8 +103,6 @@ namespace Data.Repositories
             dbEntity.Name = entity.Name;
             dbEntity.Description = entity.Description;
             dbEntity.CategoryId = entity.CategoryId;
-            dbEntity.InitialPrice = entity.InitialPrice;
-            dbEntity.Deadline = entity.Deadline;
             dbEntity.OwnerId = entity.OwnerId;
 
             _dbSet.Update(dbEntity);
