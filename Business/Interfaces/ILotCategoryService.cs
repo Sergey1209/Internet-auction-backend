@@ -1,17 +1,31 @@
 ﻿using Business.Models;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Business.Interfaces
 {
-    public interface ILotCategoryService : ICrud<LotCategoryModel>
+    public interface ILotCategoryService
     {
+        /// <summary>
+        /// Returns all entity
+        /// </summary>
+        /// <returns></returns>
+        public Task<IEnumerable<LotCategoryModel>> GetAllAsync();
+
+        /// <summary>
+        /// Returns entity by id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public Task<LotCategoryModel> GetByIdAsync(int id);
+
         /// <summary>
         /// Adds new category.
         /// </summary>
         /// <param name="name">Category name</param>
         /// <param name="fileId">File id (image)</param>
         /// <returns></returns>
-        public Task AddAsync(string name, int? fileId);
+        public Task AddAsync(InputLotCategoryModel inputLotCategoryModel);
 
         /// <summary>
         /// Updates category
@@ -21,10 +35,11 @@ namespace Business.Interfaces
         public Task UpdateAsyc(InputLotCategoryModel model);
 
         /// <summary>
-        /// Returns file id by category id
+        /// Deletes entity by id
         /// </summary>
-        /// <param name="lotCategoryId"></param>
+        /// <param name="id"></param>
         /// <returns></returns>
-        public Task<int> GetFileId(int lotCategoryId);
+        public Task DeleteAsync(int id);
+
     }
 }

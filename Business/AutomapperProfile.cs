@@ -31,8 +31,7 @@ namespace Business
             CreateMap<InputLotModel, Lot>();
             CreateMap<Lot, InputLotModel>();
 
-            CreateMap<LotImage, LotImageModel>();
-            CreateMap<LotImageModel, LotImage>();
+            CreateMap<InputLotCategoryModel, LotCategory>();
 
             CreateMap<PersonModel, PersonAuth>();
 

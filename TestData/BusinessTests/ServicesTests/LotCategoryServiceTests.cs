@@ -26,7 +26,7 @@ namespace InternetAuction.Tests.BusinessTests.ServicesTests
                 .Setup(x => x.LotCategoryRepository.GetAllByDetalsAsync())
                 .ReturnsAsync(GetTestLotCategoryEntities());
 
-            var lotCategoryService = new LotCategoryService(mockUnitOfWork.Object, UnitTestHelper.CreateMapperProfile());
+            var lotCategoryService = new LotCategoryService(mockUnitOfWork.Object, UnitTestHelper.CreateMapperProfile(), new HostConfigFake());
 
             //act
             var actual = await lotCategoryService.GetAllAsync();
@@ -47,7 +47,7 @@ namespace InternetAuction.Tests.BusinessTests.ServicesTests
                 .Setup(x => x.LotCategoryRepository.GetByIdWithDetailsAsync(It.IsAny<int>()))
                 .ReturnsAsync(GetTestLotCategoryEntities().First());
 
-            var lotCategoryService = new LotCategoryService(mockUnitOfWork.Object, UnitTestHelper.CreateMapperProfile());
+            var lotCategoryService = new LotCategoryService(mockUnitOfWork.Object, UnitTestHelper.CreateMapperProfile(), new HostConfigFake());
 
             //act
             var actual = await lotCategoryService.GetByIdAsync(1);

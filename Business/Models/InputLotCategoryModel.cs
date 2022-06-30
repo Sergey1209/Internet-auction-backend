@@ -20,7 +20,7 @@ namespace Business.Models
         /// <summary>
         /// Images associated with this category.
         /// </summary>
-        public IEnumerable<IFormFile> Files { get; set; }
+        public IFormFile File { get; set; }
 
         public void Validate()
         {

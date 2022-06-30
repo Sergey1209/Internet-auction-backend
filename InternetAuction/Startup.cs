@@ -59,7 +59,6 @@ namespace InternetAuction
             services.AddScoped<ILotCategoryService, LotCategoryService>();
             services.AddScoped<ILotService, LotService>();
             services.AddScoped<IAuctionService, AuctionService>();
-            services.AddScoped<ILotImageService, LotImageService>();
 
             services.AddSingleton<ExceptionsAttribute>();
 
