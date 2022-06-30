@@ -10,14 +10,30 @@ namespace Business.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
+        
+        /// <summary>
+        /// Initial Price set by the owner
+        /// </summary>
         public decimal? InitialPrice { get; set; }
         public int CategoryId { get; set; }
+        
+        /// <summary>
+        /// Deadline auction for this lot
+        /// </summary>
         public DateTime? Deadline { get; set; }
+        
+        /// <summary>
+        /// PersonId who owns the lot
+        /// </summary>
         public int OwnerId { get; set; }
         public int AuctionId { get; set; }
         public decimal? BetValue { get; set; }
 
         public string OwnerName { get; set; }
+        
+        /// <summary>
+        /// Images associated with this lot.
+        /// </summary>
         public IEnumerable<string> Images { get; set; }
 
         public void Validate()

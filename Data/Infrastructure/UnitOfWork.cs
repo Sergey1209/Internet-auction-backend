@@ -1,4 +1,5 @@
-﻿using Data.Data;using Data.Interfaces;
+﻿using Data.Data;
+using Data.Interfaces;
 using Data.Repositories;
 using System.Threading.Tasks;
 

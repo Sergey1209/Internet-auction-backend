@@ -7,8 +7,16 @@ using System.Linq;
 
 namespace Business.Helpers
 {
+    /// <summary>
+    /// Represents the tools for getting claims data from a token.
+    /// </summary>
     public class TokenHelper
     {
+        /// <summary>
+        /// Returns person id 
+        /// </summary>
+        /// <param name="httpContext"></param>
+        /// <returns></returns>
         public int GetPersonId(HttpContext httpContext)
         {
             var token = httpContext.GetTokenAsync("access_token").Result;
@@ -23,6 +31,12 @@ namespace Business.Helpers
             return id;
         }
 
+
+        /// <summary>
+        /// Returns the role of a person
+        /// </summary>
+        /// <param name="httpContext"></param>
+        /// <returns></returns>
         public Role GetRole(HttpContext httpContext)
         {
             var token = httpContext.GetTokenAsync("access_token").Result;

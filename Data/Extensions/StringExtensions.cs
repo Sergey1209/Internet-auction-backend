@@ -26,7 +26,7 @@ namespace Data.Extensions
                 }
                 else
                 {
-                    result = s.Substring(0, length);
+                    result = s[..length];
 
                     logger?.LogWarning("Truncated string:{stringToTruncate}", s);
                 }

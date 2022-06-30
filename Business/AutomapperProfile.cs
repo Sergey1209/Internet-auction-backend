@@ -34,9 +34,9 @@ namespace Business
             CreateMap<LotImage, LotImageModel>();
             CreateMap<LotImageModel, LotImage>();
 
-            CreateMap<PersonAuthModel, PersonAuth>();
+            CreateMap<PersonModel, PersonAuth>();
 
-            CreateMap<PersonAuthModel, Person>()
+            CreateMap<PersonModel, Person>()
                 .ForMember(p => p.Id, x => x.MapFrom(pm => pm.PersonId));
 
             CreateMap<RegistrationModel, Person>();

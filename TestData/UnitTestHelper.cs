@@ -94,12 +94,26 @@ namespace InternetAuction.Tests
             );
 
             context.Auctions.AddRange(
-                new Auction() { Id = 1, BetValue = 200m, CustomerId = 1, LotId = 1, 
-                    Deadline = new DateTime(year: 2022, month: 2, day: 13), InitialPrice = 12, 
-                    OperationDate = new DateTime(year: 2020, month: 9, day: 12) },
-                new Auction() { Id = 2, BetValue = 2m, CustomerId = 1, LotId = 2, 
-                    Deadline = new DateTime(year: 2023, month: 2, day: 13), InitialPrice = 12, 
-                    OperationDate = new DateTime(year: 2021, month: 2, day: 13) }
+                new Auction()
+                {
+                    Id = 1,
+                    BetValue = 200m,
+                    CustomerId = 1,
+                    LotId = 1,
+                    Deadline = new DateTime(year: 2022, month: 2, day: 13),
+                    InitialPrice = 12,
+                    OperationDate = new DateTime(year: 2020, month: 9, day: 12)
+                },
+                new Auction()
+                {
+                    Id = 2,
+                    BetValue = 2m,
+                    CustomerId = 1,
+                    LotId = 2,
+                    Deadline = new DateTime(year: 2023, month: 2, day: 13),
+                    InitialPrice = 12,
+                    OperationDate = new DateTime(year: 2021, month: 2, day: 13)
+                }
             );
 
             context.Files.AddRange(

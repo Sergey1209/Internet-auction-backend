@@ -35,7 +35,7 @@ namespace InternetAuction.Controllers
 
         [Authorize(Roles = "Administrator, RegisteredUser")]
         [HttpPost("update")]
-        public async Task Update([FromBody] PersonAuthModel registration)
+        public async Task Update([FromBody] PersonModel registration)
         {
             await _service.UpdateAsyc(registration);
         }

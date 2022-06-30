@@ -3,8 +3,6 @@ using InternetAuction.Validation;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-
 namespace InternetAuction.Controllers
 {
     [Route("api/[controller]")]
@@ -19,7 +17,6 @@ namespace InternetAuction.Controllers
             _service = service;
         }
 
-        // GET api/<ImagesController>/path
         [HttpGet("{name}")]
         public async Task<FileResult> Get(string name)
         {

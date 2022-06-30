@@ -43,6 +43,11 @@ namespace InternetAuction.Controllers
             return res;
         }
 
+        /// <summary>
+        /// Filtering is done in the lot description
+        /// </summary>
+        /// <param name="searchString"></param>
+        /// <returns></returns>
         [HttpGet("search")]
         public async Task<IEnumerable<LotModel>> GetAllByFilter(string searchString)
         {

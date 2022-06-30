@@ -6,6 +6,12 @@ namespace Data.Extensions
 {
     public static class DbContextExtensions
     {
+        /// <summary>
+        /// Truncates the property value to the maximum length of the column.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="context"></param>
+        /// <param name="entityObject">Model of entity</param>
         public static void TruncateStringsBasedOnMaxLength<T>(this DbContext context, T entityObject) where T : BaseEntity
         {
             var entityTypes = context.Model.GetEntityTypes();

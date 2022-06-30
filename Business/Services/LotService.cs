@@ -42,7 +42,7 @@ namespace Business.Services
             var result = _mapper.Map<IEnumerable<LotModel>>(lots);
             return result;
         }
-        
+
         public async Task<IEnumerable<LotModel>> GetAllByCategoryIdAsync(int categoryId)
         {
             if (categoryId == 0)
@@ -66,13 +66,15 @@ namespace Business.Services
 
             await SaveImagesOfLot(lot, inputModel.Files);
 
-            lot.Auction = new Auction() {
+            lot.Auction = new Auction()
+            {
                 LotId = lot.Id,
                 Deadline = inputModel.Deadline,
                 InitialPrice = inputModel.InitialPrice ?? 0,
-                BetValue = inputModel.InitialPrice ?? 0, 
+                BetValue = inputModel.InitialPrice ?? 0,
                 CustomerId = lot.OwnerId,
-                OperationDate = System.DateTime.UtcNow };
+                OperationDate = System.DateTime.UtcNow
+            };
 
             await _unitOfWork.SaveAsync();
         }
@@ -95,6 +97,7 @@ namespace Business.Services
             lot.Auction.BetValue = model.InitialPrice ?? 0;
             lot.Auction.Deadline = model.Deadline;
             lot.Auction.OperationDate = System.DateTime.UtcNow;
+            lot.Auction.CustomerId = lot.OwnerId;
 
             _repository.Update(lot);
 

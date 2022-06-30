@@ -4,17 +4,34 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Data.Data
 {
+    /// <summary>
+    /// Represents the context of an online auction.
+    /// </summary>
     public class InternetAuctionDbContext : DbContext
     {
+        /// <summary>
+        /// Represents the data source of lots
+        /// </summary>
         public DbSet<Lot> Lots { get; set; }
+        /// <summary>
+        /// Represents the lot category data source
+        /// </summary>
         public DbSet<LotCategory> LotCategories { get; set; }
+        /// <summary>
+        /// Represents the auction data source
+        /// </summary>
         public DbSet<Auction> Auctions { get; set; }
+        /// <summary>
+        /// Represents the files data source
+        /// </summary>
         public DbSet<File> Files { get; set; }
+        /// <summary>
+        /// Represents the lot images data source
+        /// </summary>
         public DbSet<LotImage> LotImages { get; set; }
 
         public InternetAuctionDbContext(DbContextOptions<InternetAuctionDbContext> dbContextOptions) : base(dbContextOptions)
         {
-            //Database.EnsureDeleted();
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -26,9 +43,5 @@ namespace Data.Data
             modelBuilder.ApplyConfiguration(new LotImageConfiguration());
         }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            //optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=InternetAuction;Trusted_Connection=True;");
-        }
     }
 }

@@ -9,16 +9,19 @@ using System.Threading.Tasks;
 namespace Business.Helpers
 {
     /// <summary>
-    /// Class for working with files
+    /// Provides tools for working with files, saving and deleting from local disk.
     /// </summary>
     public class FileHelper
     {
+        /// <summary>
+        /// Destination folder where files are saved and deleted.
+        /// </summary>
         public string Directory { get; }
 
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="directory">Destination folder</param>
+        /// <param name="directory">Destination folder where files are saved and deleted.</param>
         public FileHelper(string directory)
         {
             Directory = directory;
@@ -63,7 +66,7 @@ namespace Business.Helpers
         }
 
         /// <summary>
-        /// Removing file
+        /// Deletes a file from the local disk.
         /// </summary>
         /// <param name="fileName">Source file name. The file name must have the extension</param>
         public void RemoveFile(string fileName)
@@ -75,11 +78,21 @@ namespace Business.Helpers
             if (File.Exists(path)) File.Delete(path);
         }
 
+        /// <summary>
+        /// Deletes a file from the local disk asynchronously.
+        /// </summary>
+        /// <param name="fileName">Source file name. The file name must have the extension</param>
         public async Task RemoveFileAsync(string fileName)
         {
             await Task.Factory.StartNew(() => RemoveFile(fileName));
         }
 
+        /// <summary>
+        /// Saves an image to a local drive.
+        /// </summary>
+        /// <param name="image"></param>
+        /// <returns></returns>
+        /// <exception cref="NullModelException"></exception>
         public async Task<string> SaveImage(IFormFile image)
         {
             if (image == null)

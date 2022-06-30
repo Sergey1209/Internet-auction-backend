@@ -5,7 +5,6 @@ using Data.Interfaces;
 using FluentAssertions;
 using Moq;
 using NUnit.Framework;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -63,11 +62,11 @@ namespace InternetAuction.Tests.BusinessTests.ServicesTests
         private IEnumerable<LotModel> GetTestLotModels()
         {
             return new LotModel[] {
-                new LotModel() { Id = 1, Name = "Lot1", OwnerId = 1, CategoryId = 1, 
+                new LotModel() { Id = 1, Name = "Lot1", OwnerId = 1, CategoryId = 1,
                     Images = new string[]{ "http://test/file1" }, Description = "Description1" },
-                new LotModel() { Id = 2, Name = "Lot2", OwnerId = 1, CategoryId = 1, 
+                new LotModel() { Id = 2, Name = "Lot2", OwnerId = 1, CategoryId = 1,
                     Images = new string[]{ "http://test/file2" }, Description = "Description1" },
-                new LotModel() { Id = 3, Name = "Lot3", OwnerId = 2, CategoryId = 2, 
+                new LotModel() { Id = 3, Name = "Lot3", OwnerId = 2, CategoryId = 2,
                     Images = new string[]{ "http://test/file3" }, Description = "Description3" }
                 }.AsEnumerable();
         }

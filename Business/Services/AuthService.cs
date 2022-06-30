@@ -90,10 +90,8 @@ namespace Business.Services
             await _authRepository.DeleteByLoginAsync(modelId);
         }
 
-        public async Task UpdateAsyc(PersonAuthModel personAuthModel)
+        public async Task UpdateAsyc(PersonModel personAuthModel)
         {
-            personAuthModel.Validate();
-
             _personRepository.Update(_mapper.Map<Person>(personAuthModel));
             _authRepository.Update(_mapper.Map<PersonAuth>(personAuthModel));
 

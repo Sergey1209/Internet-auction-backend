@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Business.Models
 {
     public class AuctionModel
-    {   
+    {
         public int LotId { get; set; }
         public int OwnerId { get; set; }
         public string CustomerNickname { get; set; }

@@ -4,14 +4,23 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Data.Data
 {
+    /// <summary>
+    /// Represents the user store context
+    /// </summary>
     public class AuthDbContext : DbContext
     {
+        /// <summary>
+        /// Represents the data source of user authentication data
+        /// </summary>
         public DbSet<PersonAuth> PeopleAuths { get; set; }
+
+        /// <summary>
+        /// Represents the data source of users' personal data
+        /// </summary>
         public DbSet<Person> People { get; set; }
 
         public AuthDbContext(DbContextOptions<AuthDbContext> authOptions) : base(authOptions)
         {
-            //Database.EnsureDeleted();
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -20,9 +29,5 @@ namespace Data.Data
             modelBuilder.ApplyConfiguration(new PersonConfiguration());
         }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            //optionsBuilder.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=Auth;Trusted_Connection=True;");
-        }
     }
 }

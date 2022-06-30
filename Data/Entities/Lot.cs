@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace Data.Entities
 {
@@ -7,7 +6,13 @@ namespace Data.Entities
     {
         public string Name { get; set; }
         public string Description { get; set; }
+        /// <summary>
+        /// ID category of the lots
+        /// </summary>
         public int CategoryId { get; set; }
+        /// <summary>
+        /// ID person of the people. The person who is the owner of this lot.
+        /// </summary>
         public int OwnerId { get; set; }
 
         public virtual LotCategory Category { get; set; }
