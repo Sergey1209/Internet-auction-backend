@@ -6,6 +6,7 @@ using Data.Entities;
 using Data.Interfaces;
 using Microsoft.AspNetCore.Http;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace Business.Services
@@ -87,15 +88,19 @@ namespace Business.Services
             await _unitOfWork.SaveAsync();
         }
 
-        public async Task UpdateAsyc(InputLotModel model)
+        public async Task UpdateAsyc(InputLotModel inputLotModel)
         {
-            var lot = await _repository.GetByIdWithDetailsAsync(model.Id);
-            await DeleteImagesOfLot(lot.LotImages);
-            await SaveImagesOfLot(lot, model.Files);
+            var lot = await _repository.GetByIdWithDetailsAsync(inputLotModel.Id);
+            await DeleteImagesOfLot(lot.LotImages, inputLotModel.NotChangedFiles);
+            await SaveImagesOfLot(lot, inputLotModel.Files);
 
-            lot.Auction.InitialPrice = model.InitialPrice ?? 0;
-            lot.Auction.BetValue = model.InitialPrice ?? 0;
-            lot.Auction.Deadline = model.Deadline;
+            lot.Name = inputLotModel.Name;
+            lot.CategoryId = inputLotModel.CategoryId;
+            lot.Description = inputLotModel.Description;
+
+            lot.Auction.InitialPrice = inputLotModel.InitialPrice ?? 0;
+            lot.Auction.BetValue = inputLotModel.InitialPrice ?? 0;
+            lot.Auction.Deadline = inputLotModel.Deadline;
             lot.Auction.OperationDate = System.DateTime.UtcNow;
             lot.Auction.CustomerId = lot.OwnerId;
 
@@ -104,14 +109,17 @@ namespace Business.Services
             await _unitOfWork.SaveAsync();
         }
 
-        private async Task DeleteImagesOfLot(IEnumerable<LotImage> lotImages)
+        private async Task DeleteImagesOfLot(IEnumerable<LotImage> lotImages, IEnumerable<string> NotChangedFiles = null)
         {
             if (lotImages == null) return;
 
             foreach (var lotImage in lotImages)
             {
-                await _imageFileHelper.RemoveFileAsync(lotImage.File.Name);
-                await _fileRepository.DeleteByIdAsync(lotImage.FileId);
+                if (lotImage != null && lotImage.File != null && !NotChangedFiles.Contains(lotImage.File.Name))
+                {
+                    await _imageFileHelper.RemoveFileAsync(lotImage.File.Name);
+                    await _fileRepository.DeleteByIdAsync(lotImage.FileId);
+                }
             }
         }
 
@@ -121,9 +129,12 @@ namespace Business.Services
 
             foreach (var image in files)
             {
-                var fileName = await _imageFileHelper.SaveImage(image);
-                var file = new File() { Name = fileName };
-                await _lotImageRepository.AddAsync(new LotImage() { Lot = lot, File = file });
+                if (image != null)
+                {
+                    var fileName = await _imageFileHelper.SaveImage(image);
+                    var file = new File() { Name = fileName };
+                    await _lotImageRepository.AddAsync(new LotImage() { Lot = lot, File = file });
+                }
             }
         }
     }

@@ -39,5 +39,10 @@ namespace Business.Models
         /// </summary>
         public IEnumerable<IFormFile> Files { get; set; }
 
+        /// <summary>
+        /// Filenames that have not changed.
+        /// </summary>
+        public IEnumerable<string> NotChangedFiles { get; set; }
+
     }
 }

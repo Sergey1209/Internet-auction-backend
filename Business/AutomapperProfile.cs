@@ -25,6 +25,7 @@ namespace Business
                 .ForMember(lm => lm.Images, l => l.MapFrom(x => x.LotImages.Select(y => BuildImagePath(y.File.Name))))
                 .ForMember(lm => lm.Deadline, l => l.MapFrom(x => x.Auction.Deadline))
                 .ForMember(lm => lm.BetValue, l => l.MapFrom(x => x.Auction.BetValue))
+                .ForMember(lm => lm.InitialPrice, l => l.MapFrom(x => x.Auction.InitialPrice))
                 .ForMember(lm => lm.AuctionId, l => l.MapFrom(x => x.Auction.Id));
             CreateMap<LotModel, Lot>();
 
