@@ -4,6 +4,7 @@ using Business.Models;
 using Business.Validation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -29,11 +30,21 @@ namespace InternetAuction.Controllers
             return res;
         }
 
-        [HttpGet("category/{id}")]
-        public async Task<IEnumerable<LotModel>> GetAllByCategoryId(int id)
+        [HttpGet("{id1}-{id2}")]
+        public async Task<IEnumerable<LotModel>> GetAll(int id1, int id2)
         {
-            var res = await _service.GetAllByCategoryIdAsync(id);
-            return res;
+            if (id1 == 0 || id2 == 0)
+            {
+                var min = Math.Min(id1, id2);
+                if (min == 0) min = 12;
+
+                var res = await _service.GetLastAsync(min);
+                return res;
+            }
+            {
+                var res = await _service.GetRangeAsync(id1, id2);
+                return res;
+            }
         }
 
         [HttpGet("{id}")]

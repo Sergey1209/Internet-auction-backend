@@ -13,11 +13,19 @@ namespace Business.Interfaces
         public Task<IEnumerable<LotModel>> GetAllAsync();
 
         /// <summary>
-        /// Returns all lots by category ID.
+        /// Returns last lots
         /// </summary>
-        /// <param name="categoryId"></param>
+        /// <param name="count">Lots count</param>
         /// <returns></returns>
-        public Task<IEnumerable<LotModel>> GetAllByCategoryIdAsync(int categoryId);
+        public Task<IEnumerable<LotModel>> GetLastAsync(int count);
+
+        /// <summary>
+        /// Returns range lots
+        /// </summary>
+        /// <param name="id1"></param>
+        /// <param name="id2"></param>
+        /// <returns></returns>
+        public Task<IEnumerable<LotModel>> GetRangeAsync(int id1, int id2);
 
         /// <summary>
         /// Returns lot by ID

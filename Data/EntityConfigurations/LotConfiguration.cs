@@ -11,20 +11,19 @@ namespace Data.EntityConfigurations
         {
             builder.HasKey(x => x.Id);
 
-            builder.Property(x => x.Name).IsRequired().IsUnicode().HasMaxLength(30);
-            builder.Property(x => x.Description).IsUnicode().HasMaxLength(1024);
+            builder.Property(x => x.Name).IsRequired().IsUnicode().HasMaxLength(60);
+            builder.Property(x => x.Description).IsUnicode().HasMaxLength(512);
             builder.Property(x => x.CategoryId).IsRequired().HasDefaultValue(1);
             builder.Property(x => x.OwnerId).IsRequired();
 
             builder.HasOne(a => a.Category).WithMany(b => b.Lots).OnDelete(DeleteBehavior.NoAction);
 
             List<Lot> lots = new List<Lot>();
-            for (var i = 1; i < 12; i++)
+            for (var i = 1; i < 100; i++)
             {
-                lots.Add(new Lot() { Id = i, Name = $"lot {i}", CategoryId = 2, Description = $"Description {i}", OwnerId = i < 5 ? 1 : 2 });
+                lots.Add(new Lot() { Id = i, Name = $"lot {i}", CategoryId = 2, Description = $"Description {i}", OwnerId = i % 5 == 0 ? 3 : 2 });
             }
-
-            lots.Add(new Lot() { Id = 12, Name = $"lot 13", CategoryId = 2, Description = $"Description 13", OwnerId = 1 });
+            lots.Add(new Lot() { Id = 1000, Name = $"lot 1000", CategoryId = 2, Description = $"Description 1000", OwnerId = 1 });
 
             builder.HasData(lots);
         }

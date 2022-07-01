@@ -14,22 +14,35 @@ namespace Data.Interfaces
         /// </summary>
         /// <returns></returns>
         public Task<IEnumerable<Lot>> GetAllByDetalsAsync();
-        /// <summary>
-        /// Returns all entities from the data source for a category
-        /// </summary>
-        /// <returns></returns>
-        public Task<IEnumerable<Lot>> GetAllByDetalsByCategoryIdAsync(int categoryId);
+
         /// <summary>
         /// Returns entity by id with detals from the data source 
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
         public Task<Lot> GetByIdWithDetailsAsync(int id);
+        
         /// <summary>
         /// Returns entity by id with detals from the data source 
         /// </summary>
         /// <param name="searchString"></param>
         /// <returns></returns>
         public Task<IEnumerable<Lot>> GetAllByFilterAsync(string searchString);
+
+        /// <summary>
+        /// Returns last lots
+        /// </summary>
+        /// <param name="count">Count lots</param>
+        /// <returns></returns>
+        public Task<IEnumerable<Lot>> GetLastByDetalsAsync(int count);
+
+        /// <summary>
+        /// Returns range lots by id
+        /// </summary>
+        /// <param name="minId"></param>
+        /// <param name="maxId"></param>
+        /// <returns></returns>
+        public Task<IEnumerable<Lot>> GetRangeByDetalsAsync(int minId, int maxId);
+
     }
 }

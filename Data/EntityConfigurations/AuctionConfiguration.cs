@@ -23,26 +23,27 @@ namespace Data.EntityConfigurations
             builder.HasOne(a => a.Lot).WithOne(b => b.Auction).OnDelete(DeleteBehavior.Cascade);
 
             List<Auction> auctions = new List<Auction>();
-            for (var i = 1; i < 12; i++)
+            for (var i = 1; i < 100; i++)
             {
+                var date = DateTime.Now.AddDays(i);
                 auctions.Add(
                     new Auction()
                     {
-                        Id = i + 100,
+                        Id = i + 200,
                         LotId = i,
                         InitialPrice = i * 10 + 12,
                         BetValue = i * 10 + 12,
                         CustomerId = i < 7 ? 1 : 2,
-                        Deadline = new DateTime(year: 2023, month: 9, day: i + 4),
-                        OperationDate = new DateTime(year: 2021, month: 9, day: i + 4),
+                        Deadline = date,
+                        OperationDate = date
                     });
             }
 
             auctions.Add(
                 new Auction()
                 {
-                    Id = 12 + 100,
-                    LotId = 12,
+                    Id = 1100,
+                    LotId = 1000,
                     InitialPrice = 10,
                     BetValue = 10,
                     CustomerId = 2,

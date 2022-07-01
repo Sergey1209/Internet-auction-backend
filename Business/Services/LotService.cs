@@ -38,19 +38,23 @@ namespace Business.Services
             return result;
         }
 
-        public async Task<IEnumerable<LotModel>> GetAllByFilter(string searchString)
+        public async Task<IEnumerable<LotModel>> GetLastAsync(int count)
         {
-            var lots = await _repository.GetAllByFilterAsync(searchString);
+            var lots = await _repository.GetLastByDetalsAsync(count);
             var result = _mapper.Map<IEnumerable<LotModel>>(lots);
             return result;
         }
 
-        public async Task<IEnumerable<LotModel>> GetAllByCategoryIdAsync(int categoryId)
+        public async Task<IEnumerable<LotModel>> GetRangeAsync(int id1, int id2)
         {
-            if (categoryId == 0)
-                return await new Task<IEnumerable<LotModel>>(() => new LotModel[] { });
+            var lots = await _repository.GetRangeByDetalsAsync(id1, id2);
+            var result = _mapper.Map<IEnumerable<LotModel>>(lots);
+            return result;
+        }
 
-            var lots = await _repository.GetAllByDetalsByCategoryIdAsync(categoryId);
+        public async Task<IEnumerable<LotModel>> GetAllByFilter(string searchString)
+        {
+            var lots = await _repository.GetAllByFilterAsync(searchString);
             var result = _mapper.Map<IEnumerable<LotModel>>(lots);
             return result;
         }

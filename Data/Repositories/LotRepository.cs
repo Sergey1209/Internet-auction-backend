@@ -47,6 +47,37 @@ namespace Data.Repositories
                 .ToListAsync();
         }
 
+        public async Task<IEnumerable<Lot>> GetLastByDetalsAsync(int count)
+        {
+            return await _dbSet
+                .Include(x => x.Category)
+                .Include(x => x.LotImages).ThenInclude(x => x.File)
+                .Include(x => x.Auction)
+                .OrderByDescending(x => x.Id)
+                .Take(count)
+                .ToListAsync();
+        }
+
+        public async Task<IEnumerable<Lot>> GetRangeByDetalsAsync(int minId, int maxId)
+        {
+            if (minId > maxId)
+            {
+                var t = minId;
+                minId = maxId;
+                maxId = t;
+            }
+
+            var result = await _dbSet
+                .Include(x => x.Category)
+                .Include(x => x.LotImages).ThenInclude(x => x.File)
+                .Include(x => x.Auction)
+                .Where(lot => lot.Id >= minId)
+                .Where(lot => lot.Id < maxId)
+                .ToListAsync();
+
+            return result;
+        }
+
         public async Task<IEnumerable<Lot>> GetAllByFilterAsync(string searchString)
         {
             return await _dbSet
@@ -55,18 +86,6 @@ namespace Data.Repositories
                 .Include(x => x.LotImages).ThenInclude(x => x.File)
                 .Include(x => x.Auction)
                 .ToListAsync();
-        }
-
-        public async Task<IEnumerable<Lot>> GetAllByDetalsByCategoryIdAsync(int categoryId)
-        {
-            var result = await _dbSet
-                .Where(x => x.CategoryId == categoryId)
-                .Include(x => x.Category)
-                .Include(x => x.LotImages).ThenInclude(x => x.File)
-                .Include(x => x.Auction)
-                .ToListAsync();
-
-            return result;
         }
 
         public async Task<IEnumerable<Lot>> GetAllAsync()
