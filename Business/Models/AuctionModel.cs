@@ -12,6 +12,8 @@ namespace Business.Models
         public decimal BetValue { get; set; }
         public string LotName { get; set; }
         public string LotDescription { get; set; }
+        public DateTime InitialDate { get; set; }
+
         public IEnumerable<string> LotImages { get; set; }
     }
 }

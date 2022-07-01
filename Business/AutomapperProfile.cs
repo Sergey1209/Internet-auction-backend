@@ -26,11 +26,10 @@ namespace Business
                 .ForMember(lm => lm.Deadline, l => l.MapFrom(x => x.Auction.Deadline))
                 .ForMember(lm => lm.BetValue, l => l.MapFrom(x => x.Auction.BetValue))
                 .ForMember(lm => lm.InitialPrice, l => l.MapFrom(x => x.Auction.InitialPrice))
+                .ForMember(lm => lm.InitialDate, l => l.MapFrom(x => x.Auction.InitialDate))
                 .ForMember(lm => lm.AuctionId, l => l.MapFrom(x => x.Auction.Id));
-            CreateMap<LotModel, Lot>();
 
             CreateMap<InputLotModel, Lot>();
-            CreateMap<Lot, InputLotModel>();
 
             CreateMap<InputLotCategoryModel, LotCategory>();
 

@@ -29,6 +29,9 @@ namespace Data.Entities
         /// </summary>
         public decimal? InitialPrice { get; set; }
 
+        public DateTime InitialDate { get; set; }
+
+
 
         /// <summary>
         /// A navigation property that represents the entity of the lot for this auction

@@ -35,6 +35,9 @@ namespace Data.Migrations
                     b.Property<DateTime?>("Deadline")
                         .HasColumnType("datetime2");
 
+                    b.Property<DateTime>("InitialDate")
+                        .HasColumnType("datetime2");
+
                     b.Property<decimal?>("InitialPrice")
                         .HasColumnType("money");
 
@@ -58,6 +61,7 @@ namespace Data.Migrations
                             BetValue = 22m,
                             CustomerId = 1,
                             Deadline = new DateTime(2023, 9, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialPrice = 22m,
                             LotId = 1,
                             OperationDate = new DateTime(2021, 9, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -68,6 +72,7 @@ namespace Data.Migrations
                             BetValue = 32m,
                             CustomerId = 1,
                             Deadline = new DateTime(2023, 9, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialPrice = 32m,
                             LotId = 2,
                             OperationDate = new DateTime(2021, 9, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -78,6 +83,7 @@ namespace Data.Migrations
                             BetValue = 42m,
                             CustomerId = 1,
                             Deadline = new DateTime(2023, 9, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialPrice = 42m,
                             LotId = 3,
                             OperationDate = new DateTime(2021, 9, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -88,6 +94,7 @@ namespace Data.Migrations
                             BetValue = 52m,
                             CustomerId = 1,
                             Deadline = new DateTime(2023, 9, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialPrice = 52m,
                             LotId = 4,
                             OperationDate = new DateTime(2021, 9, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -98,6 +105,7 @@ namespace Data.Migrations
                             BetValue = 62m,
                             CustomerId = 1,
                             Deadline = new DateTime(2023, 9, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialPrice = 62m,
                             LotId = 5,
                             OperationDate = new DateTime(2021, 9, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -108,6 +116,7 @@ namespace Data.Migrations
                             BetValue = 72m,
                             CustomerId = 1,
                             Deadline = new DateTime(2023, 9, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialPrice = 72m,
                             LotId = 6,
                             OperationDate = new DateTime(2021, 9, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -118,6 +127,7 @@ namespace Data.Migrations
                             BetValue = 82m,
                             CustomerId = 2,
                             Deadline = new DateTime(2023, 9, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialPrice = 82m,
                             LotId = 7,
                             OperationDate = new DateTime(2021, 9, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -128,6 +138,7 @@ namespace Data.Migrations
                             BetValue = 92m,
                             CustomerId = 2,
                             Deadline = new DateTime(2023, 9, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialPrice = 92m,
                             LotId = 8,
                             OperationDate = new DateTime(2021, 9, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -138,6 +149,7 @@ namespace Data.Migrations
                             BetValue = 102m,
                             CustomerId = 2,
                             Deadline = new DateTime(2023, 9, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialPrice = 102m,
                             LotId = 9,
                             OperationDate = new DateTime(2021, 9, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -148,6 +160,7 @@ namespace Data.Migrations
                             BetValue = 112m,
                             CustomerId = 2,
                             Deadline = new DateTime(2023, 9, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialPrice = 112m,
                             LotId = 10,
                             OperationDate = new DateTime(2021, 9, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -158,6 +171,7 @@ namespace Data.Migrations
                             BetValue = 122m,
                             CustomerId = 2,
                             Deadline = new DateTime(2023, 9, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialPrice = 122m,
                             LotId = 11,
                             OperationDate = new DateTime(2021, 9, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
@@ -168,6 +182,7 @@ namespace Data.Migrations
                             BetValue = 10m,
                             CustomerId = 2,
                             Deadline = new DateTime(2020, 1, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialPrice = 10m,
                             LotId = 12,
                             OperationDate = new DateTime(2021, 12, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)

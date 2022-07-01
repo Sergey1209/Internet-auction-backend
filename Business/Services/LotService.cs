@@ -5,6 +5,7 @@ using Business.Models;
 using Data.Entities;
 using Data.Interfaces;
 using Microsoft.AspNetCore.Http;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -67,6 +68,7 @@ namespace Business.Services
 
             await SaveImagesOfLot(lot, inputModel.Files);
 
+            var now = DateTime.UtcNow;
             lot.Auction = new Auction()
             {
                 LotId = lot.Id,
@@ -74,7 +76,9 @@ namespace Business.Services
                 InitialPrice = inputModel.InitialPrice ?? 0,
                 BetValue = inputModel.InitialPrice ?? 0,
                 CustomerId = lot.OwnerId,
-                OperationDate = System.DateTime.UtcNow
+                OperationDate = now,
+                InitialDate = now
+
             };
 
             await _unitOfWork.SaveAsync();
@@ -94,6 +98,8 @@ namespace Business.Services
             await DeleteImagesOfLot(lot.LotImages, inputLotModel.NotChangedFiles);
             await SaveImagesOfLot(lot, inputLotModel.Files);
 
+            var now = DateTime.UtcNow;
+
             lot.Name = inputLotModel.Name;
             lot.CategoryId = inputLotModel.CategoryId;
             lot.Description = inputLotModel.Description;
@@ -101,7 +107,8 @@ namespace Business.Services
             lot.Auction.InitialPrice = inputLotModel.InitialPrice ?? 0;
             lot.Auction.BetValue = inputLotModel.InitialPrice ?? 0;
             lot.Auction.Deadline = inputLotModel.Deadline;
-            lot.Auction.OperationDate = System.DateTime.UtcNow;
+            lot.Auction.OperationDate = now;
+            lot.Auction.InitialDate = now;
             lot.Auction.CustomerId = lot.OwnerId;
 
             _repository.Update(lot);

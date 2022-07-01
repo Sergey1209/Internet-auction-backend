@@ -30,7 +30,9 @@ namespace Business.Models
         public decimal? BetValue { get; set; }
 
         public string OwnerName { get; set; }
-        
+        public DateTime InitialDate { get; set; }
+
+
         /// <summary>
         /// Images associated with this lot.
         /// </summary>
