@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace InternetAuction.Controllers
@@ -16,6 +17,10 @@ namespace InternetAuction.Controllers
     {
         private readonly ILotService _service;
         private readonly TokenHelper _token;
+        /// <summary>
+        /// Number of lots for each request
+        /// </summary>
+        private const int numberLotsOfReturn = 10;
 
         public LotController(ILotService service, TokenHelper token)
         {
@@ -55,14 +60,36 @@ namespace InternetAuction.Controllers
         }
 
         /// <summary>
+        /// Returns lots from categories
+        /// </summary>
+        /// <param name="categoryId"></param>
+        /// <param name="lotId">ID below which the selection will be performed</param>
+        /// <returns></returns>
+        [HttpGet("category/{categoryId}/{lotId}")]
+        public async Task<IEnumerable<LotModel>> GetRangeByCategory(int categoryId, int lotId)
+        {
+            var res = await _service.GetRangeLotsByCategoryIdAsync(
+                    categoryId: categoryId, lotId: lotId, numberLots: numberLotsOfReturn);
+
+            return res;
+        }
+
+        /// <summary>
         /// Filtering is done in the lot description
         /// </summary>
         /// <param name="searchString"></param>
+        /// <param name="lotId">ID below which the selection will be performed</param>
         /// <returns></returns>
         [HttpGet("search")]
-        public async Task<IEnumerable<LotModel>> GetAllByFilter(string searchString)
+        public async Task<IEnumerable<LotModel>> GetAllByFilter()
         {
-            var res = await _service.GetAllByFilter(searchString);
+            string searchstring = HttpContext.Request.Headers["searchstring"];
+
+            string lotidStr = HttpContext.Request.Headers["lotid"];
+            int lotid = int.Parse(lotidStr);
+            int.TryParse(lotidStr, out int id);
+
+            var res = await _service.GetByFilter(searchString: searchstring, lotId: id, numberLots: numberLotsOfReturn);
             return res;
         }
 

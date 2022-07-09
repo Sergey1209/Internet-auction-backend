@@ -52,9 +52,16 @@ namespace Business.Services
             return result;
         }
 
-        public async Task<IEnumerable<LotModel>> GetAllByFilter(string searchString)
+        public async Task<IEnumerable<LotModel>> GetRangeLotsByCategoryIdAsync(int categoryId, int lotId, int numberLots)
         {
-            var lots = await _repository.GetAllByFilterAsync(searchString);
+            var lots = await _repository.GetRangeLotsByCategoryIdAsync(categoryId: categoryId, lotId: lotId, numberLots: numberLots);
+            var result = _mapper.Map<IEnumerable<LotModel>>(lots);
+            return result;
+        }
+
+        public async Task<IEnumerable<LotModel>> GetByFilter(string searchString, int lotId, int numberLots)
+        {
+            var lots = await _repository.GetByFilterAsync(searchString: searchString, lotId: lotId, numberLots: numberLots);
             var result = _mapper.Map<IEnumerable<LotModel>>(lots);
             return result;
         }
@@ -148,5 +155,6 @@ namespace Business.Services
                 }
             }
         }
+
     }
 }

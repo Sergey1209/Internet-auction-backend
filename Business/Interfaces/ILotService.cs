@@ -35,6 +35,15 @@ namespace Business.Interfaces
         public Task<LotModel> GetByIdAsync(int id);
 
         /// <summary>
+        /// Returns range lots by categoryId
+        /// </summary>
+        /// <param name="categoryId"></param>
+        /// <param name="lotId">ID below which the selection will be performed</param>
+        /// <param name="numberLots">Number of lots to be returned</param>
+        /// <returns></returns>
+        public Task<IEnumerable<LotModel>> GetRangeLotsByCategoryIdAsync(int categoryId, int lotId, int numberLots);
+
+        /// <summary>
         /// Adds new lot
         /// </summary>
         /// <param name="inputModel"></param>
@@ -59,7 +68,10 @@ namespace Business.Interfaces
         /// Returns all lots by the filter string in the description
         /// </summary>
         /// <param name="searchString"></param>
+        /// <param name="lotId">ID below which the selection will be performed</param>
+        /// <param name="numberLots">Number of lots to be returned</param>
         /// <returns></returns>
-        public Task<IEnumerable<LotModel>> GetAllByFilter(string searchString);
+        public Task<IEnumerable<LotModel>> GetByFilter(string searchString, int lotId, int numberLots);
+
     }
 }
