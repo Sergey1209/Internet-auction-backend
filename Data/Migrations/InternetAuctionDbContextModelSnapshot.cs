@@ -58,5489 +58,5489 @@ namespace Data.Migrations
                         new
                         {
                             Id = 1001,
-                            BetValue = 70747m,
+                            BetValue = 200m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 6, 13, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 6, 30, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 70747m,
+                            InitialPrice = 200m,
                             LotId = 1,
                             OperationDate = new DateTime(2022, 6, 1, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1002,
-                            BetValue = 20489m,
+                            BetValue = 442m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 6, 6, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 6, 11, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 20489m,
+                            InitialPrice = 442m,
                             LotId = 2,
                             OperationDate = new DateTime(2022, 6, 1, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1003,
-                            BetValue = 12225m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 6, 12, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 221m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 6, 14, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 12225m,
+                            InitialPrice = 221m,
                             LotId = 3,
                             OperationDate = new DateTime(2022, 6, 2, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1004,
-                            BetValue = 20853m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 6, 9, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 539m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 6, 4, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 20853m,
+                            InitialPrice = 539m,
                             LotId = 4,
                             OperationDate = new DateTime(2022, 6, 2, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1005,
-                            BetValue = 8833m,
+                            BetValue = 322m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 6, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 6, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 8833m,
+                            InitialPrice = 322m,
                             LotId = 5,
                             OperationDate = new DateTime(2022, 6, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1006,
-                            BetValue = 44004m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 6, 30, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 510m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 6, 19, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 44004m,
+                            InitialPrice = 510m,
                             LotId = 6,
                             OperationDate = new DateTime(2022, 6, 3, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1007,
-                            BetValue = 28269m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 6, 26, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 319m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 6, 6, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 28269m,
+                            InitialPrice = 319m,
                             LotId = 7,
                             OperationDate = new DateTime(2022, 6, 3, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1008,
-                            BetValue = 1131m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 6, 8, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 500m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 6, 21, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 1131m,
+                            InitialPrice = 500m,
                             LotId = 8,
                             OperationDate = new DateTime(2022, 6, 4, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1009,
-                            BetValue = 98194m,
+                            BetValue = 82m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 2, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 6, 27, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 98194m,
+                            InitialPrice = 82m,
                             LotId = 9,
                             OperationDate = new DateTime(2022, 6, 4, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1010,
-                            BetValue = 9520m,
+                            BetValue = 828m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 6, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 9520m,
+                            InitialPrice = 828m,
                             LotId = 10,
                             OperationDate = new DateTime(2022, 6, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1011,
-                            BetValue = 36366m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 6, 6, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 261m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 6, 14, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 36366m,
+                            InitialPrice = 261m,
                             LotId = 11,
                             OperationDate = new DateTime(2022, 6, 5, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1012,
-                            BetValue = 35132m,
+                            BetValue = 573m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 6, 15, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 2, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 35132m,
+                            InitialPrice = 573m,
                             LotId = 12,
                             OperationDate = new DateTime(2022, 6, 5, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1013,
-                            BetValue = 44678m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 6, 17, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 689m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 6, 7, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 44678m,
+                            InitialPrice = 689m,
                             LotId = 13,
                             OperationDate = new DateTime(2022, 6, 6, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1014,
-                            BetValue = 80330m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 6, 19, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 149m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 7, 2, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 80330m,
+                            InitialPrice = 149m,
                             LotId = 14,
                             OperationDate = new DateTime(2022, 6, 6, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1015,
-                            BetValue = 72547m,
+                            BetValue = 674m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 6, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 72547m,
+                            InitialPrice = 674m,
                             LotId = 15,
                             OperationDate = new DateTime(2022, 6, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1016,
-                            BetValue = 2589m,
+                            BetValue = 881m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 6, 12, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 6, 18, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 2589m,
+                            InitialPrice = 881m,
                             LotId = 16,
                             OperationDate = new DateTime(2022, 6, 7, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1017,
-                            BetValue = 42262m,
+                            BetValue = 182m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 6, 27, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 3, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 42262m,
+                            InitialPrice = 182m,
                             LotId = 17,
                             OperationDate = new DateTime(2022, 6, 7, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1018,
-                            BetValue = 13619m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 6, 10, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 26m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 6, 19, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 13619m,
+                            InitialPrice = 26m,
                             LotId = 18,
                             OperationDate = new DateTime(2022, 6, 8, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1019,
-                            BetValue = 85260m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 6, 18, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 740m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 6, 9, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 85260m,
+                            InitialPrice = 740m,
                             LotId = 19,
                             OperationDate = new DateTime(2022, 6, 8, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1020,
-                            BetValue = 23395m,
+                            BetValue = 14m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 6, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 23395m,
+                            InitialPrice = 14m,
                             LotId = 20,
                             OperationDate = new DateTime(2022, 6, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1021,
-                            BetValue = 43469m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 5, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 568m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 6, 25, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 43469m,
+                            InitialPrice = 568m,
                             LotId = 21,
                             OperationDate = new DateTime(2022, 6, 9, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1022,
-                            BetValue = 49582m,
+                            BetValue = 441m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 6, 15, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 2, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 49582m,
+                            InitialPrice = 441m,
                             LotId = 22,
                             OperationDate = new DateTime(2022, 6, 9, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1023,
-                            BetValue = 21861m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 6, 19, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 222m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 6, 20, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 21861m,
+                            InitialPrice = 222m,
                             LotId = 23,
                             OperationDate = new DateTime(2022, 6, 10, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1024,
-                            BetValue = 4007m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 2, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 418m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 6, 26, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 4007m,
+                            InitialPrice = 418m,
                             LotId = 24,
                             OperationDate = new DateTime(2022, 6, 10, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1025,
-                            BetValue = 54147m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 137m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 7, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 54147m,
+                            InitialPrice = 137m,
                             LotId = 25,
                             OperationDate = new DateTime(2022, 6, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1026,
-                            BetValue = 28241m,
+                            BetValue = 221m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 6, 14, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 6, 30, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 28241m,
+                            InitialPrice = 221m,
                             LotId = 26,
                             OperationDate = new DateTime(2022, 6, 11, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1027,
-                            BetValue = 65718m,
+                            BetValue = 302m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 6, 27, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 6, 21, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 65718m,
+                            InitialPrice = 302m,
                             LotId = 27,
                             OperationDate = new DateTime(2022, 6, 11, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1028,
-                            BetValue = 30104m,
+                            BetValue = 473m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 6, 22, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 6, 21, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 30104m,
+                            InitialPrice = 473m,
                             LotId = 28,
                             OperationDate = new DateTime(2022, 6, 12, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1029,
-                            BetValue = 6458m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 11, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 654m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 7, 3, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 6458m,
+                            InitialPrice = 654m,
                             LotId = 29,
                             OperationDate = new DateTime(2022, 6, 12, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1030,
-                            BetValue = 62540m,
+                            BetValue = 97m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 62540m,
+                            InitialPrice = 97m,
                             LotId = 30,
                             OperationDate = new DateTime(2022, 6, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1031,
-                            BetValue = 60454m,
+                            BetValue = 161m,
                             CustomerId = 2,
                             Deadline = new DateTime(2022, 6, 28, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 60454m,
+                            InitialPrice = 161m,
                             LotId = 31,
                             OperationDate = new DateTime(2022, 6, 13, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1032,
-                            BetValue = 13753m,
+                            BetValue = 360m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 5, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 2, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 13753m,
+                            InitialPrice = 360m,
                             LotId = 32,
                             OperationDate = new DateTime(2022, 6, 13, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1033,
-                            BetValue = 78377m,
+                            BetValue = 486m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 11, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 6, 27, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 78377m,
+                            InitialPrice = 486m,
                             LotId = 33,
                             OperationDate = new DateTime(2022, 6, 14, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1034,
-                            BetValue = 6103m,
-                            CustomerId = 3,
+                            BetValue = 763m,
+                            CustomerId = 2,
                             Deadline = new DateTime(2022, 6, 25, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 6103m,
+                            InitialPrice = 763m,
                             LotId = 34,
                             OperationDate = new DateTime(2022, 6, 14, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1035,
-                            BetValue = 78513m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 6, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 648m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 7, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 78513m,
+                            InitialPrice = 648m,
                             LotId = 35,
                             OperationDate = new DateTime(2022, 6, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1036,
-                            BetValue = 34536m,
-                            CustomerId = 3,
+                            BetValue = 133m,
+                            CustomerId = 2,
                             Deadline = new DateTime(2022, 7, 2, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 34536m,
+                            InitialPrice = 133m,
                             LotId = 36,
                             OperationDate = new DateTime(2022, 6, 15, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1037,
-                            BetValue = 71806m,
+                            BetValue = 582m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 10, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 6, 21, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 71806m,
+                            InitialPrice = 582m,
                             LotId = 37,
                             OperationDate = new DateTime(2022, 6, 15, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1038,
-                            BetValue = 72453m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 6, 28, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 677m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 6, 17, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 72453m,
+                            InitialPrice = 677m,
                             LotId = 38,
                             OperationDate = new DateTime(2022, 6, 16, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1039,
-                            BetValue = 17173m,
+                            BetValue = 613m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 6, 27, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 6, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 17173m,
+                            InitialPrice = 613m,
                             LotId = 39,
                             OperationDate = new DateTime(2022, 6, 16, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1040,
-                            BetValue = 5583m,
+                            BetValue = 90m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 6, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 6, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 5583m,
+                            InitialPrice = 90m,
                             LotId = 40,
                             OperationDate = new DateTime(2022, 6, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1041,
-                            BetValue = 44605m,
+                            BetValue = 44m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 8, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 6, 27, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 44605m,
+                            InitialPrice = 44m,
                             LotId = 41,
                             OperationDate = new DateTime(2022, 6, 17, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1042,
-                            BetValue = 46269m,
+                            BetValue = 150m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 6, 18, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 3, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 46269m,
+                            InitialPrice = 150m,
                             LotId = 42,
                             OperationDate = new DateTime(2022, 6, 17, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1043,
-                            BetValue = 31094m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 7, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 486m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 7, 12, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 31094m,
+                            InitialPrice = 486m,
                             LotId = 43,
                             OperationDate = new DateTime(2022, 6, 18, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1044,
-                            BetValue = 87021m,
+                            BetValue = 374m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 4, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 6, 19, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 87021m,
+                            InitialPrice = 374m,
                             LotId = 44,
                             OperationDate = new DateTime(2022, 6, 18, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1045,
-                            BetValue = 25503m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 6, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 719m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 7, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 25503m,
+                            InitialPrice = 719m,
                             LotId = 45,
                             OperationDate = new DateTime(2022, 6, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1046,
-                            BetValue = 79663m,
+                            BetValue = 264m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 6, 20, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 6, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 79663m,
+                            InitialPrice = 264m,
                             LotId = 46,
                             OperationDate = new DateTime(2022, 6, 19, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1047,
-                            BetValue = 34177m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 6, 25, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 550m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 7, 7, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 34177m,
+                            InitialPrice = 550m,
                             LotId = 47,
                             OperationDate = new DateTime(2022, 6, 19, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1048,
-                            BetValue = 26248m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 16, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 712m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 7, 3, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 26248m,
+                            InitialPrice = 712m,
                             LotId = 48,
                             OperationDate = new DateTime(2022, 6, 20, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1049,
-                            BetValue = 88721m,
+                            BetValue = 769m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 6, 22, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 5, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 88721m,
+                            InitialPrice = 769m,
                             LotId = 49,
                             OperationDate = new DateTime(2022, 6, 20, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1050,
-                            BetValue = 88510m,
+                            BetValue = 874m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 88510m,
+                            InitialPrice = 874m,
                             LotId = 50,
                             OperationDate = new DateTime(2022, 6, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1051,
-                            BetValue = 83768m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 6, 28, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 208m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 7, 20, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 83768m,
+                            InitialPrice = 208m,
                             LotId = 51,
                             OperationDate = new DateTime(2022, 6, 21, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1052,
-                            BetValue = 4908m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 6, 24, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 269m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 7, 8, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 4908m,
+                            InitialPrice = 269m,
                             LotId = 52,
                             OperationDate = new DateTime(2022, 6, 21, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1053,
-                            BetValue = 48396m,
+                            BetValue = 346m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 6, 24, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 21, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 48396m,
+                            InitialPrice = 346m,
                             LotId = 53,
                             OperationDate = new DateTime(2022, 6, 22, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1054,
-                            BetValue = 13338m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 20, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 82m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 7, 15, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 13338m,
+                            InitialPrice = 82m,
                             LotId = 54,
                             OperationDate = new DateTime(2022, 6, 22, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1055,
-                            BetValue = 32108m,
+                            BetValue = 704m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 6, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 32108m,
+                            InitialPrice = 704m,
                             LotId = 55,
                             OperationDate = new DateTime(2022, 6, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1056,
-                            BetValue = 61931m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 3, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 70m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 7, 16, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 61931m,
+                            InitialPrice = 70m,
                             LotId = 56,
                             OperationDate = new DateTime(2022, 6, 23, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1057,
-                            BetValue = 35916m,
+                            BetValue = 829m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 17, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 6, 28, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 35916m,
+                            InitialPrice = 829m,
                             LotId = 57,
                             OperationDate = new DateTime(2022, 6, 23, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1058,
-                            BetValue = 99097m,
+                            BetValue = 826m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 2, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 8, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 99097m,
+                            InitialPrice = 826m,
                             LotId = 58,
                             OperationDate = new DateTime(2022, 6, 24, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1059,
-                            BetValue = 71797m,
+                            BetValue = 733m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 7, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 22, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 71797m,
+                            InitialPrice = 733m,
                             LotId = 59,
                             OperationDate = new DateTime(2022, 6, 24, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1060,
-                            BetValue = 26751m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 321m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 7, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 26751m,
+                            InitialPrice = 321m,
                             LotId = 60,
                             OperationDate = new DateTime(2022, 6, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1061,
-                            BetValue = 35738m,
+                            BetValue = 435m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 17, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 19, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 35738m,
+                            InitialPrice = 435m,
                             LotId = 61,
                             OperationDate = new DateTime(2022, 6, 25, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1062,
-                            BetValue = 36207m,
-                            CustomerId = 2,
+                            BetValue = 428m,
+                            CustomerId = 3,
                             Deadline = new DateTime(2022, 7, 7, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 36207m,
+                            InitialPrice = 428m,
                             LotId = 62,
                             OperationDate = new DateTime(2022, 6, 25, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1063,
-                            BetValue = 91126m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 6, 29, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 86m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 7, 15, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 91126m,
+                            InitialPrice = 86m,
                             LotId = 63,
                             OperationDate = new DateTime(2022, 6, 26, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1064,
-                            BetValue = 83589m,
+                            BetValue = 109m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 1, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 3, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 83589m,
+                            InitialPrice = 109m,
                             LotId = 64,
                             OperationDate = new DateTime(2022, 6, 26, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1065,
-                            BetValue = 75726m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 395m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 6, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 75726m,
+                            InitialPrice = 395m,
                             LotId = 65,
                             OperationDate = new DateTime(2022, 6, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1066,
-                            BetValue = 49893m,
+                            BetValue = 188m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 26, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 4, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 49893m,
+                            InitialPrice = 188m,
                             LotId = 66,
                             OperationDate = new DateTime(2022, 6, 27, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1067,
-                            BetValue = 91957m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 2, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 332m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 7, 19, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 91957m,
+                            InitialPrice = 332m,
                             LotId = 67,
                             OperationDate = new DateTime(2022, 6, 27, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1068,
-                            BetValue = 51097m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 14, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 710m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 7, 2, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 51097m,
+                            InitialPrice = 710m,
                             LotId = 68,
                             OperationDate = new DateTime(2022, 6, 28, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1069,
-                            BetValue = 98124m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 21, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 795m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 7, 12, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 98124m,
+                            InitialPrice = 795m,
                             LotId = 69,
                             OperationDate = new DateTime(2022, 6, 28, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1070,
-                            BetValue = 10391m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 878m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 7, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 10391m,
+                            InitialPrice = 878m,
                             LotId = 70,
                             OperationDate = new DateTime(2022, 6, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1071,
-                            BetValue = 43405m,
+                            BetValue = 569m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 19, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 9, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 43405m,
+                            InitialPrice = 569m,
                             LotId = 71,
                             OperationDate = new DateTime(2022, 6, 29, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1072,
-                            BetValue = 95879m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 16, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 407m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 7, 21, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 95879m,
+                            InitialPrice = 407m,
                             LotId = 72,
                             OperationDate = new DateTime(2022, 6, 29, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1073,
-                            BetValue = 33081m,
+                            BetValue = 813m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 27, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 16, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 33081m,
+                            InitialPrice = 813m,
                             LotId = 73,
                             OperationDate = new DateTime(2022, 6, 30, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1074,
-                            BetValue = 61697m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 4, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 516m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 7, 2, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 61697m,
+                            InitialPrice = 516m,
                             LotId = 74,
                             OperationDate = new DateTime(2022, 6, 30, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1075,
-                            BetValue = 8289m,
+                            BetValue = 87m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 8289m,
+                            InitialPrice = 87m,
                             LotId = 75,
                             OperationDate = new DateTime(2022, 7, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1076,
-                            BetValue = 18462m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 21, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 660m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 7, 12, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 18462m,
+                            InitialPrice = 660m,
                             LotId = 76,
                             OperationDate = new DateTime(2022, 7, 1, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1077,
-                            BetValue = 93569m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 10, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 450m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 7, 26, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 93569m,
+                            InitialPrice = 450m,
                             LotId = 77,
                             OperationDate = new DateTime(2022, 7, 1, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1078,
-                            BetValue = 21239m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 9, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 146m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 7, 25, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 21239m,
+                            InitialPrice = 146m,
                             LotId = 78,
                             OperationDate = new DateTime(2022, 7, 2, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1079,
-                            BetValue = 26542m,
+                            BetValue = 417m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 24, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 17, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 26542m,
+                            InitialPrice = 417m,
                             LotId = 79,
                             OperationDate = new DateTime(2022, 7, 2, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1080,
-                            BetValue = 8652m,
+                            BetValue = 358m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 8652m,
+                            InitialPrice = 358m,
                             LotId = 80,
                             OperationDate = new DateTime(2022, 7, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1081,
-                            BetValue = 59227m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 21, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 600m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 7, 6, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 59227m,
+                            InitialPrice = 600m,
                             LotId = 81,
                             OperationDate = new DateTime(2022, 7, 3, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1082,
-                            BetValue = 72271m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 10, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 242m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 7, 29, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 72271m,
+                            InitialPrice = 242m,
                             LotId = 82,
                             OperationDate = new DateTime(2022, 7, 3, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1083,
-                            BetValue = 4459m,
+                            BetValue = 580m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 21, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 28, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 4459m,
+                            InitialPrice = 580m,
                             LotId = 83,
                             OperationDate = new DateTime(2022, 7, 4, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1084,
-                            BetValue = 96870m,
+                            BetValue = 295m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 29, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 31, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 96870m,
+                            InitialPrice = 295m,
                             LotId = 84,
                             OperationDate = new DateTime(2022, 7, 4, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1085,
-                            BetValue = 26082m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 41m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 7, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 26082m,
+                            InitialPrice = 41m,
                             LotId = 85,
                             OperationDate = new DateTime(2022, 7, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1086,
-                            BetValue = 97750m,
+                            BetValue = 682m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 20, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 18, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 97750m,
+                            InitialPrice = 682m,
                             LotId = 86,
                             OperationDate = new DateTime(2022, 7, 5, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1087,
-                            BetValue = 51066m,
+                            BetValue = 77m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 15, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 11, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 51066m,
+                            InitialPrice = 77m,
                             LotId = 87,
                             OperationDate = new DateTime(2022, 7, 5, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1088,
-                            BetValue = 32215m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 2, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 494m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 8, 3, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 32215m,
+                            InitialPrice = 494m,
                             LotId = 88,
                             OperationDate = new DateTime(2022, 7, 6, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1089,
-                            BetValue = 72166m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 3, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 410m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 7, 30, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 72166m,
+                            InitialPrice = 410m,
                             LotId = 89,
                             OperationDate = new DateTime(2022, 7, 6, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1090,
-                            BetValue = 29392m,
+                            BetValue = 125m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 29392m,
+                            InitialPrice = 125m,
                             LotId = 90,
                             OperationDate = new DateTime(2022, 7, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1091,
-                            BetValue = 93580m,
+                            BetValue = 221m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 28, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 13, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 93580m,
+                            InitialPrice = 221m,
                             LotId = 91,
                             OperationDate = new DateTime(2022, 7, 7, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1092,
-                            BetValue = 41563m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 16, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 569m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 7, 19, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 41563m,
+                            InitialPrice = 569m,
                             LotId = 92,
                             OperationDate = new DateTime(2022, 7, 7, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1093,
-                            BetValue = 93916m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 9, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 647m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 7, 16, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 93916m,
+                            InitialPrice = 647m,
                             LotId = 93,
                             OperationDate = new DateTime(2022, 7, 8, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1094,
-                            BetValue = 81169m,
+                            BetValue = 587m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 26, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 2, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 81169m,
+                            InitialPrice = 587m,
                             LotId = 94,
                             OperationDate = new DateTime(2022, 7, 8, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1095,
-                            BetValue = 25134m,
+                            BetValue = 606m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 25134m,
+                            InitialPrice = 606m,
                             LotId = 95,
                             OperationDate = new DateTime(2022, 7, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1096,
-                            BetValue = 54474m,
+                            BetValue = 84m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 24, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 25, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 54474m,
+                            InitialPrice = 84m,
                             LotId = 96,
                             OperationDate = new DateTime(2022, 7, 9, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1097,
-                            BetValue = 29493m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 23, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 850m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 7, 24, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 29493m,
+                            InitialPrice = 850m,
                             LotId = 97,
                             OperationDate = new DateTime(2022, 7, 9, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1098,
-                            BetValue = 21129m,
+                            BetValue = 786m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 17, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 15, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 21129m,
+                            InitialPrice = 786m,
                             LotId = 98,
                             OperationDate = new DateTime(2022, 7, 10, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1099,
-                            BetValue = 91330m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 18, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 147m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 7, 16, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 91330m,
+                            InitialPrice = 147m,
                             LotId = 99,
                             OperationDate = new DateTime(2022, 7, 10, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1100,
-                            BetValue = 50171m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 395m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 7, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 50171m,
+                            InitialPrice = 395m,
                             LotId = 100,
                             OperationDate = new DateTime(2022, 7, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1101,
-                            BetValue = 78538m,
-                            CustomerId = 2,
+                            BetValue = 748m,
+                            CustomerId = 3,
                             Deadline = new DateTime(2022, 7, 19, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 78538m,
+                            InitialPrice = 748m,
                             LotId = 101,
                             OperationDate = new DateTime(2022, 7, 11, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1102,
-                            BetValue = 35673m,
+                            BetValue = 89m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 2, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 21, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 35673m,
+                            InitialPrice = 89m,
                             LotId = 102,
                             OperationDate = new DateTime(2022, 7, 11, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1103,
-                            BetValue = 55794m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 28, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 870m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 8, 6, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 55794m,
+                            InitialPrice = 870m,
                             LotId = 103,
                             OperationDate = new DateTime(2022, 7, 12, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1104,
-                            BetValue = 76073m,
+                            BetValue = 793m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 19, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 31, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 76073m,
+                            InitialPrice = 793m,
                             LotId = 104,
                             OperationDate = new DateTime(2022, 7, 12, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1105,
-                            BetValue = 17041m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 811m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 7, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 17041m,
+                            InitialPrice = 811m,
                             LotId = 105,
                             OperationDate = new DateTime(2022, 7, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1106,
-                            BetValue = 90656m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 28, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 697m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 8, 7, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 90656m,
+                            InitialPrice = 697m,
                             LotId = 106,
                             OperationDate = new DateTime(2022, 7, 13, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1107,
-                            BetValue = 56991m,
+                            BetValue = 130m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 17, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 7, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 56991m,
+                            InitialPrice = 130m,
                             LotId = 107,
                             OperationDate = new DateTime(2022, 7, 13, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1108,
-                            BetValue = 90341m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 18, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 452m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 7, 23, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 90341m,
+                            InitialPrice = 452m,
                             LotId = 108,
                             OperationDate = new DateTime(2022, 7, 14, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1109,
-                            BetValue = 55850m,
+                            BetValue = 580m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 9, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 29, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 55850m,
+                            InitialPrice = 580m,
                             LotId = 109,
                             OperationDate = new DateTime(2022, 7, 14, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1110,
-                            BetValue = 54690m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 191m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 8, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 54690m,
+                            InitialPrice = 191m,
                             LotId = 110,
                             OperationDate = new DateTime(2022, 7, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1111,
-                            BetValue = 97542m,
+                            BetValue = 472m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 24, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 16, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 97542m,
+                            InitialPrice = 472m,
                             LotId = 111,
                             OperationDate = new DateTime(2022, 7, 15, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1112,
-                            BetValue = 91093m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 28, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 175m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 7, 19, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 91093m,
+                            InitialPrice = 175m,
                             LotId = 112,
                             OperationDate = new DateTime(2022, 7, 15, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1113,
-                            BetValue = 7228m,
+                            BetValue = 584m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 24, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 5, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 7228m,
+                            InitialPrice = 584m,
                             LotId = 113,
                             OperationDate = new DateTime(2022, 7, 16, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1114,
-                            BetValue = 37172m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 8, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 631m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 7, 27, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 37172m,
+                            InitialPrice = 631m,
                             LotId = 114,
                             OperationDate = new DateTime(2022, 7, 16, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1115,
-                            BetValue = 3614m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 543m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 8, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 3614m,
+                            InitialPrice = 543m,
                             LotId = 115,
                             OperationDate = new DateTime(2022, 7, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1116,
-                            BetValue = 11518m,
+                            BetValue = 866m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 14, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 2, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 11518m,
+                            InitialPrice = 866m,
                             LotId = 116,
                             OperationDate = new DateTime(2022, 7, 17, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1117,
-                            BetValue = 95182m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 9, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 47m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 7, 29, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 95182m,
+                            InitialPrice = 47m,
                             LotId = 117,
                             OperationDate = new DateTime(2022, 7, 17, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1118,
-                            BetValue = 62247m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 13, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 350m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 8, 8, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 62247m,
+                            InitialPrice = 350m,
                             LotId = 118,
                             OperationDate = new DateTime(2022, 7, 18, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1119,
-                            BetValue = 11013m,
+                            BetValue = 625m,
                             CustomerId = 3,
                             Deadline = new DateTime(2022, 8, 10, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 11013m,
+                            InitialPrice = 625m,
                             LotId = 119,
                             OperationDate = new DateTime(2022, 7, 18, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1120,
-                            BetValue = 2084m,
+                            BetValue = 304m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 2084m,
+                            InitialPrice = 304m,
                             LotId = 120,
                             OperationDate = new DateTime(2022, 7, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1121,
-                            BetValue = 46641m,
+                            BetValue = 669m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 16, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 13, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 46641m,
+                            InitialPrice = 669m,
                             LotId = 121,
                             OperationDate = new DateTime(2022, 7, 19, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1122,
-                            BetValue = 2820m,
+                            BetValue = 541m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 16, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 8, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 2820m,
+                            InitialPrice = 541m,
                             LotId = 122,
                             OperationDate = new DateTime(2022, 7, 19, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1123,
-                            BetValue = 55977m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 30, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 526m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 7, 28, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 55977m,
+                            InitialPrice = 526m,
                             LotId = 123,
                             OperationDate = new DateTime(2022, 7, 20, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1124,
-                            BetValue = 53850m,
+                            BetValue = 762m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 5, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 31, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 53850m,
+                            InitialPrice = 762m,
                             LotId = 124,
                             OperationDate = new DateTime(2022, 7, 20, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1125,
-                            BetValue = 8827m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 840m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 8, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 8827m,
+                            InitialPrice = 840m,
                             LotId = 125,
                             OperationDate = new DateTime(2022, 7, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1126,
-                            BetValue = 95974m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 13, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 687m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 8, 11, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 95974m,
+                            InitialPrice = 687m,
                             LotId = 126,
                             OperationDate = new DateTime(2022, 7, 21, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1127,
-                            BetValue = 37023m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 27, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 175m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 8, 13, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 37023m,
+                            InitialPrice = 175m,
                             LotId = 127,
                             OperationDate = new DateTime(2022, 7, 21, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1128,
-                            BetValue = 80741m,
+                            BetValue = 703m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 11, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 27, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 80741m,
+                            InitialPrice = 703m,
                             LotId = 128,
                             OperationDate = new DateTime(2022, 7, 22, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1129,
-                            BetValue = 43082m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 8, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 370m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 7, 26, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 43082m,
+                            InitialPrice = 370m,
                             LotId = 129,
                             OperationDate = new DateTime(2022, 7, 22, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1130,
-                            BetValue = 43593m,
+                            BetValue = 634m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 31, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 43593m,
+                            InitialPrice = 634m,
                             LotId = 130,
                             OperationDate = new DateTime(2022, 7, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1131,
-                            BetValue = 62776m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 12, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 457m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 7, 26, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 62776m,
+                            InitialPrice = 457m,
                             LotId = 131,
                             OperationDate = new DateTime(2022, 7, 23, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1132,
-                            BetValue = 61769m,
+                            BetValue = 444m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 9, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 7, 25, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 61769m,
+                            InitialPrice = 444m,
                             LotId = 132,
                             OperationDate = new DateTime(2022, 7, 23, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1133,
-                            BetValue = 34972m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 20, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 137m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 8, 11, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 34972m,
+                            InitialPrice = 137m,
                             LotId = 133,
                             OperationDate = new DateTime(2022, 7, 24, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1134,
-                            BetValue = 82217m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 13, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 561m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 8, 10, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 82217m,
+                            InitialPrice = 561m,
                             LotId = 134,
                             OperationDate = new DateTime(2022, 7, 24, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1135,
-                            BetValue = 89287m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 638m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 8, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 89287m,
+                            InitialPrice = 638m,
                             LotId = 135,
                             OperationDate = new DateTime(2022, 7, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1136,
-                            BetValue = 44894m,
+                            BetValue = 208m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 11, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 23, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 44894m,
+                            InitialPrice = 208m,
                             LotId = 136,
                             OperationDate = new DateTime(2022, 7, 25, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1137,
-                            BetValue = 6491m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 17, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 574m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 8, 2, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 6491m,
+                            InitialPrice = 574m,
                             LotId = 137,
                             OperationDate = new DateTime(2022, 7, 25, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1138,
-                            BetValue = 78976m,
+                            BetValue = 796m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 3, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 11, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 78976m,
+                            InitialPrice = 796m,
                             LotId = 138,
                             OperationDate = new DateTime(2022, 7, 26, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1139,
-                            BetValue = 62291m,
+                            BetValue = 672m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 17, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 13, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 62291m,
+                            InitialPrice = 672m,
                             LotId = 139,
                             OperationDate = new DateTime(2022, 7, 26, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1140,
-                            BetValue = 43088m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 19, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 813m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 7, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 43088m,
+                            InitialPrice = 813m,
                             LotId = 140,
                             OperationDate = new DateTime(2022, 7, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1141,
-                            BetValue = 80296m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 24, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 640m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 7, 31, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 80296m,
+                            InitialPrice = 640m,
                             LotId = 141,
                             OperationDate = new DateTime(2022, 7, 27, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1142,
-                            BetValue = 15754m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 5, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 324m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 8, 1, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 15754m,
+                            InitialPrice = 324m,
                             LotId = 142,
                             OperationDate = new DateTime(2022, 7, 27, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1143,
-                            BetValue = 40350m,
+                            BetValue = 796m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 7, 30, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 11, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 40350m,
+                            InitialPrice = 796m,
                             LotId = 143,
                             OperationDate = new DateTime(2022, 7, 28, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1144,
-                            BetValue = 30159m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 14, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 568m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 8, 5, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 30159m,
+                            InitialPrice = 568m,
                             LotId = 144,
                             OperationDate = new DateTime(2022, 7, 28, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1145,
-                            BetValue = 69930m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 548m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 8, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 69930m,
+                            InitialPrice = 548m,
                             LotId = 145,
                             OperationDate = new DateTime(2022, 7, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1146,
-                            BetValue = 69888m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 11, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 51m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 8, 9, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 69888m,
+                            InitialPrice = 51m,
                             LotId = 146,
                             OperationDate = new DateTime(2022, 7, 29, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1147,
-                            BetValue = 31355m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 7, 30, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 284m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 8, 3, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 31355m,
+                            InitialPrice = 284m,
                             LotId = 147,
                             OperationDate = new DateTime(2022, 7, 29, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1148,
-                            BetValue = 17923m,
+                            BetValue = 261m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 26, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 16, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 17923m,
+                            InitialPrice = 261m,
                             LotId = 148,
                             OperationDate = new DateTime(2022, 7, 30, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1149,
-                            BetValue = 72180m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 13, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 403m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 8, 15, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 72180m,
+                            InitialPrice = 403m,
                             LotId = 149,
                             OperationDate = new DateTime(2022, 7, 30, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1150,
-                            BetValue = 34872m,
+                            BetValue = 189m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 34872m,
+                            InitialPrice = 189m,
                             LotId = 150,
                             OperationDate = new DateTime(2022, 7, 31, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1151,
-                            BetValue = 9270m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 4, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 795m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 8, 6, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 9270m,
+                            InitialPrice = 795m,
                             LotId = 151,
                             OperationDate = new DateTime(2022, 7, 31, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1152,
-                            BetValue = 99745m,
-                            CustomerId = 3,
+                            BetValue = 122m,
+                            CustomerId = 2,
                             Deadline = new DateTime(2022, 8, 14, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 99745m,
+                            InitialPrice = 122m,
                             LotId = 152,
                             OperationDate = new DateTime(2022, 7, 31, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1153,
-                            BetValue = 19175m,
+                            BetValue = 420m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 14, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 24, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 19175m,
+                            InitialPrice = 420m,
                             LotId = 153,
                             OperationDate = new DateTime(2022, 8, 1, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1154,
-                            BetValue = 53238m,
+                            BetValue = 510m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 23, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 7, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 53238m,
+                            InitialPrice = 510m,
                             LotId = 154,
                             OperationDate = new DateTime(2022, 8, 1, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1155,
-                            BetValue = 17428m,
+                            BetValue = 628m,
                             CustomerId = 2,
                             Deadline = new DateTime(2022, 8, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 17428m,
+                            InitialPrice = 628m,
                             LotId = 155,
                             OperationDate = new DateTime(2022, 8, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1156,
-                            BetValue = 91962m,
+                            BetValue = 365m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 19, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 13, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 91962m,
+                            InitialPrice = 365m,
                             LotId = 156,
                             OperationDate = new DateTime(2022, 8, 2, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1157,
-                            BetValue = 79306m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 7, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 322m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 8, 24, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 79306m,
+                            InitialPrice = 322m,
                             LotId = 157,
                             OperationDate = new DateTime(2022, 8, 2, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1158,
-                            BetValue = 51255m,
-                            CustomerId = 3,
+                            BetValue = 142m,
+                            CustomerId = 2,
                             Deadline = new DateTime(2022, 8, 5, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 51255m,
+                            InitialPrice = 142m,
                             LotId = 158,
                             OperationDate = new DateTime(2022, 8, 3, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1159,
-                            BetValue = 74844m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 16, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 307m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 9, 1, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 74844m,
+                            InitialPrice = 307m,
                             LotId = 159,
                             OperationDate = new DateTime(2022, 8, 3, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1160,
-                            BetValue = 86363m,
+                            BetValue = 476m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 86363m,
+                            InitialPrice = 476m,
                             LotId = 160,
                             OperationDate = new DateTime(2022, 8, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1161,
-                            BetValue = 78641m,
+                            BetValue = 107m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 13, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 12, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 78641m,
+                            InitialPrice = 107m,
                             LotId = 161,
                             OperationDate = new DateTime(2022, 8, 4, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1162,
-                            BetValue = 32210m,
+                            BetValue = 475m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 13, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 22, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 32210m,
+                            InitialPrice = 475m,
                             LotId = 162,
                             OperationDate = new DateTime(2022, 8, 4, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1163,
-                            BetValue = 38939m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 25, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 403m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 8, 28, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 38939m,
+                            InitialPrice = 403m,
                             LotId = 163,
                             OperationDate = new DateTime(2022, 8, 5, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1164,
-                            BetValue = 51999m,
+                            BetValue = 403m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 22, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 30, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 51999m,
+                            InitialPrice = 403m,
                             LotId = 164,
                             OperationDate = new DateTime(2022, 8, 5, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1165,
-                            BetValue = 55433m,
+                            BetValue = 583m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 55433m,
+                            InitialPrice = 583m,
                             LotId = 165,
                             OperationDate = new DateTime(2022, 8, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1166,
-                            BetValue = 5757m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 18, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 107m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 9, 2, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 5757m,
+                            InitialPrice = 107m,
                             LotId = 166,
                             OperationDate = new DateTime(2022, 8, 6, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1167,
-                            BetValue = 74759m,
+                            BetValue = 396m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 4, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 29, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 74759m,
+                            InitialPrice = 396m,
                             LotId = 167,
                             OperationDate = new DateTime(2022, 8, 6, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1168,
-                            BetValue = 96473m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 23, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 757m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 8, 14, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 96473m,
+                            InitialPrice = 757m,
                             LotId = 168,
                             OperationDate = new DateTime(2022, 8, 7, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1169,
-                            BetValue = 7483m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 29, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 607m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 8, 9, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 7483m,
+                            InitialPrice = 607m,
                             LotId = 169,
                             OperationDate = new DateTime(2022, 8, 7, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1170,
-                            BetValue = 68198m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 739m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 8, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 68198m,
+                            InitialPrice = 739m,
                             LotId = 170,
                             OperationDate = new DateTime(2022, 8, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1171,
-                            BetValue = 54354m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 21, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 568m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 8, 12, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 54354m,
+                            InitialPrice = 568m,
                             LotId = 171,
                             OperationDate = new DateTime(2022, 8, 8, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1172,
-                            BetValue = 71484m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 23, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 591m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 8, 17, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 71484m,
+                            InitialPrice = 591m,
                             LotId = 172,
                             OperationDate = new DateTime(2022, 8, 8, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1173,
-                            BetValue = 57915m,
+                            BetValue = 810m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 17, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 3, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 57915m,
+                            InitialPrice = 810m,
                             LotId = 173,
                             OperationDate = new DateTime(2022, 8, 9, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1174,
-                            BetValue = 10631m,
+                            BetValue = 858m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 16, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 12, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 10631m,
+                            InitialPrice = 858m,
                             LotId = 174,
                             OperationDate = new DateTime(2022, 8, 9, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1175,
-                            BetValue = 75134m,
+                            BetValue = 847m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 75134m,
+                            InitialPrice = 847m,
                             LotId = 175,
                             OperationDate = new DateTime(2022, 8, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1176,
-                            BetValue = 8223m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 25, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 405m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 8, 26, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 8223m,
+                            InitialPrice = 405m,
                             LotId = 176,
                             OperationDate = new DateTime(2022, 8, 10, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1177,
-                            BetValue = 14010m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 16, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 837m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 9, 1, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 14010m,
+                            InitialPrice = 837m,
                             LotId = 177,
                             OperationDate = new DateTime(2022, 8, 10, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1178,
-                            BetValue = 20083m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 19, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 681m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 9, 8, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 20083m,
+                            InitialPrice = 681m,
                             LotId = 178,
                             OperationDate = new DateTime(2022, 8, 11, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1179,
-                            BetValue = 86940m,
+                            BetValue = 678m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 24, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 21, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 86940m,
+                            InitialPrice = 678m,
                             LotId = 179,
                             OperationDate = new DateTime(2022, 8, 11, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1180,
-                            BetValue = 96180m,
+                            BetValue = 241m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 96180m,
+                            InitialPrice = 241m,
                             LotId = 180,
                             OperationDate = new DateTime(2022, 8, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1181,
-                            BetValue = 88897m,
+                            BetValue = 824m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 14, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 2, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 88897m,
+                            InitialPrice = 824m,
                             LotId = 181,
                             OperationDate = new DateTime(2022, 8, 12, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1182,
-                            BetValue = 50412m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 2, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 13m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 9, 6, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 50412m,
+                            InitialPrice = 13m,
                             LotId = 182,
                             OperationDate = new DateTime(2022, 8, 12, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1183,
-                            BetValue = 94656m,
+                            BetValue = 296m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 11, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 9, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 94656m,
+                            InitialPrice = 296m,
                             LotId = 183,
                             OperationDate = new DateTime(2022, 8, 13, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1184,
-                            BetValue = 86034m,
+                            BetValue = 847m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 7, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 14, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 86034m,
+                            InitialPrice = 847m,
                             LotId = 184,
                             OperationDate = new DateTime(2022, 8, 13, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1185,
-                            BetValue = 38549m,
+                            BetValue = 658m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 31, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 38549m,
+                            InitialPrice = 658m,
                             LotId = 185,
                             OperationDate = new DateTime(2022, 8, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1186,
-                            BetValue = 38509m,
+                            BetValue = 820m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 23, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 28, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 38509m,
+                            InitialPrice = 820m,
                             LotId = 186,
                             OperationDate = new DateTime(2022, 8, 14, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1187,
-                            BetValue = 41910m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 23, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 130m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 9, 1, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 41910m,
+                            InitialPrice = 130m,
                             LotId = 187,
                             OperationDate = new DateTime(2022, 8, 14, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1188,
-                            BetValue = 91462m,
+                            BetValue = 302m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 20, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 6, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 91462m,
+                            InitialPrice = 302m,
                             LotId = 188,
                             OperationDate = new DateTime(2022, 8, 15, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1189,
-                            BetValue = 31057m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 6, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 356m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 9, 12, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 31057m,
+                            InitialPrice = 356m,
                             LotId = 189,
                             OperationDate = new DateTime(2022, 8, 15, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1190,
-                            BetValue = 201m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 771m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 8, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 201m,
+                            InitialPrice = 771m,
                             LotId = 190,
                             OperationDate = new DateTime(2022, 8, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1191,
-                            BetValue = 17136m,
+                            BetValue = 10m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 24, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 9, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 17136m,
+                            InitialPrice = 10m,
                             LotId = 191,
                             OperationDate = new DateTime(2022, 8, 16, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1192,
-                            BetValue = 37653m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 11, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 695m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 8, 17, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 37653m,
+                            InitialPrice = 695m,
                             LotId = 192,
                             OperationDate = new DateTime(2022, 8, 16, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1193,
-                            BetValue = 3352m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 26, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 42m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 9, 6, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 3352m,
+                            InitialPrice = 42m,
                             LotId = 193,
                             OperationDate = new DateTime(2022, 8, 17, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1194,
-                            BetValue = 98926m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 13, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 441m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 9, 10, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 98926m,
+                            InitialPrice = 441m,
                             LotId = 194,
                             OperationDate = new DateTime(2022, 8, 17, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1195,
-                            BetValue = 5234m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 868m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 9, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 5234m,
+                            InitialPrice = 868m,
                             LotId = 195,
                             OperationDate = new DateTime(2022, 8, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1196,
-                            BetValue = 76511m,
+                            BetValue = 533m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 29, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 21, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 76511m,
+                            InitialPrice = 533m,
                             LotId = 196,
                             OperationDate = new DateTime(2022, 8, 18, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1197,
-                            BetValue = 54610m,
+                            BetValue = 895m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 11, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 24, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 54610m,
+                            InitialPrice = 895m,
                             LotId = 197,
                             OperationDate = new DateTime(2022, 8, 18, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1198,
-                            BetValue = 37303m,
+                            BetValue = 169m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 30, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 4, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 37303m,
+                            InitialPrice = 169m,
                             LotId = 198,
                             OperationDate = new DateTime(2022, 8, 19, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1199,
-                            BetValue = 19793m,
+                            BetValue = 207m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 8, 28, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 30, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 19793m,
+                            InitialPrice = 207m,
                             LotId = 199,
                             OperationDate = new DateTime(2022, 8, 19, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1200,
-                            BetValue = 45487m,
+                            BetValue = 340m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 45487m,
+                            InitialPrice = 340m,
                             LotId = 200,
                             OperationDate = new DateTime(2022, 8, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1201,
-                            BetValue = 45465m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 16, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 827m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 9, 4, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 45465m,
+                            InitialPrice = 827m,
                             LotId = 201,
                             OperationDate = new DateTime(2022, 8, 20, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1202,
-                            BetValue = 88951m,
+                            BetValue = 443m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 21, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 24, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 88951m,
+                            InitialPrice = 443m,
                             LotId = 202,
                             OperationDate = new DateTime(2022, 8, 20, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1203,
-                            BetValue = 88420m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 16, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 630m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 9, 1, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 88420m,
+                            InitialPrice = 630m,
                             LotId = 203,
                             OperationDate = new DateTime(2022, 8, 21, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1204,
-                            BetValue = 1908m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 26, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 485m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 9, 14, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 1908m,
+                            InitialPrice = 485m,
                             LotId = 204,
                             OperationDate = new DateTime(2022, 8, 21, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1205,
-                            BetValue = 33509m,
+                            BetValue = 497m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 33509m,
+                            InitialPrice = 497m,
                             LotId = 205,
                             OperationDate = new DateTime(2022, 8, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1206,
-                            BetValue = 27105m,
+                            BetValue = 659m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 13, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 11, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 27105m,
+                            InitialPrice = 659m,
                             LotId = 206,
                             OperationDate = new DateTime(2022, 8, 22, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1207,
-                            BetValue = 24815m,
+                            BetValue = 392m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 28, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 18, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 24815m,
+                            InitialPrice = 392m,
                             LotId = 207,
                             OperationDate = new DateTime(2022, 8, 22, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1208,
-                            BetValue = 56878m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 14, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 806m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 8, 27, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 56878m,
+                            InitialPrice = 806m,
                             LotId = 208,
                             OperationDate = new DateTime(2022, 8, 23, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1209,
-                            BetValue = 21750m,
+                            BetValue = 511m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 15, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 14, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 21750m,
+                            InitialPrice = 511m,
                             LotId = 209,
                             OperationDate = new DateTime(2022, 8, 23, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1210,
-                            BetValue = 73384m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 464m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 9, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 73384m,
+                            InitialPrice = 464m,
                             LotId = 210,
                             OperationDate = new DateTime(2022, 8, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1211,
-                            BetValue = 75269m,
+                            BetValue = 612m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 31, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 15, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 75269m,
+                            InitialPrice = 612m,
                             LotId = 211,
                             OperationDate = new DateTime(2022, 8, 24, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1212,
-                            BetValue = 36797m,
+                            BetValue = 674m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 30, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 28, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 36797m,
+                            InitialPrice = 674m,
                             LotId = 212,
                             OperationDate = new DateTime(2022, 8, 24, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1213,
-                            BetValue = 61295m,
+                            BetValue = 770m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 10, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 8, 26, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 61295m,
+                            InitialPrice = 770m,
                             LotId = 213,
                             OperationDate = new DateTime(2022, 8, 25, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1214,
-                            BetValue = 7549m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 6, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 50m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 9, 12, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 7549m,
+                            InitialPrice = 50m,
                             LotId = 214,
                             OperationDate = new DateTime(2022, 8, 25, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1215,
-                            BetValue = 24313m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 868m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 8, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 24313m,
+                            InitialPrice = 868m,
                             LotId = 215,
                             OperationDate = new DateTime(2022, 8, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1216,
-                            BetValue = 83092m,
+                            BetValue = 463m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 6, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 7, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 83092m,
+                            InitialPrice = 463m,
                             LotId = 216,
                             OperationDate = new DateTime(2022, 8, 26, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1217,
-                            BetValue = 72939m,
-                            CustomerId = 2,
+                            BetValue = 262m,
+                            CustomerId = 3,
                             Deadline = new DateTime(2022, 9, 16, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 72939m,
+                            InitialPrice = 262m,
                             LotId = 217,
                             OperationDate = new DateTime(2022, 8, 26, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1218,
-                            BetValue = 42183m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 20, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 295m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 9, 9, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 42183m,
+                            InitialPrice = 295m,
                             LotId = 218,
                             OperationDate = new DateTime(2022, 8, 27, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1219,
-                            BetValue = 12727m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 1, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 364m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 9, 24, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 12727m,
+                            InitialPrice = 364m,
                             LotId = 219,
                             OperationDate = new DateTime(2022, 8, 27, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1220,
-                            BetValue = 49626m,
+                            BetValue = 332m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 19, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 49626m,
+                            InitialPrice = 332m,
                             LotId = 220,
                             OperationDate = new DateTime(2022, 8, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1221,
-                            BetValue = 13465m,
+                            BetValue = 123m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 2, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 3, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 13465m,
+                            InitialPrice = 123m,
                             LotId = 221,
                             OperationDate = new DateTime(2022, 8, 28, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1222,
-                            BetValue = 96276m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 18, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 507m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 9, 4, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 96276m,
+                            InitialPrice = 507m,
                             LotId = 222,
                             OperationDate = new DateTime(2022, 8, 28, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1223,
-                            BetValue = 51982m,
+                            BetValue = 337m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 8, 30, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 6, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 51982m,
+                            InitialPrice = 337m,
                             LotId = 223,
                             OperationDate = new DateTime(2022, 8, 29, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1224,
-                            BetValue = 91060m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 5, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 329m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 9, 14, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 91060m,
+                            InitialPrice = 329m,
                             LotId = 224,
                             OperationDate = new DateTime(2022, 8, 29, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1225,
-                            BetValue = 40587m,
+                            BetValue = 57m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 40587m,
+                            InitialPrice = 57m,
                             LotId = 225,
                             OperationDate = new DateTime(2022, 8, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1226,
-                            BetValue = 59397m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 23, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 510m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 8, 31, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 59397m,
+                            InitialPrice = 510m,
                             LotId = 226,
                             OperationDate = new DateTime(2022, 8, 30, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1227,
-                            BetValue = 46353m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 21, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 575m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 9, 17, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 46353m,
+                            InitialPrice = 575m,
                             LotId = 227,
                             OperationDate = new DateTime(2022, 8, 30, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1228,
-                            BetValue = 58912m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 7, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 622m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 9, 12, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 58912m,
+                            InitialPrice = 622m,
                             LotId = 228,
                             OperationDate = new DateTime(2022, 8, 31, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1229,
-                            BetValue = 65580m,
+                            BetValue = 308m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 10, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 27, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 65580m,
+                            InitialPrice = 308m,
                             LotId = 229,
                             OperationDate = new DateTime(2022, 8, 31, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1230,
-                            BetValue = 25507m,
-                            CustomerId = 3,
+                            BetValue = 116m,
+                            CustomerId = 2,
                             Deadline = new DateTime(2022, 9, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 25507m,
+                            InitialPrice = 116m,
                             LotId = 230,
                             OperationDate = new DateTime(2022, 9, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1231,
-                            BetValue = 47773m,
+                            BetValue = 617m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 24, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 18, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 47773m,
+                            InitialPrice = 617m,
                             LotId = 231,
                             OperationDate = new DateTime(2022, 9, 1, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1232,
-                            BetValue = 19287m,
+                            BetValue = 302m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 10, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 30, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 19287m,
+                            InitialPrice = 302m,
                             LotId = 232,
                             OperationDate = new DateTime(2022, 9, 1, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1233,
-                            BetValue = 48033m,
+                            BetValue = 518m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 14, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 20, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 48033m,
+                            InitialPrice = 518m,
                             LotId = 233,
                             OperationDate = new DateTime(2022, 9, 2, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1234,
-                            BetValue = 38117m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 21, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 215m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 9, 23, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 38117m,
+                            InitialPrice = 215m,
                             LotId = 234,
                             OperationDate = new DateTime(2022, 9, 2, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1235,
-                            BetValue = 55909m,
+                            BetValue = 97m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 55909m,
+                            InitialPrice = 97m,
                             LotId = 235,
                             OperationDate = new DateTime(2022, 9, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1236,
-                            BetValue = 43452m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 13, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 666m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 10, 1, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 43452m,
+                            InitialPrice = 666m,
                             LotId = 236,
                             OperationDate = new DateTime(2022, 9, 3, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1237,
-                            BetValue = 79384m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 19, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 329m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 9, 29, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 79384m,
+                            InitialPrice = 329m,
                             LotId = 237,
                             OperationDate = new DateTime(2022, 9, 3, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1238,
-                            BetValue = 63873m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 5, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 95m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 9, 6, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 63873m,
+                            InitialPrice = 95m,
                             LotId = 238,
                             OperationDate = new DateTime(2022, 9, 4, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1239,
-                            BetValue = 91395m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 27, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 654m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 9, 18, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 91395m,
+                            InitialPrice = 654m,
                             LotId = 239,
                             OperationDate = new DateTime(2022, 9, 4, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1240,
-                            BetValue = 7774m,
+                            BetValue = 540m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 7774m,
+                            InitialPrice = 540m,
                             LotId = 240,
                             OperationDate = new DateTime(2022, 9, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1241,
-                            BetValue = 61778m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 16, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 16m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 9, 23, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 61778m,
+                            InitialPrice = 16m,
                             LotId = 241,
                             OperationDate = new DateTime(2022, 9, 5, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1242,
-                            BetValue = 57785m,
+                            BetValue = 390m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 29, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 13, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 57785m,
+                            InitialPrice = 390m,
                             LotId = 242,
                             OperationDate = new DateTime(2022, 9, 5, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1243,
-                            BetValue = 89247m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 13, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 162m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 9, 16, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 89247m,
+                            InitialPrice = 162m,
                             LotId = 243,
                             OperationDate = new DateTime(2022, 9, 6, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1244,
-                            BetValue = 22868m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 10, 4, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 516m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 9, 8, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 22868m,
+                            InitialPrice = 516m,
                             LotId = 244,
                             OperationDate = new DateTime(2022, 9, 6, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1245,
-                            BetValue = 55754m,
-                            CustomerId = 2,
+                            BetValue = 278m,
+                            CustomerId = 3,
                             Deadline = new DateTime(2022, 9, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 55754m,
+                            InitialPrice = 278m,
                             LotId = 245,
                             OperationDate = new DateTime(2022, 9, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1246,
-                            BetValue = 17963m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 24, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 796m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 9, 12, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 17963m,
+                            InitialPrice = 796m,
                             LotId = 246,
                             OperationDate = new DateTime(2022, 9, 7, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1247,
-                            BetValue = 26295m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 8, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 409m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 9, 28, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 26295m,
+                            InitialPrice = 409m,
                             LotId = 247,
                             OperationDate = new DateTime(2022, 9, 7, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1248,
-                            BetValue = 44160m,
+                            BetValue = 337m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 27, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 1, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 44160m,
+                            InitialPrice = 337m,
                             LotId = 248,
                             OperationDate = new DateTime(2022, 9, 8, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1249,
-                            BetValue = 68006m,
+                            BetValue = 687m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 20, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 25, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 68006m,
+                            InitialPrice = 687m,
                             LotId = 249,
                             OperationDate = new DateTime(2022, 9, 8, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1250,
-                            BetValue = 88011m,
+                            BetValue = 378m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 88011m,
+                            InitialPrice = 378m,
                             LotId = 250,
                             OperationDate = new DateTime(2022, 9, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1251,
-                            BetValue = 82554m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 12, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 818m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 9, 23, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 82554m,
+                            InitialPrice = 818m,
                             LotId = 251,
                             OperationDate = new DateTime(2022, 9, 9, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1252,
-                            BetValue = 91877m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 15, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 751m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 10, 6, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 91877m,
+                            InitialPrice = 751m,
                             LotId = 252,
                             OperationDate = new DateTime(2022, 9, 9, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1253,
-                            BetValue = 19724m,
+                            BetValue = 117m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 11, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 28, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 19724m,
+                            InitialPrice = 117m,
                             LotId = 253,
                             OperationDate = new DateTime(2022, 9, 10, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1254,
-                            BetValue = 60200m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 10, 8, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 270m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 9, 29, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 60200m,
+                            InitialPrice = 270m,
                             LotId = 254,
                             OperationDate = new DateTime(2022, 9, 10, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1255,
-                            BetValue = 8859m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 760m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 9, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 8859m,
+                            InitialPrice = 760m,
                             LotId = 255,
                             OperationDate = new DateTime(2022, 9, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1256,
-                            BetValue = 33472m,
+                            BetValue = 329m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 14, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 17, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 33472m,
+                            InitialPrice = 329m,
                             LotId = 256,
                             OperationDate = new DateTime(2022, 9, 11, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1257,
-                            BetValue = 98654m,
+                            BetValue = 722m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 3, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 16, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 98654m,
+                            InitialPrice = 722m,
                             LotId = 257,
                             OperationDate = new DateTime(2022, 9, 11, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1258,
-                            BetValue = 35809m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 27, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 114m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 9, 18, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 35809m,
+                            InitialPrice = 114m,
                             LotId = 258,
                             OperationDate = new DateTime(2022, 9, 12, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1259,
-                            BetValue = 68962m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 10, 1, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 780m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 9, 30, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 68962m,
+                            InitialPrice = 780m,
                             LotId = 259,
                             OperationDate = new DateTime(2022, 9, 12, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1260,
-                            BetValue = 88363m,
+                            BetValue = 804m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 88363m,
+                            InitialPrice = 804m,
                             LotId = 260,
                             OperationDate = new DateTime(2022, 9, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1261,
-                            BetValue = 64139m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 29, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 27m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 9, 20, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 64139m,
+                            InitialPrice = 27m,
                             LotId = 261,
                             OperationDate = new DateTime(2022, 9, 13, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1262,
-                            BetValue = 39821m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 1, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 95m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 9, 24, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 39821m,
+                            InitialPrice = 95m,
                             LotId = 262,
                             OperationDate = new DateTime(2022, 9, 13, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1263,
-                            BetValue = 41811m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 30, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 707m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 9, 17, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 41811m,
+                            InitialPrice = 707m,
                             LotId = 263,
                             OperationDate = new DateTime(2022, 9, 14, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1264,
-                            BetValue = 13184m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 20, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 531m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 10, 9, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 13184m,
+                            InitialPrice = 531m,
                             LotId = 264,
                             OperationDate = new DateTime(2022, 9, 14, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1265,
-                            BetValue = 51608m,
+                            BetValue = 205m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 51608m,
+                            InitialPrice = 205m,
                             LotId = 265,
                             OperationDate = new DateTime(2022, 9, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1266,
-                            BetValue = 89966m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 2, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 356m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 10, 5, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 89966m,
+                            InitialPrice = 356m,
                             LotId = 266,
                             OperationDate = new DateTime(2022, 9, 15, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1267,
-                            BetValue = 73692m,
+                            BetValue = 255m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 10, 7, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 2, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 73692m,
+                            InitialPrice = 255m,
                             LotId = 267,
                             OperationDate = new DateTime(2022, 9, 15, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1268,
-                            BetValue = 11136m,
+                            BetValue = 122m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 10, 13, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 27, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 11136m,
+                            InitialPrice = 122m,
                             LotId = 268,
                             OperationDate = new DateTime(2022, 9, 16, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1269,
-                            BetValue = 43259m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 11, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 303m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 9, 19, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 43259m,
+                            InitialPrice = 303m,
                             LotId = 269,
                             OperationDate = new DateTime(2022, 9, 16, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1270,
-                            BetValue = 67840m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 492m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 10, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 67840m,
+                            InitialPrice = 492m,
                             LotId = 270,
                             OperationDate = new DateTime(2022, 9, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1271,
-                            BetValue = 470m,
+                            BetValue = 315m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 3, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 29, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 470m,
+                            InitialPrice = 315m,
                             LotId = 271,
                             OperationDate = new DateTime(2022, 9, 17, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1272,
-                            BetValue = 52972m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 28, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 830m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 10, 14, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 52972m,
+                            InitialPrice = 830m,
                             LotId = 272,
                             OperationDate = new DateTime(2022, 9, 17, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1273,
-                            BetValue = 193m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 22, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 793m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 10, 12, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 193m,
+                            InitialPrice = 793m,
                             LotId = 273,
                             OperationDate = new DateTime(2022, 9, 18, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1274,
-                            BetValue = 46767m,
+                            BetValue = 28m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 29, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 17, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 46767m,
+                            InitialPrice = 28m,
                             LotId = 274,
                             OperationDate = new DateTime(2022, 9, 18, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1275,
-                            BetValue = 93884m,
+                            BetValue = 626m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 93884m,
+                            InitialPrice = 626m,
                             LotId = 275,
                             OperationDate = new DateTime(2022, 9, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1276,
-                            BetValue = 62506m,
+                            BetValue = 51m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 10, 12, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 23, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 62506m,
+                            InitialPrice = 51m,
                             LotId = 276,
                             OperationDate = new DateTime(2022, 9, 19, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1277,
-                            BetValue = 36642m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 10, 12, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 139m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 10, 2, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 36642m,
+                            InitialPrice = 139m,
                             LotId = 277,
                             OperationDate = new DateTime(2022, 9, 19, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1278,
-                            BetValue = 26250m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 15, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 124m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 10, 8, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 26250m,
+                            InitialPrice = 124m,
                             LotId = 278,
                             OperationDate = new DateTime(2022, 9, 20, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1279,
-                            BetValue = 57958m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 21, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 513m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 10, 6, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 57958m,
+                            InitialPrice = 513m,
                             LotId = 279,
                             OperationDate = new DateTime(2022, 9, 20, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1280,
-                            BetValue = 14772m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 421m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 10, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 14772m,
+                            InitialPrice = 421m,
                             LotId = 280,
                             OperationDate = new DateTime(2022, 9, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1281,
-                            BetValue = 36452m,
+                            BetValue = 79m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 5, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 29, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 36452m,
+                            InitialPrice = 79m,
                             LotId = 281,
                             OperationDate = new DateTime(2022, 9, 21, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1282,
-                            BetValue = 33554m,
+                            BetValue = 165m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 12, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 18, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 33554m,
+                            InitialPrice = 165m,
                             LotId = 282,
                             OperationDate = new DateTime(2022, 9, 21, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1283,
-                            BetValue = 65655m,
+                            BetValue = 822m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 16, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 3, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 65655m,
+                            InitialPrice = 822m,
                             LotId = 283,
                             OperationDate = new DateTime(2022, 9, 22, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1284,
-                            BetValue = 48313m,
+                            BetValue = 11m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 28, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 15, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 48313m,
+                            InitialPrice = 11m,
                             LotId = 284,
                             OperationDate = new DateTime(2022, 9, 22, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1285,
-                            BetValue = 93198m,
+                            BetValue = 385m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 19, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 93198m,
+                            InitialPrice = 385m,
                             LotId = 285,
                             OperationDate = new DateTime(2022, 9, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1286,
-                            BetValue = 90369m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 9, 26, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 766m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 10, 22, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 90369m,
+                            InitialPrice = 766m,
                             LotId = 286,
                             OperationDate = new DateTime(2022, 9, 23, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1287,
-                            BetValue = 5028m,
+                            BetValue = 594m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 30, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 7, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 5028m,
+                            InitialPrice = 594m,
                             LotId = 287,
                             OperationDate = new DateTime(2022, 9, 23, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1288,
-                            BetValue = 21263m,
+                            BetValue = 573m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 19, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 30, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 21263m,
+                            InitialPrice = 573m,
                             LotId = 288,
                             OperationDate = new DateTime(2022, 9, 24, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1289,
-                            BetValue = 56305m,
+                            BetValue = 678m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 4, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 9, 28, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 56305m,
+                            InitialPrice = 678m,
                             LotId = 289,
                             OperationDate = new DateTime(2022, 9, 24, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1290,
-                            BetValue = 82021m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 304m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 10, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 82021m,
+                            InitialPrice = 304m,
                             LotId = 290,
                             OperationDate = new DateTime(2022, 9, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1291,
-                            BetValue = 2896m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 10, 8, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 550m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 10, 17, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 2896m,
+                            InitialPrice = 550m,
                             LotId = 291,
                             OperationDate = new DateTime(2022, 9, 25, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1292,
-                            BetValue = 97454m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 9, 28, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 178m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 10, 6, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 97454m,
+                            InitialPrice = 178m,
                             LotId = 292,
                             OperationDate = new DateTime(2022, 9, 25, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1293,
-                            BetValue = 25306m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 24, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 118m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 9, 30, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 25306m,
+                            InitialPrice = 118m,
                             LotId = 293,
                             OperationDate = new DateTime(2022, 9, 26, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1294,
-                            BetValue = 33081m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 8, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 592m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 10, 11, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 33081m,
+                            InitialPrice = 592m,
                             LotId = 294,
                             OperationDate = new DateTime(2022, 9, 26, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1295,
-                            BetValue = 20285m,
+                            BetValue = 339m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 20285m,
+                            InitialPrice = 339m,
                             LotId = 295,
                             OperationDate = new DateTime(2022, 9, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1296,
-                            BetValue = 84420m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 6, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 429m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 10, 7, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 84420m,
+                            InitialPrice = 429m,
                             LotId = 296,
                             OperationDate = new DateTime(2022, 9, 27, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1297,
-                            BetValue = 88961m,
+                            BetValue = 443m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 10, 18, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 5, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 88961m,
+                            InitialPrice = 443m,
                             LotId = 297,
                             OperationDate = new DateTime(2022, 9, 27, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1298,
-                            BetValue = 89683m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 16, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 327m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 10, 17, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 89683m,
+                            InitialPrice = 327m,
                             LotId = 298,
                             OperationDate = new DateTime(2022, 9, 28, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1299,
-                            BetValue = 71123m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 22, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 510m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 10, 18, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 71123m,
+                            InitialPrice = 510m,
                             LotId = 299,
                             OperationDate = new DateTime(2022, 9, 28, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1300,
-                            BetValue = 44360m,
+                            BetValue = 362m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 44360m,
+                            InitialPrice = 362m,
                             LotId = 300,
                             OperationDate = new DateTime(2022, 9, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1301,
-                            BetValue = 34465m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 10, 14, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 659m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 10, 19, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 34465m,
+                            InitialPrice = 659m,
                             LotId = 301,
                             OperationDate = new DateTime(2022, 9, 29, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1302,
-                            BetValue = 41690m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 19, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 551m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 10, 6, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 41690m,
+                            InitialPrice = 551m,
                             LotId = 302,
                             OperationDate = new DateTime(2022, 9, 29, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1303,
-                            BetValue = 86869m,
+                            BetValue = 576m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 1, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 11, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 86869m,
+                            InitialPrice = 576m,
                             LotId = 303,
                             OperationDate = new DateTime(2022, 9, 30, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1304,
-                            BetValue = 65677m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 2, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 31m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 10, 16, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 65677m,
+                            InitialPrice = 31m,
                             LotId = 304,
                             OperationDate = new DateTime(2022, 9, 30, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1305,
-                            BetValue = 57028m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 10, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 27m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 10, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 57028m,
+                            InitialPrice = 27m,
                             LotId = 305,
                             OperationDate = new DateTime(2022, 10, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1306,
-                            BetValue = 70827m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 22, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 293m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 10, 27, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 70827m,
+                            InitialPrice = 293m,
                             LotId = 306,
                             OperationDate = new DateTime(2022, 10, 1, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1307,
-                            BetValue = 53846m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 10, 4, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 225m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 10, 25, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 53846m,
+                            InitialPrice = 225m,
                             LotId = 307,
                             OperationDate = new DateTime(2022, 10, 1, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1308,
-                            BetValue = 66859m,
+                            BetValue = 565m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 10, 31, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 14, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 66859m,
+                            InitialPrice = 565m,
                             LotId = 308,
                             OperationDate = new DateTime(2022, 10, 2, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1309,
-                            BetValue = 60449m,
+                            BetValue = 414m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 3, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 13, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 60449m,
+                            InitialPrice = 414m,
                             LotId = 309,
                             OperationDate = new DateTime(2022, 10, 2, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1310,
-                            BetValue = 9894m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 863m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 10, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 9894m,
+                            InitialPrice = 863m,
                             LotId = 310,
                             OperationDate = new DateTime(2022, 10, 3, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1311,
-                            BetValue = 87456m,
+                            BetValue = 680m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 10, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 27, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 87456m,
+                            InitialPrice = 680m,
                             LotId = 311,
                             OperationDate = new DateTime(2022, 10, 3, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1312,
-                            BetValue = 62947m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 10, 14, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 211m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 10, 6, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 62947m,
+                            InitialPrice = 211m,
                             LotId = 312,
                             OperationDate = new DateTime(2022, 10, 3, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1313,
-                            BetValue = 120m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 11, 2, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 820m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 10, 22, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 120m,
+                            InitialPrice = 820m,
                             LotId = 313,
                             OperationDate = new DateTime(2022, 10, 4, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1314,
-                            BetValue = 27112m,
+                            BetValue = 779m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 10, 31, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 9, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 27112m,
+                            InitialPrice = 779m,
                             LotId = 314,
                             OperationDate = new DateTime(2022, 10, 4, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1315,
-                            BetValue = 99443m,
+                            BetValue = 244m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 10, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 31, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 99443m,
+                            InitialPrice = 244m,
                             LotId = 315,
                             OperationDate = new DateTime(2022, 10, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1316,
-                            BetValue = 13740m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 14, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 118m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 10, 20, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 13740m,
+                            InitialPrice = 118m,
                             LotId = 316,
                             OperationDate = new DateTime(2022, 10, 5, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1317,
-                            BetValue = 17076m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 10, 22, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 597m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 10, 11, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 17076m,
+                            InitialPrice = 597m,
                             LotId = 317,
                             OperationDate = new DateTime(2022, 10, 5, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1318,
-                            BetValue = 28212m,
+                            BetValue = 494m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 10, 19, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 3, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 28212m,
+                            InitialPrice = 494m,
                             LotId = 318,
                             OperationDate = new DateTime(2022, 10, 6, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1319,
-                            BetValue = 40744m,
+                            BetValue = 659m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 10, 16, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 7, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 40744m,
+                            InitialPrice = 659m,
                             LotId = 319,
                             OperationDate = new DateTime(2022, 10, 6, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1320,
-                            BetValue = 41723m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 577m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 10, 19, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 41723m,
+                            InitialPrice = 577m,
                             LotId = 320,
                             OperationDate = new DateTime(2022, 10, 7, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1321,
-                            BetValue = 43500m,
+                            BetValue = 93m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 2, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 9, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 43500m,
+                            InitialPrice = 93m,
                             LotId = 321,
                             OperationDate = new DateTime(2022, 10, 7, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1322,
-                            BetValue = 5007m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 10, 14, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 259m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 10, 12, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 5007m,
+                            InitialPrice = 259m,
                             LotId = 322,
                             OperationDate = new DateTime(2022, 10, 7, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1323,
-                            BetValue = 76374m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 10, 13, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 355m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 10, 12, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 76374m,
+                            InitialPrice = 355m,
                             LotId = 323,
                             OperationDate = new DateTime(2022, 10, 8, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1324,
-                            BetValue = 83877m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 10, 11, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 854m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 10, 18, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 83877m,
+                            InitialPrice = 854m,
                             LotId = 324,
                             OperationDate = new DateTime(2022, 10, 8, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1325,
-                            BetValue = 73442m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 10, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 172m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 11, 7, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 73442m,
+                            InitialPrice = 172m,
                             LotId = 325,
                             OperationDate = new DateTime(2022, 10, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1326,
-                            BetValue = 95827m,
+                            BetValue = 667m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 10, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 11, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 95827m,
+                            InitialPrice = 667m,
                             LotId = 326,
                             OperationDate = new DateTime(2022, 10, 9, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1327,
-                            BetValue = 35867m,
+                            BetValue = 269m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 11, 5, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 18, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 35867m,
+                            InitialPrice = 269m,
                             LotId = 327,
                             OperationDate = new DateTime(2022, 10, 9, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1328,
-                            BetValue = 52206m,
+                            BetValue = 878m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 11, 2, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 24, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 52206m,
+                            InitialPrice = 878m,
                             LotId = 328,
                             OperationDate = new DateTime(2022, 10, 10, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1329,
-                            BetValue = 51151m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 27, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 556m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 10, 14, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 51151m,
+                            InitialPrice = 556m,
                             LotId = 329,
                             OperationDate = new DateTime(2022, 10, 10, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1330,
-                            BetValue = 77376m,
+                            BetValue = 388m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 77376m,
+                            InitialPrice = 388m,
                             LotId = 330,
                             OperationDate = new DateTime(2022, 10, 11, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1331,
-                            BetValue = 46627m,
+                            BetValue = 727m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 11, 2, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 13, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 46627m,
+                            InitialPrice = 727m,
                             LotId = 331,
                             OperationDate = new DateTime(2022, 10, 11, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1332,
-                            BetValue = 8164m,
+                            BetValue = 393m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 14, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 18, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 8164m,
+                            InitialPrice = 393m,
                             LotId = 332,
                             OperationDate = new DateTime(2022, 10, 11, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1333,
-                            BetValue = 26761m,
+                            BetValue = 776m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 5, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 8, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 26761m,
+                            InitialPrice = 776m,
                             LotId = 333,
                             OperationDate = new DateTime(2022, 10, 12, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1334,
-                            BetValue = 89017m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 10, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 67m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 10, 19, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 89017m,
+                            InitialPrice = 67m,
                             LotId = 334,
                             OperationDate = new DateTime(2022, 10, 12, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1335,
-                            BetValue = 52237m,
+                            BetValue = 519m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 52237m,
+                            InitialPrice = 519m,
                             LotId = 335,
                             OperationDate = new DateTime(2022, 10, 13, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1336,
-                            BetValue = 98809m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 19, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 317m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 10, 28, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 98809m,
+                            InitialPrice = 317m,
                             LotId = 336,
                             OperationDate = new DateTime(2022, 10, 13, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1337,
-                            BetValue = 92268m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 11, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 806m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 11, 2, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 92268m,
+                            InitialPrice = 806m,
                             LotId = 337,
                             OperationDate = new DateTime(2022, 10, 13, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1338,
-                            BetValue = 20215m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 7, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 580m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 10, 17, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 20215m,
+                            InitialPrice = 580m,
                             LotId = 338,
                             OperationDate = new DateTime(2022, 10, 14, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1339,
-                            BetValue = 53821m,
+                            BetValue = 898m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 11, 5, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 8, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 53821m,
+                            InitialPrice = 898m,
                             LotId = 339,
                             OperationDate = new DateTime(2022, 10, 14, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1340,
-                            BetValue = 12408m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 704m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 10, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 12408m,
+                            InitialPrice = 704m,
                             LotId = 340,
                             OperationDate = new DateTime(2022, 10, 15, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1341,
-                            BetValue = 76163m,
+                            BetValue = 393m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 11, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 28, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 76163m,
+                            InitialPrice = 393m,
                             LotId = 341,
                             OperationDate = new DateTime(2022, 10, 15, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1342,
-                            BetValue = 1741m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 10, 21, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 117m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 11, 1, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 1741m,
+                            InitialPrice = 117m,
                             LotId = 342,
                             OperationDate = new DateTime(2022, 10, 15, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1343,
-                            BetValue = 37082m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 10, 30, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 622m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 11, 5, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 37082m,
+                            InitialPrice = 622m,
                             LotId = 343,
                             OperationDate = new DateTime(2022, 10, 16, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1344,
-                            BetValue = 50707m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 11, 6, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 789m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 11, 14, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 50707m,
+                            InitialPrice = 789m,
                             LotId = 344,
                             OperationDate = new DateTime(2022, 10, 16, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1345,
-                            BetValue = 57178m,
+                            BetValue = 642m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 57178m,
+                            InitialPrice = 642m,
                             LotId = 345,
                             OperationDate = new DateTime(2022, 10, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1346,
-                            BetValue = 2676m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 12, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 696m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 10, 18, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 2676m,
+                            InitialPrice = 696m,
                             LotId = 346,
                             OperationDate = new DateTime(2022, 10, 17, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1347,
-                            BetValue = 2261m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 11, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 112m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 11, 8, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 2261m,
+                            InitialPrice = 112m,
                             LotId = 347,
                             OperationDate = new DateTime(2022, 10, 17, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1348,
-                            BetValue = 39661m,
+                            BetValue = 869m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 16, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 8, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 39661m,
+                            InitialPrice = 869m,
                             LotId = 348,
                             OperationDate = new DateTime(2022, 10, 18, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1349,
-                            BetValue = 49486m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 19, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 551m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 11, 7, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 49486m,
+                            InitialPrice = 551m,
                             LotId = 349,
                             OperationDate = new DateTime(2022, 10, 18, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1350,
-                            BetValue = 51618m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 467m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 10, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 51618m,
+                            InitialPrice = 467m,
                             LotId = 350,
                             OperationDate = new DateTime(2022, 10, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1351,
-                            BetValue = 47602m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 11, 3, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 799m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 10, 21, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 47602m,
+                            InitialPrice = 799m,
                             LotId = 351,
                             OperationDate = new DateTime(2022, 10, 19, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1352,
-                            BetValue = 10261m,
+                            BetValue = 543m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 11, 17, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 4, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 10261m,
+                            InitialPrice = 543m,
                             LotId = 352,
                             OperationDate = new DateTime(2022, 10, 19, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1353,
-                            BetValue = 78251m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 10, 29, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 611m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 11, 17, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 78251m,
+                            InitialPrice = 611m,
                             LotId = 353,
                             OperationDate = new DateTime(2022, 10, 20, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1354,
-                            BetValue = 1089m,
+                            BetValue = 489m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 31, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 12, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 1089m,
+                            InitialPrice = 489m,
                             LotId = 354,
                             OperationDate = new DateTime(2022, 10, 20, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1355,
-                            BetValue = 78312m,
-                            CustomerId = 3,
+                            BetValue = 603m,
+                            CustomerId = 2,
                             Deadline = new DateTime(2022, 10, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 78312m,
+                            InitialPrice = 603m,
                             LotId = 355,
                             OperationDate = new DateTime(2022, 10, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1356,
-                            BetValue = 70206m,
+                            BetValue = 805m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 1, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 7, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 70206m,
+                            InitialPrice = 805m,
                             LotId = 356,
                             OperationDate = new DateTime(2022, 10, 21, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1357,
-                            BetValue = 16132m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 3, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 372m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 11, 19, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 16132m,
+                            InitialPrice = 372m,
                             LotId = 357,
                             OperationDate = new DateTime(2022, 10, 21, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1358,
-                            BetValue = 35286m,
+                            BetValue = 388m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 17, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 29, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 35286m,
+                            InitialPrice = 388m,
                             LotId = 358,
                             OperationDate = new DateTime(2022, 10, 22, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1359,
-                            BetValue = 90220m,
+                            BetValue = 484m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 6, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 28, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 90220m,
+                            InitialPrice = 484m,
                             LotId = 359,
                             OperationDate = new DateTime(2022, 10, 22, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1360,
-                            BetValue = 99853m,
+                            BetValue = 776m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 11, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 99853m,
+                            InitialPrice = 776m,
                             LotId = 360,
                             OperationDate = new DateTime(2022, 10, 23, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1361,
-                            BetValue = 42607m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 12, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 54m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 11, 11, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 42607m,
+                            InitialPrice = 54m,
                             LotId = 361,
                             OperationDate = new DateTime(2022, 10, 23, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1362,
-                            BetValue = 32686m,
+                            BetValue = 662m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 25, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 16, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 32686m,
+                            InitialPrice = 662m,
                             LotId = 362,
                             OperationDate = new DateTime(2022, 10, 23, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1363,
-                            BetValue = 77589m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 8, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 355m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 10, 29, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 77589m,
+                            InitialPrice = 355m,
                             LotId = 363,
                             OperationDate = new DateTime(2022, 10, 24, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1364,
-                            BetValue = 78771m,
+                            BetValue = 325m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 17, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 6, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 78771m,
+                            InitialPrice = 325m,
                             LotId = 364,
                             OperationDate = new DateTime(2022, 10, 24, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1365,
-                            BetValue = 37980m,
+                            BetValue = 569m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 10, 31, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 37980m,
+                            InitialPrice = 569m,
                             LotId = 365,
                             OperationDate = new DateTime(2022, 10, 25, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1366,
-                            BetValue = 68760m,
+                            BetValue = 757m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 11, 21, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 9, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 68760m,
+                            InitialPrice = 757m,
                             LotId = 366,
                             OperationDate = new DateTime(2022, 10, 25, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1367,
-                            BetValue = 52910m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 11, 10, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 159m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 11, 11, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 52910m,
+                            InitialPrice = 159m,
                             LotId = 367,
                             OperationDate = new DateTime(2022, 10, 25, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1368,
-                            BetValue = 73651m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 11, 17, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 807m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 11, 12, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 73651m,
+                            InitialPrice = 807m,
                             LotId = 368,
                             OperationDate = new DateTime(2022, 10, 26, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1369,
-                            BetValue = 88353m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 14, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 51m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 11, 5, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 88353m,
+                            InitialPrice = 51m,
                             LotId = 369,
                             OperationDate = new DateTime(2022, 10, 26, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1370,
-                            BetValue = 1069m,
+                            BetValue = 18m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 10, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 1069m,
+                            InitialPrice = 18m,
                             LotId = 370,
                             OperationDate = new DateTime(2022, 10, 27, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1371,
-                            BetValue = 14702m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 2, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 23m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 11, 21, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 14702m,
+                            InitialPrice = 23m,
                             LotId = 371,
                             OperationDate = new DateTime(2022, 10, 27, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1372,
-                            BetValue = 58248m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 11, 10, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 873m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 11, 11, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 58248m,
+                            InitialPrice = 873m,
                             LotId = 372,
                             OperationDate = new DateTime(2022, 10, 27, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1373,
-                            BetValue = 45728m,
+                            BetValue = 680m,
                             CustomerId = 2,
                             Deadline = new DateTime(2022, 11, 13, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 45728m,
+                            InitialPrice = 680m,
                             LotId = 373,
                             OperationDate = new DateTime(2022, 10, 28, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1374,
-                            BetValue = 79738m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 17, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 185m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 11, 14, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 79738m,
+                            InitialPrice = 185m,
                             LotId = 374,
                             OperationDate = new DateTime(2022, 10, 28, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1375,
-                            BetValue = 20847m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 69m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 11, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 20847m,
+                            InitialPrice = 69m,
                             LotId = 375,
                             OperationDate = new DateTime(2022, 10, 29, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1376,
-                            BetValue = 72568m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 11, 20, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 825m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 11, 17, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 72568m,
+                            InitialPrice = 825m,
                             LotId = 376,
                             OperationDate = new DateTime(2022, 10, 29, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1377,
-                            BetValue = 62980m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 25, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 537m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 11, 9, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 62980m,
+                            InitialPrice = 537m,
                             LotId = 377,
                             OperationDate = new DateTime(2022, 10, 29, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1378,
-                            BetValue = 3916m,
+                            BetValue = 125m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 28, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 5, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 3916m,
+                            InitialPrice = 125m,
                             LotId = 378,
                             OperationDate = new DateTime(2022, 10, 30, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1379,
-                            BetValue = 43743m,
+                            BetValue = 856m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 13, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 28, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 43743m,
+                            InitialPrice = 856m,
                             LotId = 379,
                             OperationDate = new DateTime(2022, 10, 30, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1380,
-                            BetValue = 23112m,
+                            BetValue = 620m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 11, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 23112m,
+                            InitialPrice = 620m,
                             LotId = 380,
                             OperationDate = new DateTime(2022, 10, 31, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1381,
-                            BetValue = 22394m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 7, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 447m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 11, 24, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 22394m,
+                            InitialPrice = 447m,
                             LotId = 381,
                             OperationDate = new DateTime(2022, 10, 31, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1382,
-                            BetValue = 61463m,
+                            BetValue = 452m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 11, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 26, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 61463m,
+                            InitialPrice = 452m,
                             LotId = 382,
                             OperationDate = new DateTime(2022, 10, 31, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1383,
-                            BetValue = 31193m,
+                            BetValue = 534m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 9, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 24, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 31193m,
+                            InitialPrice = 534m,
                             LotId = 383,
                             OperationDate = new DateTime(2022, 11, 1, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1384,
-                            BetValue = 46711m,
+                            BetValue = 520m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 11, 10, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 3, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 46711m,
+                            InitialPrice = 520m,
                             LotId = 384,
                             OperationDate = new DateTime(2022, 11, 1, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1385,
-                            BetValue = 79130m,
+                            BetValue = 806m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 79130m,
+                            InitialPrice = 806m,
                             LotId = 385,
                             OperationDate = new DateTime(2022, 11, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1386,
-                            BetValue = 6600m,
+                            BetValue = 226m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 11, 8, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 4, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 6600m,
+                            InitialPrice = 226m,
                             LotId = 386,
                             OperationDate = new DateTime(2022, 11, 2, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1387,
-                            BetValue = 41640m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 25, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 210m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 11, 28, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 41640m,
+                            InitialPrice = 210m,
                             LotId = 387,
                             OperationDate = new DateTime(2022, 11, 2, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1388,
-                            BetValue = 14030m,
+                            BetValue = 859m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 28, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 25, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 14030m,
+                            InitialPrice = 859m,
                             LotId = 388,
                             OperationDate = new DateTime(2022, 11, 3, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1389,
-                            BetValue = 14194m,
+                            BetValue = 573m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 11, 18, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 8, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 14194m,
+                            InitialPrice = 573m,
                             LotId = 389,
                             OperationDate = new DateTime(2022, 11, 3, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1390,
-                            BetValue = 69128m,
+                            BetValue = 35m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 69128m,
+                            InitialPrice = 35m,
                             LotId = 390,
                             OperationDate = new DateTime(2022, 11, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1391,
-                            BetValue = 28902m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 10, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 603m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 11, 26, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 28902m,
+                            InitialPrice = 603m,
                             LotId = 391,
                             OperationDate = new DateTime(2022, 11, 4, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1392,
-                            BetValue = 17850m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 11, 20, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 32m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 11, 17, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 17850m,
+                            InitialPrice = 32m,
                             LotId = 392,
                             OperationDate = new DateTime(2022, 11, 4, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1393,
-                            BetValue = 10602m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 9, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 289m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 11, 12, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 10602m,
+                            InitialPrice = 289m,
                             LotId = 393,
                             OperationDate = new DateTime(2022, 11, 5, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1394,
-                            BetValue = 38781m,
+                            BetValue = 560m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 11, 24, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 1, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 38781m,
+                            InitialPrice = 560m,
                             LotId = 394,
                             OperationDate = new DateTime(2022, 11, 5, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1395,
-                            BetValue = 16750m,
+                            BetValue = 775m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 16750m,
+                            InitialPrice = 775m,
                             LotId = 395,
                             OperationDate = new DateTime(2022, 11, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1396,
-                            BetValue = 31548m,
+                            BetValue = 148m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 11, 15, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 21, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 31548m,
+                            InitialPrice = 148m,
                             LotId = 396,
                             OperationDate = new DateTime(2022, 11, 6, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1397,
-                            BetValue = 99948m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 13, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 813m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 11, 19, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 99948m,
+                            InitialPrice = 813m,
                             LotId = 397,
                             OperationDate = new DateTime(2022, 11, 6, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1398,
-                            BetValue = 72352m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 3, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 350m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 11, 24, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 72352m,
+                            InitialPrice = 350m,
                             LotId = 398,
                             OperationDate = new DateTime(2022, 11, 7, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1399,
-                            BetValue = 25298m,
-                            CustomerId = 3,
+                            BetValue = 620m,
+                            CustomerId = 2,
                             Deadline = new DateTime(2022, 12, 6, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 25298m,
+                            InitialPrice = 620m,
                             LotId = 399,
                             OperationDate = new DateTime(2022, 11, 7, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1400,
-                            BetValue = 35719m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 11, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 569m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 11, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 35719m,
+                            InitialPrice = 569m,
                             LotId = 400,
                             OperationDate = new DateTime(2022, 11, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1401,
-                            BetValue = 91264m,
+                            BetValue = 219m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 5, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 3, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 91264m,
+                            InitialPrice = 219m,
                             LotId = 401,
                             OperationDate = new DateTime(2022, 11, 8, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1402,
-                            BetValue = 11830m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 29, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 585m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 11, 14, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 11830m,
+                            InitialPrice = 585m,
                             LotId = 402,
                             OperationDate = new DateTime(2022, 11, 8, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1403,
-                            BetValue = 52864m,
+                            BetValue = 661m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 11, 25, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 17, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 52864m,
+                            InitialPrice = 661m,
                             LotId = 403,
                             OperationDate = new DateTime(2022, 11, 9, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1404,
-                            BetValue = 37090m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 27, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 421m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 11, 30, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 37090m,
+                            InitialPrice = 421m,
                             LotId = 404,
                             OperationDate = new DateTime(2022, 11, 9, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1405,
-                            BetValue = 11564m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 11, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 207m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 11, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 11564m,
+                            InitialPrice = 207m,
                             LotId = 405,
                             OperationDate = new DateTime(2022, 11, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1406,
-                            BetValue = 13463m,
+                            BetValue = 138m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 7, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 17, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 13463m,
+                            InitialPrice = 138m,
                             LotId = 406,
                             OperationDate = new DateTime(2022, 11, 10, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1407,
-                            BetValue = 43980m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 13, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 758m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 12, 4, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 43980m,
+                            InitialPrice = 758m,
                             LotId = 407,
                             OperationDate = new DateTime(2022, 11, 10, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1408,
-                            BetValue = 23323m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 15, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 840m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 12, 9, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 23323m,
+                            InitialPrice = 840m,
                             LotId = 408,
                             OperationDate = new DateTime(2022, 11, 11, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1409,
-                            BetValue = 33030m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 9, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 464m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 11, 21, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 33030m,
+                            InitialPrice = 464m,
                             LotId = 409,
                             OperationDate = new DateTime(2022, 11, 11, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1410,
-                            BetValue = 7995m,
+                            BetValue = 534m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 7995m,
+                            InitialPrice = 534m,
                             LotId = 410,
                             OperationDate = new DateTime(2022, 11, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1411,
-                            BetValue = 1397m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 9, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 253m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 11, 27, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 1397m,
+                            InitialPrice = 253m,
                             LotId = 411,
                             OperationDate = new DateTime(2022, 11, 12, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1412,
-                            BetValue = 55441m,
+                            BetValue = 305m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 30, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 23, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 55441m,
+                            InitialPrice = 305m,
                             LotId = 412,
                             OperationDate = new DateTime(2022, 11, 12, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1413,
-                            BetValue = 2717m,
+                            BetValue = 382m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 11, 25, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 5, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 2717m,
+                            InitialPrice = 382m,
                             LotId = 413,
                             OperationDate = new DateTime(2022, 11, 13, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1414,
-                            BetValue = 51338m,
+                            BetValue = 127m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 23, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 10, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 51338m,
+                            InitialPrice = 127m,
                             LotId = 414,
                             OperationDate = new DateTime(2022, 11, 13, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1415,
-                            BetValue = 47191m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 304m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 11, 19, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 47191m,
+                            InitialPrice = 304m,
                             LotId = 415,
                             OperationDate = new DateTime(2022, 11, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1416,
-                            BetValue = 39289m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 7, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 174m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 11, 29, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 39289m,
+                            InitialPrice = 174m,
                             LotId = 416,
                             OperationDate = new DateTime(2022, 11, 14, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1417,
-                            BetValue = 83354m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 27, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 399m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 12, 13, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 83354m,
+                            InitialPrice = 399m,
                             LotId = 417,
                             OperationDate = new DateTime(2022, 11, 14, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1418,
-                            BetValue = 67550m,
+                            BetValue = 276m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 1, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 22, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 67550m,
+                            InitialPrice = 276m,
                             LotId = 418,
                             OperationDate = new DateTime(2022, 11, 15, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1419,
-                            BetValue = 98525m,
+                            BetValue = 362m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 29, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 7, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 98525m,
+                            InitialPrice = 362m,
                             LotId = 419,
                             OperationDate = new DateTime(2022, 11, 15, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1420,
-                            BetValue = 50264m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 504m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 11, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 50264m,
+                            InitialPrice = 504m,
                             LotId = 420,
                             OperationDate = new DateTime(2022, 11, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1421,
-                            BetValue = 84778m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 5, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 864m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 11, 17, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 84778m,
+                            InitialPrice = 864m,
                             LotId = 421,
                             OperationDate = new DateTime(2022, 11, 16, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1422,
-                            BetValue = 35607m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 6, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 619m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 12, 9, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 35607m,
+                            InitialPrice = 619m,
                             LotId = 422,
                             OperationDate = new DateTime(2022, 11, 16, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1423,
-                            BetValue = 19823m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 14, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 591m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 11, 29, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 19823m,
+                            InitialPrice = 591m,
                             LotId = 423,
                             OperationDate = new DateTime(2022, 11, 17, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1424,
-                            BetValue = 51062m,
+                            BetValue = 796m,
                             CustomerId = 2,
                             Deadline = new DateTime(2022, 11, 27, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 51062m,
+                            InitialPrice = 796m,
                             LotId = 424,
                             OperationDate = new DateTime(2022, 11, 17, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1425,
-                            BetValue = 62035m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 19, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 612m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 12, 14, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 62035m,
+                            InitialPrice = 612m,
                             LotId = 425,
                             OperationDate = new DateTime(2022, 11, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1426,
-                            BetValue = 86398m,
+                            BetValue = 809m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 12, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 9, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 86398m,
+                            InitialPrice = 809m,
                             LotId = 426,
                             OperationDate = new DateTime(2022, 11, 18, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1427,
-                            BetValue = 48026m,
+                            BetValue = 159m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 9, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 13, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 48026m,
+                            InitialPrice = 159m,
                             LotId = 427,
                             OperationDate = new DateTime(2022, 11, 18, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1428,
-                            BetValue = 38337m,
+                            BetValue = 526m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 4, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 20, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 38337m,
+                            InitialPrice = 526m,
                             LotId = 428,
                             OperationDate = new DateTime(2022, 11, 19, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1429,
-                            BetValue = 31460m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 11, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 674m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 12, 2, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 31460m,
+                            InitialPrice = 674m,
                             LotId = 429,
                             OperationDate = new DateTime(2022, 11, 19, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1430,
-                            BetValue = 39610m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 252m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 12, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 39610m,
+                            InitialPrice = 252m,
                             LotId = 430,
                             OperationDate = new DateTime(2022, 11, 20, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1431,
-                            BetValue = 8296m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 12, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 755m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 12, 16, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 8296m,
+                            InitialPrice = 755m,
                             LotId = 431,
                             OperationDate = new DateTime(2022, 11, 20, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1432,
-                            BetValue = 58817m,
+                            BetValue = 229m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 14, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 25, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 58817m,
+                            InitialPrice = 229m,
                             LotId = 432,
                             OperationDate = new DateTime(2022, 11, 20, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1433,
-                            BetValue = 57402m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 12, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 190m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 12, 8, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 57402m,
+                            InitialPrice = 190m,
                             LotId = 433,
                             OperationDate = new DateTime(2022, 11, 21, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1434,
-                            BetValue = 85322m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 8, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 603m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 11, 23, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 85322m,
+                            InitialPrice = 603m,
                             LotId = 434,
                             OperationDate = new DateTime(2022, 11, 21, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1435,
-                            BetValue = 65755m,
+                            BetValue = 280m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 65755m,
+                            InitialPrice = 280m,
                             LotId = 435,
                             OperationDate = new DateTime(2022, 11, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1436,
-                            BetValue = 64737m,
+                            BetValue = 117m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 2, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 14, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 64737m,
+                            InitialPrice = 117m,
                             LotId = 436,
                             OperationDate = new DateTime(2022, 11, 22, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1437,
-                            BetValue = 44070m,
+                            BetValue = 840m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 13, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 23, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 44070m,
+                            InitialPrice = 840m,
                             LotId = 437,
                             OperationDate = new DateTime(2022, 11, 22, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1438,
-                            BetValue = 16339m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 11, 28, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 417m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 12, 4, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 16339m,
+                            InitialPrice = 417m,
                             LotId = 438,
                             OperationDate = new DateTime(2022, 11, 23, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1439,
-                            BetValue = 94905m,
+                            BetValue = 716m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 30, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 11, 24, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 94905m,
+                            InitialPrice = 716m,
                             LotId = 439,
                             OperationDate = new DateTime(2022, 11, 23, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1440,
-                            BetValue = 56951m,
+                            BetValue = 193m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 17, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 56951m,
+                            InitialPrice = 193m,
                             LotId = 440,
                             OperationDate = new DateTime(2022, 11, 24, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1441,
-                            BetValue = 18487m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 5, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 261m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 12, 12, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 18487m,
+                            InitialPrice = 261m,
                             LotId = 441,
                             OperationDate = new DateTime(2022, 11, 24, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1442,
-                            BetValue = 88533m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 23, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 69m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 12, 17, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 88533m,
+                            InitialPrice = 69m,
                             LotId = 442,
                             OperationDate = new DateTime(2022, 11, 24, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1443,
-                            BetValue = 77873m,
+                            BetValue = 787m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 11, 29, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 14, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 77873m,
+                            InitialPrice = 787m,
                             LotId = 443,
                             OperationDate = new DateTime(2022, 11, 25, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1444,
-                            BetValue = 8958m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 8, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 587m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 12, 3, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 8958m,
+                            InitialPrice = 587m,
                             LotId = 444,
                             OperationDate = new DateTime(2022, 11, 25, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1445,
-                            BetValue = 12283m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 787m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 12, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 12283m,
+                            InitialPrice = 787m,
                             LotId = 445,
                             OperationDate = new DateTime(2022, 11, 26, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1446,
-                            BetValue = 4400m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 19, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 428m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 11, 30, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 4400m,
+                            InitialPrice = 428m,
                             LotId = 446,
                             OperationDate = new DateTime(2022, 11, 26, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1447,
-                            BetValue = 88765m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 9, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 63m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 12, 24, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 88765m,
+                            InitialPrice = 63m,
                             LotId = 447,
                             OperationDate = new DateTime(2022, 11, 26, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1448,
-                            BetValue = 54090m,
+                            BetValue = 479m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 22, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 14, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 54090m,
+                            InitialPrice = 479m,
                             LotId = 448,
                             OperationDate = new DateTime(2022, 11, 27, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1449,
-                            BetValue = 98354m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 18, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 106m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 12, 26, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 98354m,
+                            InitialPrice = 106m,
                             LotId = 449,
                             OperationDate = new DateTime(2022, 11, 27, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1450,
-                            BetValue = 86911m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 502m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 12, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 86911m,
+                            InitialPrice = 502m,
                             LotId = 450,
                             OperationDate = new DateTime(2022, 11, 28, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1451,
-                            BetValue = 30072m,
+                            BetValue = 660m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 29, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 27, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 30072m,
+                            InitialPrice = 660m,
                             LotId = 451,
                             OperationDate = new DateTime(2022, 11, 28, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1452,
-                            BetValue = 6751m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 8, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 430m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 12, 6, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 6751m,
+                            InitialPrice = 430m,
                             LotId = 452,
                             OperationDate = new DateTime(2022, 11, 28, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1453,
-                            BetValue = 69882m,
+                            BetValue = 435m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 7, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 12, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 69882m,
+                            InitialPrice = 435m,
                             LotId = 453,
                             OperationDate = new DateTime(2022, 11, 29, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1454,
-                            BetValue = 92971m,
+                            BetValue = 719m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 11, 30, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 20, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 92971m,
+                            InitialPrice = 719m,
                             LotId = 454,
                             OperationDate = new DateTime(2022, 11, 29, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1455,
-                            BetValue = 89517m,
+                            BetValue = 899m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 89517m,
+                            InitialPrice = 899m,
                             LotId = 455,
                             OperationDate = new DateTime(2022, 11, 30, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1456,
-                            BetValue = 44410m,
+                            BetValue = 825m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 22, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 20, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 44410m,
+                            InitialPrice = 825m,
                             LotId = 456,
                             OperationDate = new DateTime(2022, 11, 30, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1457,
-                            BetValue = 66795m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 20, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 513m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 12, 11, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 66795m,
+                            InitialPrice = 513m,
                             LotId = 457,
                             OperationDate = new DateTime(2022, 11, 30, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1458,
-                            BetValue = 96346m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 9, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 611m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 12, 2, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 96346m,
+                            InitialPrice = 611m,
                             LotId = 458,
                             OperationDate = new DateTime(2022, 12, 1, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1459,
-                            BetValue = 72826m,
-                            CustomerId = 2,
+                            BetValue = 282m,
+                            CustomerId = 3,
                             Deadline = new DateTime(2022, 12, 26, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 72826m,
+                            InitialPrice = 282m,
                             LotId = 459,
                             OperationDate = new DateTime(2022, 12, 1, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1460,
-                            BetValue = 76660m,
+                            BetValue = 488m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 16, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 76660m,
+                            InitialPrice = 488m,
                             LotId = 460,
                             OperationDate = new DateTime(2022, 12, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1461,
-                            BetValue = 35211m,
+                            BetValue = 511m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 3, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 12, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 35211m,
+                            InitialPrice = 511m,
                             LotId = 461,
                             OperationDate = new DateTime(2022, 12, 2, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1462,
-                            BetValue = 84615m,
+                            BetValue = 379m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 15, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 23, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 84615m,
+                            InitialPrice = 379m,
                             LotId = 462,
                             OperationDate = new DateTime(2022, 12, 2, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1463,
-                            BetValue = 8558m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 4, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 413m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 12, 15, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 8558m,
+                            InitialPrice = 413m,
                             LotId = 463,
                             OperationDate = new DateTime(2022, 12, 3, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1464,
-                            BetValue = 17602m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 14, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 43m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 12, 16, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 17602m,
+                            InitialPrice = 43m,
                             LotId = 464,
                             OperationDate = new DateTime(2022, 12, 3, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1465,
-                            BetValue = 82037m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 6, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 739m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 12, 12, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 82037m,
+                            InitialPrice = 739m,
                             LotId = 465,
                             OperationDate = new DateTime(2022, 12, 4, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1466,
-                            BetValue = 80845m,
+                            BetValue = 146m,
                             CustomerId = 2,
                             Deadline = new DateTime(2022, 12, 25, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 80845m,
+                            InitialPrice = 146m,
                             LotId = 466,
                             OperationDate = new DateTime(2022, 12, 4, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1467,
-                            BetValue = 38676m,
+                            BetValue = 799m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 29, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 12, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 38676m,
+                            InitialPrice = 799m,
                             LotId = 467,
                             OperationDate = new DateTime(2022, 12, 4, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1468,
-                            BetValue = 42270m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 23, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 212m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 12, 7, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 42270m,
+                            InitialPrice = 212m,
                             LotId = 468,
                             OperationDate = new DateTime(2022, 12, 5, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1469,
-                            BetValue = 69474m,
+                            BetValue = 866m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 12, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 10, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 69474m,
+                            InitialPrice = 866m,
                             LotId = 469,
                             OperationDate = new DateTime(2022, 12, 5, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1470,
-                            BetValue = 80930m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2023, 1, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 452m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 12, 9, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 80930m,
+                            InitialPrice = 452m,
                             LotId = 470,
                             OperationDate = new DateTime(2022, 12, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1471,
-                            BetValue = 18138m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 22, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 571m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 12, 28, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 18138m,
+                            InitialPrice = 571m,
                             LotId = 471,
                             OperationDate = new DateTime(2022, 12, 6, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1472,
-                            BetValue = 87102m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 8, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 449m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 12, 16, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 87102m,
+                            InitialPrice = 449m,
                             LotId = 472,
                             OperationDate = new DateTime(2022, 12, 6, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1473,
-                            BetValue = 85185m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 9, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 550m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 12, 20, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 85185m,
+                            InitialPrice = 550m,
                             LotId = 473,
                             OperationDate = new DateTime(2022, 12, 7, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1474,
-                            BetValue = 9809m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2023, 1, 4, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 447m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 12, 15, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 9809m,
+                            InitialPrice = 447m,
                             LotId = 474,
                             OperationDate = new DateTime(2022, 12, 7, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1475,
-                            BetValue = 44848m,
+                            BetValue = 410m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 44848m,
+                            InitialPrice = 410m,
                             LotId = 475,
                             OperationDate = new DateTime(2022, 12, 8, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1476,
-                            BetValue = 14094m,
+                            BetValue = 616m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 21, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 31, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 14094m,
+                            InitialPrice = 616m,
                             LotId = 476,
                             OperationDate = new DateTime(2022, 12, 8, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1477,
-                            BetValue = 37105m,
+                            BetValue = 682m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2023, 1, 5, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 17, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 37105m,
+                            InitialPrice = 682m,
                             LotId = 477,
                             OperationDate = new DateTime(2022, 12, 8, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1478,
-                            BetValue = 27155m,
+                            BetValue = 778m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 26, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 28, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 27155m,
+                            InitialPrice = 778m,
                             LotId = 478,
                             OperationDate = new DateTime(2022, 12, 9, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1479,
-                            BetValue = 96518m,
+                            BetValue = 317m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 13, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 22, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 96518m,
+                            InitialPrice = 317m,
                             LotId = 479,
                             OperationDate = new DateTime(2022, 12, 9, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1480,
-                            BetValue = 38917m,
+                            BetValue = 473m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 29, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 38917m,
+                            InitialPrice = 473m,
                             LotId = 480,
                             OperationDate = new DateTime(2022, 12, 10, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1481,
-                            BetValue = 83704m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2023, 1, 7, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 383m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 12, 15, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 83704m,
+                            InitialPrice = 383m,
                             LotId = 481,
                             OperationDate = new DateTime(2022, 12, 10, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1482,
-                            BetValue = 40408m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2023, 1, 7, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 366m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 12, 21, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 40408m,
+                            InitialPrice = 366m,
                             LotId = 482,
                             OperationDate = new DateTime(2022, 12, 10, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1483,
-                            BetValue = 46611m,
+                            BetValue = 489m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 24, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2023, 1, 1, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 46611m,
+                            InitialPrice = 489m,
                             LotId = 483,
                             OperationDate = new DateTime(2022, 12, 11, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1484,
-                            BetValue = 5541m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 14, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 775m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2023, 1, 2, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 5541m,
+                            InitialPrice = 775m,
                             LotId = 484,
                             OperationDate = new DateTime(2022, 12, 11, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1485,
-                            BetValue = 663m,
+                            BetValue = 509m,
                             CustomerId = 3,
                             Deadline = new DateTime(2023, 1, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 663m,
+                            InitialPrice = 509m,
                             LotId = 485,
                             OperationDate = new DateTime(2022, 12, 12, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1486,
-                            BetValue = 92848m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 13, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 78m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2023, 1, 10, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 92848m,
+                            InitialPrice = 78m,
                             LotId = 486,
                             OperationDate = new DateTime(2022, 12, 12, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1487,
-                            BetValue = 30506m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 22, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 757m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2023, 1, 8, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 30506m,
+                            InitialPrice = 757m,
                             LotId = 487,
                             OperationDate = new DateTime(2022, 12, 12, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1488,
-                            BetValue = 73702m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 28, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 704m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 12, 19, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 73702m,
+                            InitialPrice = 704m,
                             LotId = 488,
                             OperationDate = new DateTime(2022, 12, 13, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1489,
-                            BetValue = 90480m,
+                            BetValue = 671m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 30, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2023, 1, 1, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 90480m,
+                            InitialPrice = 671m,
                             LotId = 489,
                             OperationDate = new DateTime(2022, 12, 13, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1490,
-                            BetValue = 19829m,
-                            CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 19, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 378m,
+                            CustomerId = 3,
+                            Deadline = new DateTime(2022, 12, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 19829m,
+                            InitialPrice = 378m,
                             LotId = 490,
                             OperationDate = new DateTime(2022, 12, 14, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1491,
-                            BetValue = 59490m,
+                            BetValue = 492m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 26, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2022, 12, 31, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 59490m,
+                            InitialPrice = 492m,
                             LotId = 491,
                             OperationDate = new DateTime(2022, 12, 14, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1492,
-                            BetValue = 59780m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 27, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 449m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2023, 1, 6, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 59780m,
+                            InitialPrice = 449m,
                             LotId = 492,
                             OperationDate = new DateTime(2022, 12, 14, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1493,
-                            BetValue = 4517m,
+                            BetValue = 232m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 29, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2023, 1, 2, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 4517m,
+                            InitialPrice = 232m,
                             LotId = 493,
                             OperationDate = new DateTime(2022, 12, 15, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1494,
-                            BetValue = 7070m,
+                            BetValue = 67m,
                             CustomerId = 3,
-                            Deadline = new DateTime(2023, 1, 3, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2023, 1, 6, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 7070m,
+                            InitialPrice = 67m,
                             LotId = 494,
                             OperationDate = new DateTime(2022, 12, 15, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1495,
-                            BetValue = 84743m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2023, 1, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 137m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 12, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 84743m,
+                            InitialPrice = 137m,
                             LotId = 495,
                             OperationDate = new DateTime(2022, 12, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1496,
-                            BetValue = 20264m,
+                            BetValue = 373m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2022, 12, 27, 9, 36, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2023, 1, 5, 9, 36, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 20264m,
+                            InitialPrice = 373m,
                             LotId = 496,
                             OperationDate = new DateTime(2022, 12, 16, 9, 36, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1497,
-                            BetValue = 16961m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 21, 19, 12, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 365m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 12, 25, 19, 12, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 16961m,
+                            InitialPrice = 365m,
                             LotId = 497,
                             OperationDate = new DateTime(2022, 12, 16, 19, 12, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1498,
-                            BetValue = 89217m,
+                            BetValue = 22m,
                             CustomerId = 2,
-                            Deadline = new DateTime(2023, 1, 12, 4, 48, 0, 0, DateTimeKind.Unspecified),
+                            Deadline = new DateTime(2023, 1, 5, 4, 48, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 89217m,
+                            InitialPrice = 22m,
                             LotId = 498,
                             OperationDate = new DateTime(2022, 12, 17, 4, 48, 0, 0, DateTimeKind.Unspecified)
                         },
                         new
                         {
                             Id = 1499,
-                            BetValue = 73503m,
-                            CustomerId = 3,
-                            Deadline = new DateTime(2022, 12, 22, 14, 24, 0, 0, DateTimeKind.Unspecified),
+                            BetValue = 735m,
+                            CustomerId = 2,
+                            Deadline = new DateTime(2022, 12, 21, 14, 24, 0, 0, DateTimeKind.Unspecified),
                             InitialDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            InitialPrice = 73503m,
+                            InitialPrice = 735m,
                             LotId = 499,
                             OperationDate = new DateTime(2022, 12, 17, 14, 24, 0, 0, DateTimeKind.Unspecified)
                         });
@@ -5634,9 +5634,9 @@ namespace Data.Migrations
                         new
                         {
                             Id = 1,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 1, category: 3",
-                            Name = "lot 1, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 1, category: 2",
+                            Name = "lot 1, categoryId: 2",
                             OwnerId = 2
                         },
                         new
@@ -5650,57 +5650,57 @@ namespace Data.Migrations
                         new
                         {
                             Id = 3,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 3, category: 1",
-                            Name = "lot 3, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 2,
+                            Description = "Description: lotid: 3, category: 2",
+                            Name = "lot 3, categoryId: 2",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 4,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 4, category: 2",
-                            Name = "lot 4, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 3,
+                            Description = "Description: lotid: 4, category: 3",
+                            Name = "lot 4, categoryId: 3",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 5,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 5, category: 3",
-                            Name = "lot 5, categoryId: 3",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 5, category: 1",
+                            Name = "lot 5, categoryId: 1",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 6,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 6, category: 3",
-                            Name = "lot 6, categoryId: 3",
-                            OwnerId = 2
-                        },
-                        new
-                        {
-                            Id = 7,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 7, category: 3",
-                            Name = "lot 7, categoryId: 3",
-                            OwnerId = 2
-                        },
-                        new
-                        {
-                            Id = 8,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 8, category: 1",
-                            Name = "lot 8, categoryId: 1",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 6, category: 2",
+                            Name = "lot 6, categoryId: 2",
                             OwnerId = 3
                         },
                         new
                         {
+                            Id = 7,
+                            CategoryId = 1,
+                            Description = "Description: lotid: 7, category: 1",
+                            Name = "lot 7, categoryId: 1",
+                            OwnerId = 3
+                        },
+                        new
+                        {
+                            Id = 8,
+                            CategoryId = 2,
+                            Description = "Description: lotid: 8, category: 2",
+                            Name = "lot 8, categoryId: 2",
+                            OwnerId = 2
+                        },
+                        new
+                        {
                             Id = 9,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 9, category: 3",
-                            Name = "lot 9, categoryId: 3",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 9, category: 1",
+                            Name = "lot 9, categoryId: 1",
                             OwnerId = 3
                         },
                         new
@@ -5714,10 +5714,10 @@ namespace Data.Migrations
                         new
                         {
                             Id = 11,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 11, category: 1",
-                            Name = "lot 11, categoryId: 1",
-                            OwnerId = 3
+                            CategoryId = 3,
+                            Description = "Description: lotid: 11, category: 3",
+                            Name = "lot 11, categoryId: 3",
+                            OwnerId = 2
                         },
                         new
                         {
@@ -5733,47 +5733,47 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 13, category: 2",
                             Name = "lot 13, categoryId: 2",
-                            OwnerId = 2
-                        },
-                        new
-                        {
-                            Id = 14,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 14, category: 2",
-                            Name = "lot 14, categoryId: 2",
                             OwnerId = 3
                         },
                         new
                         {
+                            Id = 14,
+                            CategoryId = 1,
+                            Description = "Description: lotid: 14, category: 1",
+                            Name = "lot 14, categoryId: 1",
+                            OwnerId = 2
+                        },
+                        new
+                        {
                             Id = 15,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 15, category: 3",
-                            Name = "lot 15, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 15, category: 2",
+                            Name = "lot 15, categoryId: 2",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 16,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 16, category: 3",
-                            Name = "lot 16, categoryId: 3",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 16, category: 1",
+                            Name = "lot 16, categoryId: 1",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 17,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 17, category: 2",
-                            Name = "lot 17, categoryId: 2",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 17, category: 1",
+                            Name = "lot 17, categoryId: 1",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 18,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 18, category: 1",
-                            Name = "lot 18, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 3,
+                            Description = "Description: lotid: 18, category: 3",
+                            Name = "lot 18, categoryId: 3",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -5781,14 +5781,14 @@ namespace Data.Migrations
                             CategoryId = 3,
                             Description = "Description: lotid: 19, category: 3",
                             Name = "lot 19, categoryId: 3",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 20,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 20, category: 1",
-                            Name = "lot 20, categoryId: 1",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 20, category: 2",
+                            Name = "lot 20, categoryId: 2",
                             OwnerId = 2
                         },
                         new
@@ -5797,23 +5797,23 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 21, category: 1",
                             Name = "lot 21, categoryId: 1",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 22,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 22, category: 2",
-                            Name = "lot 22, categoryId: 2",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 22, category: 1",
+                            Name = "lot 22, categoryId: 1",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 23,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 23, category: 1",
-                            Name = "lot 23, categoryId: 1",
-                            OwnerId = 3
+                            CategoryId = 3,
+                            Description = "Description: lotid: 23, category: 3",
+                            Name = "lot 23, categoryId: 3",
+                            OwnerId = 2
                         },
                         new
                         {
@@ -5821,7 +5821,7 @@ namespace Data.Migrations
                             CategoryId = 3,
                             Description = "Description: lotid: 24, category: 3",
                             Name = "lot 24, categoryId: 3",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
@@ -5829,62 +5829,62 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 25, category: 2",
                             Name = "lot 25, categoryId: 2",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 26,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 26, category: 2",
-                            Name = "lot 26, categoryId: 2",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 26, category: 1",
+                            Name = "lot 26, categoryId: 1",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 27,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 27, category: 1",
-                            Name = "lot 27, categoryId: 1",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 27, category: 3",
+                            Name = "lot 27, categoryId: 3",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 28,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 28, category: 3",
-                            Name = "lot 28, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 28, category: 2",
+                            Name = "lot 28, categoryId: 2",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 29,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 29, category: 2",
-                            Name = "lot 29, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 3,
+                            Description = "Description: lotid: 29, category: 3",
+                            Name = "lot 29, categoryId: 3",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 30,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 30, category: 1",
-                            Name = "lot 30, categoryId: 1",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 30, category: 3",
+                            Name = "lot 30, categoryId: 3",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 31,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 31, category: 2",
-                            Name = "lot 31, categoryId: 2",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 31, category: 1",
+                            Name = "lot 31, categoryId: 1",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 32,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 32, category: 1",
-                            Name = "lot 32, categoryId: 1",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 32, category: 2",
+                            Name = "lot 32, categoryId: 2",
                             OwnerId = 3
                         },
                         new
@@ -5898,57 +5898,57 @@ namespace Data.Migrations
                         new
                         {
                             Id = 34,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 34, category: 3",
-                            Name = "lot 34, categoryId: 3",
-                            OwnerId = 3
-                        },
-                        new
-                        {
-                            Id = 35,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 35, category: 3",
-                            Name = "lot 35, categoryId: 3",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 34, category: 1",
+                            Name = "lot 34, categoryId: 1",
                             OwnerId = 2
                         },
                         new
                         {
-                            Id = 36,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 36, category: 3",
-                            Name = "lot 36, categoryId: 3",
+                            Id = 35,
+                            CategoryId = 1,
+                            Description = "Description: lotid: 35, category: 1",
+                            Name = "lot 35, categoryId: 1",
                             OwnerId = 3
                         },
                         new
                         {
-                            Id = 37,
+                            Id = 36,
                             CategoryId = 1,
-                            Description = "Description: lotid: 37, category: 1",
-                            Name = "lot 37, categoryId: 1",
+                            Description = "Description: lotid: 36, category: 1",
+                            Name = "lot 36, categoryId: 1",
+                            OwnerId = 2
+                        },
+                        new
+                        {
+                            Id = 37,
+                            CategoryId = 3,
+                            Description = "Description: lotid: 37, category: 3",
+                            Name = "lot 37, categoryId: 3",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 38,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 38, category: 3",
-                            Name = "lot 38, categoryId: 3",
-                            OwnerId = 2
+                            CategoryId = 2,
+                            Description = "Description: lotid: 38, category: 2",
+                            Name = "lot 38, categoryId: 2",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 39,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 39, category: 2",
-                            Name = "lot 39, categoryId: 2",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 39, category: 3",
+                            Name = "lot 39, categoryId: 3",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 40,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 40, category: 1",
-                            Name = "lot 40, categoryId: 1",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 40, category: 2",
+                            Name = "lot 40, categoryId: 2",
                             OwnerId = 3
                         },
                         new
@@ -5962,34 +5962,34 @@ namespace Data.Migrations
                         new
                         {
                             Id = 42,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 42, category: 3",
-                            Name = "lot 42, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 42, category: 2",
+                            Name = "lot 42, categoryId: 2",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 43,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 43, category: 1",
-                            Name = "lot 43, categoryId: 1",
-                            OwnerId = 3
+                            CategoryId = 3,
+                            Description = "Description: lotid: 43, category: 3",
+                            Name = "lot 43, categoryId: 3",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 44,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 44, category: 2",
-                            Name = "lot 44, categoryId: 2",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 44, category: 3",
+                            Name = "lot 44, categoryId: 3",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 45,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 45, category: 3",
-                            Name = "lot 45, categoryId: 3",
-                            OwnerId = 2
+                            CategoryId = 1,
+                            Description = "Description: lotid: 45, category: 1",
+                            Name = "lot 45, categoryId: 1",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -6005,7 +6005,7 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 47, category: 2",
                             Name = "lot 47, categoryId: 2",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
@@ -6013,71 +6013,71 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 48, category: 2",
                             Name = "lot 48, categoryId: 2",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 49,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 49, category: 1",
-                            Name = "lot 49, categoryId: 1",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 49, category: 3",
+                            Name = "lot 49, categoryId: 3",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 50,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 50, category: 2",
-                            Name = "lot 50, categoryId: 2",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 50, category: 1",
+                            Name = "lot 50, categoryId: 1",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 51,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 51, category: 2",
-                            Name = "lot 51, categoryId: 2",
-                            OwnerId = 3
-                        },
-                        new
-                        {
-                            Id = 52,
                             CategoryId = 3,
-                            Description = "Description: lotid: 52, category: 3",
-                            Name = "lot 52, categoryId: 3",
+                            Description = "Description: lotid: 51, category: 3",
+                            Name = "lot 51, categoryId: 3",
                             OwnerId = 2
                         },
                         new
                         {
+                            Id = 52,
+                            CategoryId = 1,
+                            Description = "Description: lotid: 52, category: 1",
+                            Name = "lot 52, categoryId: 1",
+                            OwnerId = 3
+                        },
+                        new
+                        {
                             Id = 53,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 53, category: 3",
-                            Name = "lot 53, categoryId: 3",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 53, category: 1",
+                            Name = "lot 53, categoryId: 1",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 54,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 54, category: 2",
-                            Name = "lot 54, categoryId: 2",
-                            OwnerId = 3
+                            CategoryId = 3,
+                            Description = "Description: lotid: 54, category: 3",
+                            Name = "lot 54, categoryId: 3",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 55,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 55, category: 1",
-                            Name = "lot 55, categoryId: 1",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 55, category: 2",
+                            Name = "lot 55, categoryId: 2",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 56,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 56, category: 1",
-                            Name = "lot 56, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 2,
+                            Description = "Description: lotid: 56, category: 2",
+                            Name = "lot 56, categoryId: 2",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -6098,18 +6098,18 @@ namespace Data.Migrations
                         new
                         {
                             Id = 59,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 59, category: 1",
-                            Name = "lot 59, categoryId: 1",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 59, category: 2",
+                            Name = "lot 59, categoryId: 2",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 60,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 60, category: 2",
-                            Name = "lot 60, categoryId: 2",
-                            OwnerId = 3
+                            CategoryId = 3,
+                            Description = "Description: lotid: 60, category: 3",
+                            Name = "lot 60, categoryId: 3",
+                            OwnerId = 2
                         },
                         new
                         {
@@ -6122,10 +6122,10 @@ namespace Data.Migrations
                         new
                         {
                             Id = 62,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 62, category: 1",
-                            Name = "lot 62, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 3,
+                            Description = "Description: lotid: 62, category: 3",
+                            Name = "lot 62, categoryId: 3",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -6133,7 +6133,7 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 63, category: 2",
                             Name = "lot 63, categoryId: 2",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
@@ -6149,31 +6149,31 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 65, category: 1",
                             Name = "lot 65, categoryId: 1",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 66,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 66, category: 3",
-                            Name = "lot 66, categoryId: 3",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 66, category: 1",
+                            Name = "lot 66, categoryId: 1",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 67,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 67, category: 2",
-                            Name = "lot 67, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 3,
+                            Description = "Description: lotid: 67, category: 3",
+                            Name = "lot 67, categoryId: 3",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 68,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 68, category: 1",
-                            Name = "lot 68, categoryId: 1",
-                            OwnerId = 3
+                            CategoryId = 3,
+                            Description = "Description: lotid: 68, category: 3",
+                            Name = "lot 68, categoryId: 3",
+                            OwnerId = 2
                         },
                         new
                         {
@@ -6181,22 +6181,22 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 69, category: 1",
                             Name = "lot 69, categoryId: 1",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 70,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 70, category: 3",
-                            Name = "lot 70, categoryId: 3",
-                            OwnerId = 3
+                            CategoryId = 1,
+                            Description = "Description: lotid: 70, category: 1",
+                            Name = "lot 70, categoryId: 1",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 71,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 71, category: 1",
-                            Name = "lot 71, categoryId: 1",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 71, category: 2",
+                            Name = "lot 71, categoryId: 2",
                             OwnerId = 3
                         },
                         new
@@ -6205,14 +6205,14 @@ namespace Data.Migrations
                             CategoryId = 3,
                             Description = "Description: lotid: 72, category: 3",
                             Name = "lot 72, categoryId: 3",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 73,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 73, category: 2",
-                            Name = "lot 73, categoryId: 2",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 73, category: 1",
+                            Name = "lot 73, categoryId: 1",
                             OwnerId = 3
                         },
                         new
@@ -6221,7 +6221,7 @@ namespace Data.Migrations
                             CategoryId = 3,
                             Description = "Description: lotid: 74, category: 3",
                             Name = "lot 74, categoryId: 3",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
@@ -6234,26 +6234,26 @@ namespace Data.Migrations
                         new
                         {
                             Id = 76,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 76, category: 1",
-                            Name = "lot 76, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 2,
+                            Description = "Description: lotid: 76, category: 2",
+                            Name = "lot 76, categoryId: 2",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 77,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 77, category: 2",
-                            Name = "lot 77, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 1,
+                            Description = "Description: lotid: 77, category: 1",
+                            Name = "lot 77, categoryId: 1",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 78,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 78, category: 2",
-                            Name = "lot 78, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 3,
+                            Description = "Description: lotid: 78, category: 3",
+                            Name = "lot 78, categoryId: 3",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -6266,26 +6266,26 @@ namespace Data.Migrations
                         new
                         {
                             Id = 80,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 80, category: 3",
-                            Name = "lot 80, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 80, category: 2",
+                            Name = "lot 80, categoryId: 2",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 81,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 81, category: 1",
-                            Name = "lot 81, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 2,
+                            Description = "Description: lotid: 81, category: 2",
+                            Name = "lot 81, categoryId: 2",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 82,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 82, category: 2",
-                            Name = "lot 82, categoryId: 2",
-                            OwnerId = 3
+                            CategoryId = 1,
+                            Description = "Description: lotid: 82, category: 1",
+                            Name = "lot 82, categoryId: 1",
+                            OwnerId = 2
                         },
                         new
                         {
@@ -6298,9 +6298,9 @@ namespace Data.Migrations
                         new
                         {
                             Id = 84,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 84, category: 3",
-                            Name = "lot 84, categoryId: 3",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 84, category: 1",
+                            Name = "lot 84, categoryId: 1",
                             OwnerId = 2
                         },
                         new
@@ -6309,7 +6309,7 @@ namespace Data.Migrations
                             CategoryId = 3,
                             Description = "Description: lotid: 85, category: 3",
                             Name = "lot 85, categoryId: 3",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
@@ -6333,30 +6333,30 @@ namespace Data.Migrations
                             CategoryId = 3,
                             Description = "Description: lotid: 88, category: 3",
                             Name = "lot 88, categoryId: 3",
-                            OwnerId = 3
-                        },
-                        new
-                        {
-                            Id = 89,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 89, category: 1",
-                            Name = "lot 89, categoryId: 1",
                             OwnerId = 2
                         },
                         new
                         {
+                            Id = 89,
+                            CategoryId = 3,
+                            Description = "Description: lotid: 89, category: 3",
+                            Name = "lot 89, categoryId: 3",
+                            OwnerId = 3
+                        },
+                        new
+                        {
                             Id = 90,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 90, category: 2",
-                            Name = "lot 90, categoryId: 2",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 90, category: 1",
+                            Name = "lot 90, categoryId: 1",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 91,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 91, category: 2",
-                            Name = "lot 91, categoryId: 2",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 91, category: 3",
+                            Name = "lot 91, categoryId: 3",
                             OwnerId = 3
                         },
                         new
@@ -6365,7 +6365,7 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 92, category: 1",
                             Name = "lot 92, categoryId: 1",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
@@ -6373,22 +6373,22 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 93, category: 2",
                             Name = "lot 93, categoryId: 2",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 94,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 94, category: 2",
-                            Name = "lot 94, categoryId: 2",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 94, category: 3",
+                            Name = "lot 94, categoryId: 3",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 95,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 95, category: 2",
-                            Name = "lot 95, categoryId: 2",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 95, category: 3",
+                            Name = "lot 95, categoryId: 3",
                             OwnerId = 2
                         },
                         new
@@ -6402,10 +6402,10 @@ namespace Data.Migrations
                         new
                         {
                             Id = 97,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 97, category: 2",
-                            Name = "lot 97, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 1,
+                            Description = "Description: lotid: 97, category: 1",
+                            Name = "lot 97, categoryId: 1",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -6418,58 +6418,58 @@ namespace Data.Migrations
                         new
                         {
                             Id = 99,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 99, category: 2",
-                            Name = "lot 99, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 1,
+                            Description = "Description: lotid: 99, category: 1",
+                            Name = "lot 99, categoryId: 1",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 100,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 100, category: 3",
-                            Name = "lot 100, categoryId: 3",
-                            OwnerId = 2
+                            CategoryId = 2,
+                            Description = "Description: lotid: 100, category: 2",
+                            Name = "lot 100, categoryId: 2",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 101,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 101, category: 3",
-                            Name = "lot 101, categoryId: 3",
-                            OwnerId = 2
+                            CategoryId = 2,
+                            Description = "Description: lotid: 101, category: 2",
+                            Name = "lot 101, categoryId: 2",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 102,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 102, category: 3",
-                            Name = "lot 102, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 102, category: 2",
+                            Name = "lot 102, categoryId: 2",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 103,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 103, category: 2",
-                            Name = "lot 103, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 3,
+                            Description = "Description: lotid: 103, category: 3",
+                            Name = "lot 103, categoryId: 3",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 104,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 104, category: 1",
-                            Name = "lot 104, categoryId: 1",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 104, category: 3",
+                            Name = "lot 104, categoryId: 3",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 105,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 105, category: 1",
-                            Name = "lot 105, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 2,
+                            Description = "Description: lotid: 105, category: 2",
+                            Name = "lot 105, categoryId: 2",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -6477,14 +6477,14 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 106, category: 2",
                             Name = "lot 106, categoryId: 2",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 107,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 107, category: 1",
-                            Name = "lot 107, categoryId: 1",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 107, category: 2",
+                            Name = "lot 107, categoryId: 2",
                             OwnerId = 3
                         },
                         new
@@ -6493,30 +6493,30 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 108, category: 2",
                             Name = "lot 108, categoryId: 2",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 109,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 109, category: 2",
-                            Name = "lot 109, categoryId: 2",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 109, category: 3",
+                            Name = "lot 109, categoryId: 3",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 110,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 110, category: 2",
-                            Name = "lot 110, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 1,
+                            Description = "Description: lotid: 110, category: 1",
+                            Name = "lot 110, categoryId: 1",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 111,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 111, category: 3",
-                            Name = "lot 111, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 111, category: 2",
+                            Name = "lot 111, categoryId: 2",
                             OwnerId = 3
                         },
                         new
@@ -6525,38 +6525,38 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 112, category: 2",
                             Name = "lot 112, categoryId: 2",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 113,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 113, category: 3",
-                            Name = "lot 113, categoryId: 3",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 113, category: 1",
+                            Name = "lot 113, categoryId: 1",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 114,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 114, category: 1",
-                            Name = "lot 114, categoryId: 1",
-                            OwnerId = 3
-                        },
-                        new
-                        {
-                            Id = 115,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 115, category: 1",
-                            Name = "lot 115, categoryId: 1",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 114, category: 3",
+                            Name = "lot 114, categoryId: 3",
                             OwnerId = 2
                         },
                         new
                         {
-                            Id = 116,
+                            Id = 115,
                             CategoryId = 3,
-                            Description = "Description: lotid: 116, category: 3",
-                            Name = "lot 116, categoryId: 3",
+                            Description = "Description: lotid: 115, category: 3",
+                            Name = "lot 115, categoryId: 3",
+                            OwnerId = 3
+                        },
+                        new
+                        {
+                            Id = 116,
+                            CategoryId = 1,
+                            Description = "Description: lotid: 116, category: 1",
+                            Name = "lot 116, categoryId: 1",
                             OwnerId = 2
                         },
                         new
@@ -6565,7 +6565,7 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 117, category: 1",
                             Name = "lot 117, categoryId: 1",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
@@ -6573,47 +6573,47 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 118, category: 2",
                             Name = "lot 118, categoryId: 2",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 119,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 119, category: 3",
-                            Name = "lot 119, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 119, category: 2",
+                            Name = "lot 119, categoryId: 2",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 120,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 120, category: 3",
-                            Name = "lot 120, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 120, category: 2",
+                            Name = "lot 120, categoryId: 2",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 121,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 121, category: 3",
-                            Name = "lot 121, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 121, category: 2",
+                            Name = "lot 121, categoryId: 2",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 122,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 122, category: 2",
-                            Name = "lot 122, categoryId: 2",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 122, category: 3",
+                            Name = "lot 122, categoryId: 3",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 123,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 123, category: 1",
-                            Name = "lot 123, categoryId: 1",
-                            OwnerId = 3
+                            CategoryId = 3,
+                            Description = "Description: lotid: 123, category: 3",
+                            Name = "lot 123, categoryId: 3",
+                            OwnerId = 2
                         },
                         new
                         {
@@ -6629,15 +6629,15 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 125, category: 2",
                             Name = "lot 125, categoryId: 2",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 126,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 126, category: 3",
-                            Name = "lot 126, categoryId: 3",
-                            OwnerId = 2
+                            CategoryId = 1,
+                            Description = "Description: lotid: 126, category: 1",
+                            Name = "lot 126, categoryId: 1",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -6645,7 +6645,7 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 127, category: 1",
                             Name = "lot 127, categoryId: 1",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
@@ -6658,50 +6658,50 @@ namespace Data.Migrations
                         new
                         {
                             Id = 129,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 129, category: 1",
-                            Name = "lot 129, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 2,
+                            Description = "Description: lotid: 129, category: 2",
+                            Name = "lot 129, categoryId: 2",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 130,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 130, category: 3",
-                            Name = "lot 130, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 130, category: 2",
+                            Name = "lot 130, categoryId: 2",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 131,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 131, category: 2",
-                            Name = "lot 131, categoryId: 2",
-                            OwnerId = 3
+                            CategoryId = 1,
+                            Description = "Description: lotid: 131, category: 1",
+                            Name = "lot 131, categoryId: 1",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 132,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 132, category: 2",
-                            Name = "lot 132, categoryId: 2",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 132, category: 3",
+                            Name = "lot 132, categoryId: 3",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 133,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 133, category: 2",
-                            Name = "lot 133, categoryId: 2",
-                            OwnerId = 3
+                            CategoryId = 1,
+                            Description = "Description: lotid: 133, category: 1",
+                            Name = "lot 133, categoryId: 1",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 134,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 134, category: 2",
-                            Name = "lot 134, categoryId: 2",
-                            OwnerId = 3
+                            CategoryId = 3,
+                            Description = "Description: lotid: 134, category: 3",
+                            Name = "lot 134, categoryId: 3",
+                            OwnerId = 2
                         },
                         new
                         {
@@ -6709,47 +6709,47 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 135, category: 1",
                             Name = "lot 135, categoryId: 1",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 136,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 136, category: 1",
-                            Name = "lot 136, categoryId: 1",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 136, category: 2",
+                            Name = "lot 136, categoryId: 2",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 137,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 137, category: 3",
-                            Name = "lot 137, categoryId: 3",
-                            OwnerId = 3
+                            CategoryId = 2,
+                            Description = "Description: lotid: 137, category: 2",
+                            Name = "lot 137, categoryId: 2",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 138,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 138, category: 3",
-                            Name = "lot 138, categoryId: 3",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 138, category: 1",
+                            Name = "lot 138, categoryId: 1",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 139,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 139, category: 2",
-                            Name = "lot 139, categoryId: 2",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 139, category: 1",
+                            Name = "lot 139, categoryId: 1",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 140,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 140, category: 2",
-                            Name = "lot 140, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 1,
+                            Description = "Description: lotid: 140, category: 1",
+                            Name = "lot 140, categoryId: 1",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -6757,62 +6757,62 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 141, category: 2",
                             Name = "lot 141, categoryId: 2",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 142,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 142, category: 1",
-                            Name = "lot 142, categoryId: 1",
-                            OwnerId = 3
+                            CategoryId = 3,
+                            Description = "Description: lotid: 142, category: 3",
+                            Name = "lot 142, categoryId: 3",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 143,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 143, category: 3",
-                            Name = "lot 143, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 143, category: 2",
+                            Name = "lot 143, categoryId: 2",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 144,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 144, category: 1",
-                            Name = "lot 144, categoryId: 1",
-                            OwnerId = 2
-                        },
-                        new
-                        {
-                            Id = 145,
                             CategoryId = 2,
-                            Description = "Description: lotid: 145, category: 2",
-                            Name = "lot 145, categoryId: 2",
-                            OwnerId = 2
-                        },
-                        new
-                        {
-                            Id = 146,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 146, category: 1",
-                            Name = "lot 146, categoryId: 1",
+                            Description = "Description: lotid: 144, category: 2",
+                            Name = "lot 144, categoryId: 2",
                             OwnerId = 3
                         },
                         new
                         {
-                            Id = 147,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 147, category: 3",
-                            Name = "lot 147, categoryId: 3",
+                            Id = 145,
+                            CategoryId = 1,
+                            Description = "Description: lotid: 145, category: 1",
+                            Name = "lot 145, categoryId: 1",
+                            OwnerId = 3
+                        },
+                        new
+                        {
+                            Id = 146,
+                            CategoryId = 2,
+                            Description = "Description: lotid: 146, category: 2",
+                            Name = "lot 146, categoryId: 2",
                             OwnerId = 2
                         },
                         new
                         {
-                            Id = 148,
+                            Id = 147,
                             CategoryId = 2,
-                            Description = "Description: lotid: 148, category: 2",
-                            Name = "lot 148, categoryId: 2",
+                            Description = "Description: lotid: 147, category: 2",
+                            Name = "lot 147, categoryId: 2",
+                            OwnerId = 3
+                        },
+                        new
+                        {
+                            Id = 148,
+                            CategoryId = 3,
+                            Description = "Description: lotid: 148, category: 3",
+                            Name = "lot 148, categoryId: 3",
                             OwnerId = 2
                         },
                         new
@@ -6821,7 +6821,7 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 149, category: 1",
                             Name = "lot 149, categoryId: 1",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
@@ -6834,18 +6834,18 @@ namespace Data.Migrations
                         new
                         {
                             Id = 151,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 151, category: 3",
-                            Name = "lot 151, categoryId: 3",
-                            OwnerId = 3
+                            CategoryId = 1,
+                            Description = "Description: lotid: 151, category: 1",
+                            Name = "lot 151, categoryId: 1",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 152,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 152, category: 2",
-                            Name = "lot 152, categoryId: 2",
-                            OwnerId = 3
+                            CategoryId = 3,
+                            Description = "Description: lotid: 152, category: 3",
+                            Name = "lot 152, categoryId: 3",
+                            OwnerId = 2
                         },
                         new
                         {
@@ -6858,9 +6858,9 @@ namespace Data.Migrations
                         new
                         {
                             Id = 154,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 154, category: 2",
-                            Name = "lot 154, categoryId: 2",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 154, category: 1",
+                            Name = "lot 154, categoryId: 1",
                             OwnerId = 3
                         },
                         new
@@ -6874,9 +6874,9 @@ namespace Data.Migrations
                         new
                         {
                             Id = 156,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 156, category: 2",
-                            Name = "lot 156, categoryId: 2",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 156, category: 3",
+                            Name = "lot 156, categoryId: 3",
                             OwnerId = 2
                         },
                         new
@@ -6885,7 +6885,7 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 157, category: 2",
                             Name = "lot 157, categoryId: 2",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
@@ -6893,78 +6893,78 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 158, category: 2",
                             Name = "lot 158, categoryId: 2",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 159,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 159, category: 3",
-                            Name = "lot 159, categoryId: 3",
-                            OwnerId = 3
+                            CategoryId = 1,
+                            Description = "Description: lotid: 159, category: 1",
+                            Name = "lot 159, categoryId: 1",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 160,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 160, category: 3",
-                            Name = "lot 160, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 160, category: 2",
+                            Name = "lot 160, categoryId: 2",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 161,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 161, category: 1",
-                            Name = "lot 161, categoryId: 1",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 161, category: 2",
+                            Name = "lot 161, categoryId: 2",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 162,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 162, category: 3",
-                            Name = "lot 162, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 162, category: 2",
+                            Name = "lot 162, categoryId: 2",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 163,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 163, category: 2",
-                            Name = "lot 163, categoryId: 2",
-                            OwnerId = 3
+                            CategoryId = 1,
+                            Description = "Description: lotid: 163, category: 1",
+                            Name = "lot 163, categoryId: 1",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 164,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 164, category: 1",
-                            Name = "lot 164, categoryId: 1",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 164, category: 2",
+                            Name = "lot 164, categoryId: 2",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 165,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 165, category: 3",
-                            Name = "lot 165, categoryId: 3",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 165, category: 1",
+                            Name = "lot 165, categoryId: 1",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 166,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 166, category: 3",
-                            Name = "lot 166, categoryId: 3",
-                            OwnerId = 3
+                            CategoryId = 1,
+                            Description = "Description: lotid: 166, category: 1",
+                            Name = "lot 166, categoryId: 1",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 167,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 167, category: 2",
-                            Name = "lot 167, categoryId: 2",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 167, category: 1",
+                            Name = "lot 167, categoryId: 1",
                             OwnerId = 2
                         },
                         new
@@ -6973,46 +6973,46 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 168, category: 1",
                             Name = "lot 168, categoryId: 1",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 169,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 169, category: 2",
-                            Name = "lot 169, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 3,
+                            Description = "Description: lotid: 169, category: 3",
+                            Name = "lot 169, categoryId: 3",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 170,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 170, category: 2",
-                            Name = "lot 170, categoryId: 2",
-                            OwnerId = 3
-                        },
-                        new
-                        {
-                            Id = 171,
                             CategoryId = 1,
-                            Description = "Description: lotid: 171, category: 1",
-                            Name = "lot 171, categoryId: 1",
+                            Description = "Description: lotid: 170, category: 1",
+                            Name = "lot 170, categoryId: 1",
                             OwnerId = 2
                         },
                         new
                         {
-                            Id = 172,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 172, category: 2",
-                            Name = "lot 172, categoryId: 2",
+                            Id = 171,
+                            CategoryId = 3,
+                            Description = "Description: lotid: 171, category: 3",
+                            Name = "lot 171, categoryId: 3",
                             OwnerId = 3
                         },
                         new
                         {
+                            Id = 172,
+                            CategoryId = 3,
+                            Description = "Description: lotid: 172, category: 3",
+                            Name = "lot 172, categoryId: 3",
+                            OwnerId = 2
+                        },
+                        new
+                        {
                             Id = 173,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 173, category: 1",
-                            Name = "lot 173, categoryId: 1",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 173, category: 3",
+                            Name = "lot 173, categoryId: 3",
                             OwnerId = 2
                         },
                         new
@@ -7034,26 +7034,26 @@ namespace Data.Migrations
                         new
                         {
                             Id = 176,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 176, category: 3",
-                            Name = "lot 176, categoryId: 3",
-                            OwnerId = 2
+                            CategoryId = 1,
+                            Description = "Description: lotid: 176, category: 1",
+                            Name = "lot 176, categoryId: 1",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 177,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 177, category: 1",
-                            Name = "lot 177, categoryId: 1",
-                            OwnerId = 3
+                            CategoryId = 2,
+                            Description = "Description: lotid: 177, category: 2",
+                            Name = "lot 177, categoryId: 2",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 178,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 178, category: 1",
-                            Name = "lot 178, categoryId: 1",
-                            OwnerId = 3
+                            CategoryId = 2,
+                            Description = "Description: lotid: 178, category: 2",
+                            Name = "lot 178, categoryId: 2",
+                            OwnerId = 2
                         },
                         new
                         {
@@ -7066,57 +7066,57 @@ namespace Data.Migrations
                         new
                         {
                             Id = 180,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 180, category: 1",
-                            Name = "lot 180, categoryId: 1",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 180, category: 3",
+                            Name = "lot 180, categoryId: 3",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 181,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 181, category: 2",
-                            Name = "lot 181, categoryId: 2",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 181, category: 3",
+                            Name = "lot 181, categoryId: 3",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 182,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 182, category: 2",
-                            Name = "lot 182, categoryId: 2",
-                            OwnerId = 3
+                            CategoryId = 3,
+                            Description = "Description: lotid: 182, category: 3",
+                            Name = "lot 182, categoryId: 3",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 183,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 183, category: 1",
-                            Name = "lot 183, categoryId: 1",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 183, category: 3",
+                            Name = "lot 183, categoryId: 3",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 184,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 184, category: 3",
-                            Name = "lot 184, categoryId: 3",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 184, category: 1",
+                            Name = "lot 184, categoryId: 1",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 185,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 185, category: 2",
-                            Name = "lot 185, categoryId: 2",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 185, category: 1",
+                            Name = "lot 185, categoryId: 1",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 186,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 186, category: 3",
-                            Name = "lot 186, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 186, category: 2",
+                            Name = "lot 186, categoryId: 2",
                             OwnerId = 3
                         },
                         new
@@ -7125,47 +7125,47 @@ namespace Data.Migrations
                             CategoryId = 3,
                             Description = "Description: lotid: 187, category: 3",
                             Name = "lot 187, categoryId: 3",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 188,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 188, category: 3",
-                            Name = "lot 188, categoryId: 3",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 188, category: 1",
+                            Name = "lot 188, categoryId: 1",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 189,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 189, category: 2",
-                            Name = "lot 189, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 3,
+                            Description = "Description: lotid: 189, category: 3",
+                            Name = "lot 189, categoryId: 3",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 190,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 190, category: 2",
-                            Name = "lot 190, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 3,
+                            Description = "Description: lotid: 190, category: 3",
+                            Name = "lot 190, categoryId: 3",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 191,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 191, category: 2",
-                            Name = "lot 191, categoryId: 2",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 191, category: 1",
+                            Name = "lot 191, categoryId: 1",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 192,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 192, category: 3",
-                            Name = "lot 192, categoryId: 3",
-                            OwnerId = 2
+                            CategoryId = 1,
+                            Description = "Description: lotid: 192, category: 1",
+                            Name = "lot 192, categoryId: 1",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -7173,7 +7173,7 @@ namespace Data.Migrations
                             CategoryId = 3,
                             Description = "Description: lotid: 193, category: 3",
                             Name = "lot 193, categoryId: 3",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
@@ -7181,38 +7181,38 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 194, category: 1",
                             Name = "lot 194, categoryId: 1",
-                            OwnerId = 2
-                        },
-                        new
-                        {
-                            Id = 195,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 195, category: 3",
-                            Name = "lot 195, categoryId: 3",
                             OwnerId = 3
                         },
                         new
                         {
-                            Id = 196,
+                            Id = 195,
                             CategoryId = 1,
-                            Description = "Description: lotid: 196, category: 1",
-                            Name = "lot 196, categoryId: 1",
+                            Description = "Description: lotid: 195, category: 1",
+                            Name = "lot 195, categoryId: 1",
+                            OwnerId = 2
+                        },
+                        new
+                        {
+                            Id = 196,
+                            CategoryId = 3,
+                            Description = "Description: lotid: 196, category: 3",
+                            Name = "lot 196, categoryId: 3",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 197,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 197, category: 3",
-                            Name = "lot 197, categoryId: 3",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 197, category: 1",
+                            Name = "lot 197, categoryId: 1",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 198,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 198, category: 2",
-                            Name = "lot 198, categoryId: 2",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 198, category: 1",
+                            Name = "lot 198, categoryId: 1",
                             OwnerId = 2
                         },
                         new
@@ -7226,18 +7226,18 @@ namespace Data.Migrations
                         new
                         {
                             Id = 200,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 200, category: 2",
-                            Name = "lot 200, categoryId: 2",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 200, category: 3",
+                            Name = "lot 200, categoryId: 3",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 201,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 201, category: 3",
-                            Name = "lot 201, categoryId: 3",
-                            OwnerId = 3
+                            CategoryId = 1,
+                            Description = "Description: lotid: 201, category: 1",
+                            Name = "lot 201, categoryId: 1",
+                            OwnerId = 2
                         },
                         new
                         {
@@ -7250,10 +7250,10 @@ namespace Data.Migrations
                         new
                         {
                             Id = 203,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 203, category: 1",
-                            Name = "lot 203, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 2,
+                            Description = "Description: lotid: 203, category: 2",
+                            Name = "lot 203, categoryId: 2",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -7261,7 +7261,7 @@ namespace Data.Migrations
                             CategoryId = 3,
                             Description = "Description: lotid: 204, category: 3",
                             Name = "lot 204, categoryId: 3",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
@@ -7290,10 +7290,10 @@ namespace Data.Migrations
                         new
                         {
                             Id = 208,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 208, category: 1",
-                            Name = "lot 208, categoryId: 1",
-                            OwnerId = 3
+                            CategoryId = 2,
+                            Description = "Description: lotid: 208, category: 2",
+                            Name = "lot 208, categoryId: 2",
+                            OwnerId = 2
                         },
                         new
                         {
@@ -7306,17 +7306,17 @@ namespace Data.Migrations
                         new
                         {
                             Id = 210,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 210, category: 3",
-                            Name = "lot 210, categoryId: 3",
-                            OwnerId = 3
+                            CategoryId = 2,
+                            Description = "Description: lotid: 210, category: 2",
+                            Name = "lot 210, categoryId: 2",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 211,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 211, category: 3",
-                            Name = "lot 211, categoryId: 3",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 211, category: 1",
+                            Name = "lot 211, categoryId: 1",
                             OwnerId = 3
                         },
                         new
@@ -7330,33 +7330,33 @@ namespace Data.Migrations
                         new
                         {
                             Id = 213,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 213, category: 1",
-                            Name = "lot 213, categoryId: 1",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 213, category: 3",
+                            Name = "lot 213, categoryId: 3",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 214,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 214, category: 3",
-                            Name = "lot 214, categoryId: 3",
-                            OwnerId = 2
-                        },
-                        new
-                        {
-                            Id = 215,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 215, category: 1",
-                            Name = "lot 215, categoryId: 1",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 214, category: 2",
+                            Name = "lot 214, categoryId: 2",
                             OwnerId = 3
                         },
                         new
                         {
-                            Id = 216,
+                            Id = 215,
                             CategoryId = 2,
-                            Description = "Description: lotid: 216, category: 2",
-                            Name = "lot 216, categoryId: 2",
+                            Description = "Description: lotid: 215, category: 2",
+                            Name = "lot 215, categoryId: 2",
+                            OwnerId = 2
+                        },
+                        new
+                        {
+                            Id = 216,
+                            CategoryId = 1,
+                            Description = "Description: lotid: 216, category: 1",
+                            Name = "lot 216, categoryId: 1",
                             OwnerId = 3
                         },
                         new
@@ -7365,7 +7365,7 @@ namespace Data.Migrations
                             CategoryId = 3,
                             Description = "Description: lotid: 217, category: 3",
                             Name = "lot 217, categoryId: 3",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
@@ -7373,15 +7373,15 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 218, category: 2",
                             Name = "lot 218, categoryId: 2",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 219,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 219, category: 1",
-                            Name = "lot 219, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 2,
+                            Description = "Description: lotid: 219, category: 2",
+                            Name = "lot 219, categoryId: 2",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -7394,9 +7394,9 @@ namespace Data.Migrations
                         new
                         {
                             Id = 221,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 221, category: 1",
-                            Name = "lot 221, categoryId: 1",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 221, category: 3",
+                            Name = "lot 221, categoryId: 3",
                             OwnerId = 2
                         },
                         new
@@ -7405,7 +7405,7 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 222, category: 1",
                             Name = "lot 222, categoryId: 1",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
@@ -7418,49 +7418,49 @@ namespace Data.Migrations
                         new
                         {
                             Id = 224,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 224, category: 2",
-                            Name = "lot 224, categoryId: 2",
-                            OwnerId = 3
+                            CategoryId = 1,
+                            Description = "Description: lotid: 224, category: 1",
+                            Name = "lot 224, categoryId: 1",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 225,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 225, category: 3",
-                            Name = "lot 225, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 225, category: 2",
+                            Name = "lot 225, categoryId: 2",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 226,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 226, category: 3",
-                            Name = "lot 226, categoryId: 3",
-                            OwnerId = 3
+                            CategoryId = 2,
+                            Description = "Description: lotid: 226, category: 2",
+                            Name = "lot 226, categoryId: 2",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 227,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 227, category: 2",
-                            Name = "lot 227, categoryId: 2",
-                            OwnerId = 3
+                            CategoryId = 1,
+                            Description = "Description: lotid: 227, category: 1",
+                            Name = "lot 227, categoryId: 1",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 228,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 228, category: 1",
-                            Name = "lot 228, categoryId: 1",
-                            OwnerId = 3
+                            CategoryId = 2,
+                            Description = "Description: lotid: 228, category: 2",
+                            Name = "lot 228, categoryId: 2",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 229,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 229, category: 1",
-                            Name = "lot 229, categoryId: 1",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 229, category: 3",
+                            Name = "lot 229, categoryId: 3",
                             OwnerId = 2
                         },
                         new
@@ -7469,7 +7469,7 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 230, category: 2",
                             Name = "lot 230, categoryId: 2",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
@@ -7482,42 +7482,42 @@ namespace Data.Migrations
                         new
                         {
                             Id = 232,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 232, category: 3",
-                            Name = "lot 232, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 232, category: 2",
+                            Name = "lot 232, categoryId: 2",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 233,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 233, category: 1",
-                            Name = "lot 233, categoryId: 1",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 233, category: 2",
+                            Name = "lot 233, categoryId: 2",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 234,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 234, category: 2",
-                            Name = "lot 234, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 3,
+                            Description = "Description: lotid: 234, category: 3",
+                            Name = "lot 234, categoryId: 3",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 235,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 235, category: 2",
-                            Name = "lot 235, categoryId: 2",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 235, category: 3",
+                            Name = "lot 235, categoryId: 3",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 236,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 236, category: 2",
-                            Name = "lot 236, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 1,
+                            Description = "Description: lotid: 236, category: 1",
+                            Name = "lot 236, categoryId: 1",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -7525,7 +7525,7 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 237, category: 1",
                             Name = "lot 237, categoryId: 1",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
@@ -7533,7 +7533,7 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 238, category: 1",
                             Name = "lot 238, categoryId: 1",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
@@ -7541,23 +7541,23 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 239, category: 1",
                             Name = "lot 239, categoryId: 1",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 240,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 240, category: 1",
-                            Name = "lot 240, categoryId: 1",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 240, category: 2",
+                            Name = "lot 240, categoryId: 2",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 241,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 241, category: 2",
-                            Name = "lot 241, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 1,
+                            Description = "Description: lotid: 241, category: 1",
+                            Name = "lot 241, categoryId: 1",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -7573,7 +7573,7 @@ namespace Data.Migrations
                             CategoryId = 3,
                             Description = "Description: lotid: 243, category: 3",
                             Name = "lot 243, categoryId: 3",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
@@ -7581,87 +7581,87 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 244, category: 1",
                             Name = "lot 244, categoryId: 1",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 245,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 245, category: 2",
-                            Name = "lot 245, categoryId: 2",
-                            OwnerId = 2
-                        },
-                        new
-                        {
-                            Id = 246,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 246, category: 2",
-                            Name = "lot 246, categoryId: 2",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 245, category: 1",
+                            Name = "lot 245, categoryId: 1",
                             OwnerId = 3
                         },
                         new
                         {
-                            Id = 247,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 247, category: 1",
-                            Name = "lot 247, categoryId: 1",
+                            Id = 246,
+                            CategoryId = 3,
+                            Description = "Description: lotid: 246, category: 3",
+                            Name = "lot 246, categoryId: 3",
                             OwnerId = 2
                         },
                         new
                         {
+                            Id = 247,
+                            CategoryId = 3,
+                            Description = "Description: lotid: 247, category: 3",
+                            Name = "lot 247, categoryId: 3",
+                            OwnerId = 3
+                        },
+                        new
+                        {
                             Id = 248,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 248, category: 2",
-                            Name = "lot 248, categoryId: 2",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 248, category: 3",
+                            Name = "lot 248, categoryId: 3",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 249,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 249, category: 1",
-                            Name = "lot 249, categoryId: 1",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 249, category: 2",
+                            Name = "lot 249, categoryId: 2",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 250,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 250, category: 2",
-                            Name = "lot 250, categoryId: 2",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 250, category: 3",
+                            Name = "lot 250, categoryId: 3",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 251,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 251, category: 3",
-                            Name = "lot 251, categoryId: 3",
-                            OwnerId = 3
-                        },
-                        new
-                        {
-                            Id = 252,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 252, category: 3",
-                            Name = "lot 252, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 251, category: 2",
+                            Name = "lot 251, categoryId: 2",
                             OwnerId = 2
                         },
                         new
                         {
+                            Id = 252,
+                            CategoryId = 1,
+                            Description = "Description: lotid: 252, category: 1",
+                            Name = "lot 252, categoryId: 1",
+                            OwnerId = 3
+                        },
+                        new
+                        {
                             Id = 253,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 253, category: 2",
-                            Name = "lot 253, categoryId: 2",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 253, category: 3",
+                            Name = "lot 253, categoryId: 3",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 254,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 254, category: 1",
-                            Name = "lot 254, categoryId: 1",
-                            OwnerId = 3
+                            CategoryId = 3,
+                            Description = "Description: lotid: 254, category: 3",
+                            Name = "lot 254, categoryId: 3",
+                            OwnerId = 2
                         },
                         new
                         {
@@ -7669,31 +7669,31 @@ namespace Data.Migrations
                             CategoryId = 3,
                             Description = "Description: lotid: 255, category: 3",
                             Name = "lot 255, categoryId: 3",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 256,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 256, category: 3",
-                            Name = "lot 256, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 256, category: 2",
+                            Name = "lot 256, categoryId: 2",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 257,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 257, category: 2",
-                            Name = "lot 257, categoryId: 2",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 257, category: 1",
+                            Name = "lot 257, categoryId: 1",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 258,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 258, category: 1",
-                            Name = "lot 258, categoryId: 1",
-                            OwnerId = 3
+                            CategoryId = 2,
+                            Description = "Description: lotid: 258, category: 2",
+                            Name = "lot 258, categoryId: 2",
+                            OwnerId = 2
                         },
                         new
                         {
@@ -7701,23 +7701,23 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 259, category: 1",
                             Name = "lot 259, categoryId: 1",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 260,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 260, category: 3",
-                            Name = "lot 260, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 260, category: 2",
+                            Name = "lot 260, categoryId: 2",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 261,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 261, category: 2",
-                            Name = "lot 261, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 3,
+                            Description = "Description: lotid: 261, category: 3",
+                            Name = "lot 261, categoryId: 3",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -7725,7 +7725,7 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 262, category: 2",
                             Name = "lot 262, categoryId: 2",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
@@ -7733,31 +7733,31 @@ namespace Data.Migrations
                             CategoryId = 3,
                             Description = "Description: lotid: 263, category: 3",
                             Name = "lot 263, categoryId: 3",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 264,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 264, category: 3",
-                            Name = "lot 264, categoryId: 3",
-                            OwnerId = 3
+                            CategoryId = 1,
+                            Description = "Description: lotid: 264, category: 1",
+                            Name = "lot 264, categoryId: 1",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 265,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 265, category: 2",
-                            Name = "lot 265, categoryId: 2",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 265, category: 3",
+                            Name = "lot 265, categoryId: 3",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 266,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 266, category: 2",
-                            Name = "lot 266, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 3,
+                            Description = "Description: lotid: 266, category: 3",
+                            Name = "lot 266, categoryId: 3",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -7770,18 +7770,18 @@ namespace Data.Migrations
                         new
                         {
                             Id = 268,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 268, category: 3",
-                            Name = "lot 268, categoryId: 3",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 268, category: 1",
+                            Name = "lot 268, categoryId: 1",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 269,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 269, category: 1",
-                            Name = "lot 269, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 3,
+                            Description = "Description: lotid: 269, category: 3",
+                            Name = "lot 269, categoryId: 3",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -7789,23 +7789,23 @@ namespace Data.Migrations
                             CategoryId = 3,
                             Description = "Description: lotid: 270, category: 3",
                             Name = "lot 270, categoryId: 3",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 271,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 271, category: 3",
-                            Name = "lot 271, categoryId: 3",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 271, category: 1",
+                            Name = "lot 271, categoryId: 1",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 272,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 272, category: 2",
-                            Name = "lot 272, categoryId: 2",
-                            OwnerId = 3
+                            CategoryId = 1,
+                            Description = "Description: lotid: 272, category: 1",
+                            Name = "lot 272, categoryId: 1",
+                            OwnerId = 2
                         },
                         new
                         {
@@ -7813,14 +7813,14 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 273, category: 2",
                             Name = "lot 273, categoryId: 2",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 274,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 274, category: 2",
-                            Name = "lot 274, categoryId: 2",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 274, category: 1",
+                            Name = "lot 274, categoryId: 1",
                             OwnerId = 2
                         },
                         new
@@ -7834,26 +7834,26 @@ namespace Data.Migrations
                         new
                         {
                             Id = 276,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 276, category: 3",
-                            Name = "lot 276, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 276, category: 2",
+                            Name = "lot 276, categoryId: 2",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 277,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 277, category: 2",
-                            Name = "lot 277, categoryId: 2",
-                            OwnerId = 3
+                            CategoryId = 3,
+                            Description = "Description: lotid: 277, category: 3",
+                            Name = "lot 277, categoryId: 3",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 278,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 278, category: 2",
-                            Name = "lot 278, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 1,
+                            Description = "Description: lotid: 278, category: 1",
+                            Name = "lot 278, categoryId: 1",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -7861,22 +7861,22 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 279, category: 1",
                             Name = "lot 279, categoryId: 1",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 280,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 280, category: 1",
-                            Name = "lot 280, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 2,
+                            Description = "Description: lotid: 280, category: 2",
+                            Name = "lot 280, categoryId: 2",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 281,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 281, category: 1",
-                            Name = "lot 281, categoryId: 1",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 281, category: 3",
+                            Name = "lot 281, categoryId: 3",
                             OwnerId = 2
                         },
                         new
@@ -7898,41 +7898,41 @@ namespace Data.Migrations
                         new
                         {
                             Id = 284,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 284, category: 3",
-                            Name = "lot 284, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 284, category: 2",
+                            Name = "lot 284, categoryId: 2",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 285,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 285, category: 3",
-                            Name = "lot 285, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 285, category: 2",
+                            Name = "lot 285, categoryId: 2",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 286,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 286, category: 2",
-                            Name = "lot 286, categoryId: 2",
-                            OwnerId = 3
+                            CategoryId = 3,
+                            Description = "Description: lotid: 286, category: 3",
+                            Name = "lot 286, categoryId: 3",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 287,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 287, category: 1",
-                            Name = "lot 287, categoryId: 1",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 287, category: 3",
+                            Name = "lot 287, categoryId: 3",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 288,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 288, category: 3",
-                            Name = "lot 288, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 288, category: 2",
+                            Name = "lot 288, categoryId: 2",
                             OwnerId = 2
                         },
                         new
@@ -7946,10 +7946,10 @@ namespace Data.Migrations
                         new
                         {
                             Id = 290,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 290, category: 1",
-                            Name = "lot 290, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 2,
+                            Description = "Description: lotid: 290, category: 2",
+                            Name = "lot 290, categoryId: 2",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -7957,7 +7957,7 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 291, category: 1",
                             Name = "lot 291, categoryId: 1",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
@@ -7965,7 +7965,7 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 292, category: 2",
                             Name = "lot 292, categoryId: 2",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
@@ -7973,7 +7973,7 @@ namespace Data.Migrations
                             CategoryId = 3,
                             Description = "Description: lotid: 293, category: 3",
                             Name = "lot 293, categoryId: 3",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
@@ -7981,7 +7981,7 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 294, category: 2",
                             Name = "lot 294, categoryId: 2",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
@@ -7994,10 +7994,10 @@ namespace Data.Migrations
                         new
                         {
                             Id = 296,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 296, category: 3",
-                            Name = "lot 296, categoryId: 3",
-                            OwnerId = 2
+                            CategoryId = 2,
+                            Description = "Description: lotid: 296, category: 2",
+                            Name = "lot 296, categoryId: 2",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -8010,18 +8010,18 @@ namespace Data.Migrations
                         new
                         {
                             Id = 298,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 298, category: 2",
-                            Name = "lot 298, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 1,
+                            Description = "Description: lotid: 298, category: 1",
+                            Name = "lot 298, categoryId: 1",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 299,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 299, category: 2",
-                            Name = "lot 299, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 3,
+                            Description = "Description: lotid: 299, category: 3",
+                            Name = "lot 299, categoryId: 3",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -8037,31 +8037,31 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 301, category: 1",
                             Name = "lot 301, categoryId: 1",
-                            OwnerId = 3
-                        },
-                        new
-                        {
-                            Id = 302,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 302, category: 1",
-                            Name = "lot 302, categoryId: 1",
                             OwnerId = 2
                         },
                         new
                         {
+                            Id = 302,
+                            CategoryId = 2,
+                            Description = "Description: lotid: 302, category: 2",
+                            Name = "lot 302, categoryId: 2",
+                            OwnerId = 3
+                        },
+                        new
+                        {
                             Id = 303,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 303, category: 3",
-                            Name = "lot 303, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 303, category: 2",
+                            Name = "lot 303, categoryId: 2",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 304,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 304, category: 3",
-                            Name = "lot 304, categoryId: 3",
-                            OwnerId = 2
+                            CategoryId = 2,
+                            Description = "Description: lotid: 304, category: 2",
+                            Name = "lot 304, categoryId: 2",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -8069,15 +8069,15 @@ namespace Data.Migrations
                             CategoryId = 3,
                             Description = "Description: lotid: 305, category: 3",
                             Name = "lot 305, categoryId: 3",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 306,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 306, category: 2",
-                            Name = "lot 306, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 1,
+                            Description = "Description: lotid: 306, category: 1",
+                            Name = "lot 306, categoryId: 1",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -8085,14 +8085,14 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 307, category: 2",
                             Name = "lot 307, categoryId: 2",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 308,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 308, category: 2",
-                            Name = "lot 308, categoryId: 2",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 308, category: 1",
+                            Name = "lot 308, categoryId: 1",
                             OwnerId = 3
                         },
                         new
@@ -8109,14 +8109,14 @@ namespace Data.Migrations
                             CategoryId = 3,
                             Description = "Description: lotid: 310, category: 3",
                             Name = "lot 310, categoryId: 3",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 311,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 311, category: 2",
-                            Name = "lot 311, categoryId: 2",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 311, category: 1",
+                            Name = "lot 311, categoryId: 1",
                             OwnerId = 2
                         },
                         new
@@ -8125,39 +8125,39 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 312, category: 1",
                             Name = "lot 312, categoryId: 1",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 313,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 313, category: 2",
-                            Name = "lot 313, categoryId: 2",
-                            OwnerId = 3
+                            CategoryId = 3,
+                            Description = "Description: lotid: 313, category: 3",
+                            Name = "lot 313, categoryId: 3",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 314,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 314, category: 3",
-                            Name = "lot 314, categoryId: 3",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 314, category: 1",
+                            Name = "lot 314, categoryId: 1",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 315,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 315, category: 1",
-                            Name = "lot 315, categoryId: 1",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 315, category: 3",
+                            Name = "lot 315, categoryId: 3",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 316,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 316, category: 3",
-                            Name = "lot 316, categoryId: 3",
-                            OwnerId = 2
+                            CategoryId = 1,
+                            Description = "Description: lotid: 316, category: 1",
+                            Name = "lot 316, categoryId: 1",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -8165,7 +8165,7 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 317, category: 2",
                             Name = "lot 317, categoryId: 2",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
@@ -8178,18 +8178,18 @@ namespace Data.Migrations
                         new
                         {
                             Id = 319,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 319, category: 2",
-                            Name = "lot 319, categoryId: 2",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 319, category: 1",
+                            Name = "lot 319, categoryId: 1",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 320,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 320, category: 2",
-                            Name = "lot 320, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 1,
+                            Description = "Description: lotid: 320, category: 1",
+                            Name = "lot 320, categoryId: 1",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -8202,18 +8202,18 @@ namespace Data.Migrations
                         new
                         {
                             Id = 322,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 322, category: 2",
-                            Name = "lot 322, categoryId: 2",
-                            OwnerId = 3
+                            CategoryId = 1,
+                            Description = "Description: lotid: 322, category: 1",
+                            Name = "lot 322, categoryId: 1",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 323,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 323, category: 1",
-                            Name = "lot 323, categoryId: 1",
-                            OwnerId = 3
+                            CategoryId = 2,
+                            Description = "Description: lotid: 323, category: 2",
+                            Name = "lot 323, categoryId: 2",
+                            OwnerId = 2
                         },
                         new
                         {
@@ -8221,7 +8221,7 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 324, category: 2",
                             Name = "lot 324, categoryId: 2",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
@@ -8229,14 +8229,14 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 325, category: 1",
                             Name = "lot 325, categoryId: 1",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 326,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 326, category: 3",
-                            Name = "lot 326, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 326, category: 2",
+                            Name = "lot 326, categoryId: 2",
                             OwnerId = 2
                         },
                         new
@@ -8250,9 +8250,9 @@ namespace Data.Migrations
                         new
                         {
                             Id = 328,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 328, category: 1",
-                            Name = "lot 328, categoryId: 1",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 328, category: 3",
+                            Name = "lot 328, categoryId: 3",
                             OwnerId = 3
                         },
                         new
@@ -8261,7 +8261,7 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 329, category: 1",
                             Name = "lot 329, categoryId: 1",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
@@ -8282,42 +8282,42 @@ namespace Data.Migrations
                         new
                         {
                             Id = 332,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 332, category: 3",
-                            Name = "lot 332, categoryId: 3",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 332, category: 1",
+                            Name = "lot 332, categoryId: 1",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 333,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 333, category: 1",
-                            Name = "lot 333, categoryId: 1",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 333, category: 3",
+                            Name = "lot 333, categoryId: 3",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 334,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 334, category: 3",
-                            Name = "lot 334, categoryId: 3",
-                            OwnerId = 2
+                            CategoryId = 2,
+                            Description = "Description: lotid: 334, category: 2",
+                            Name = "lot 334, categoryId: 2",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 335,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 335, category: 1",
-                            Name = "lot 335, categoryId: 1",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 335, category: 2",
+                            Name = "lot 335, categoryId: 2",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 336,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 336, category: 1",
-                            Name = "lot 336, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 3,
+                            Description = "Description: lotid: 336, category: 3",
+                            Name = "lot 336, categoryId: 3",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -8325,15 +8325,15 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 337, category: 1",
                             Name = "lot 337, categoryId: 1",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 338,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 338, category: 1",
-                            Name = "lot 338, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 2,
+                            Description = "Description: lotid: 338, category: 2",
+                            Name = "lot 338, categoryId: 2",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -8346,10 +8346,10 @@ namespace Data.Migrations
                         new
                         {
                             Id = 340,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 340, category: 2",
-                            Name = "lot 340, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 1,
+                            Description = "Description: lotid: 340, category: 1",
+                            Name = "lot 340, categoryId: 1",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -8362,50 +8362,50 @@ namespace Data.Migrations
                         new
                         {
                             Id = 342,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 342, category: 2",
-                            Name = "lot 342, categoryId: 2",
-                            OwnerId = 3
+                            CategoryId = 3,
+                            Description = "Description: lotid: 342, category: 3",
+                            Name = "lot 342, categoryId: 3",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 343,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 343, category: 2",
-                            Name = "lot 343, categoryId: 2",
-                            OwnerId = 3
+                            CategoryId = 3,
+                            Description = "Description: lotid: 343, category: 3",
+                            Name = "lot 343, categoryId: 3",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 344,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 344, category: 3",
-                            Name = "lot 344, categoryId: 3",
-                            OwnerId = 3
+                            CategoryId = 2,
+                            Description = "Description: lotid: 344, category: 2",
+                            Name = "lot 344, categoryId: 2",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 345,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 345, category: 3",
-                            Name = "lot 345, categoryId: 3",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 345, category: 1",
+                            Name = "lot 345, categoryId: 1",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 346,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 346, category: 1",
-                            Name = "lot 346, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 2,
+                            Description = "Description: lotid: 346, category: 2",
+                            Name = "lot 346, categoryId: 2",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 347,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 347, category: 1",
-                            Name = "lot 347, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 3,
+                            Description = "Description: lotid: 347, category: 3",
+                            Name = "lot 347, categoryId: 3",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -8421,7 +8421,7 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 349, category: 1",
                             Name = "lot 349, categoryId: 1",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
@@ -8429,7 +8429,7 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 350, category: 2",
                             Name = "lot 350, categoryId: 2",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
@@ -8437,30 +8437,30 @@ namespace Data.Migrations
                             CategoryId = 3,
                             Description = "Description: lotid: 351, category: 3",
                             Name = "lot 351, categoryId: 3",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 352,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 352, category: 3",
-                            Name = "lot 352, categoryId: 3",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 352, category: 1",
+                            Name = "lot 352, categoryId: 1",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 353,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 353, category: 2",
-                            Name = "lot 353, categoryId: 2",
-                            OwnerId = 3
+                            CategoryId = 3,
+                            Description = "Description: lotid: 353, category: 3",
+                            Name = "lot 353, categoryId: 3",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 354,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 354, category: 2",
-                            Name = "lot 354, categoryId: 2",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 354, category: 3",
+                            Name = "lot 354, categoryId: 3",
                             OwnerId = 2
                         },
                         new
@@ -8469,7 +8469,7 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 355, category: 1",
                             Name = "lot 355, categoryId: 1",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
@@ -8482,17 +8482,17 @@ namespace Data.Migrations
                         new
                         {
                             Id = 357,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 357, category: 1",
-                            Name = "lot 357, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 2,
+                            Description = "Description: lotid: 357, category: 2",
+                            Name = "lot 357, categoryId: 2",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 358,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 358, category: 1",
-                            Name = "lot 358, categoryId: 1",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 358, category: 3",
+                            Name = "lot 358, categoryId: 3",
                             OwnerId = 2
                         },
                         new
@@ -8506,18 +8506,18 @@ namespace Data.Migrations
                         new
                         {
                             Id = 360,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 360, category: 2",
-                            Name = "lot 360, categoryId: 2",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 360, category: 3",
+                            Name = "lot 360, categoryId: 3",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 361,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 361, category: 2",
-                            Name = "lot 361, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 1,
+                            Description = "Description: lotid: 361, category: 1",
+                            Name = "lot 361, categoryId: 1",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -8530,10 +8530,10 @@ namespace Data.Migrations
                         new
                         {
                             Id = 363,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 363, category: 1",
-                            Name = "lot 363, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 3,
+                            Description = "Description: lotid: 363, category: 3",
+                            Name = "lot 363, categoryId: 3",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -8546,9 +8546,9 @@ namespace Data.Migrations
                         new
                         {
                             Id = 365,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 365, category: 1",
-                            Name = "lot 365, categoryId: 1",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 365, category: 2",
+                            Name = "lot 365, categoryId: 2",
                             OwnerId = 2
                         },
                         new
@@ -8565,30 +8565,30 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 367, category: 2",
                             Name = "lot 367, categoryId: 2",
-                            OwnerId = 3
-                        },
-                        new
-                        {
-                            Id = 368,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 368, category: 2",
-                            Name = "lot 368, categoryId: 2",
-                            OwnerId = 3
-                        },
-                        new
-                        {
-                            Id = 369,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 369, category: 3",
-                            Name = "lot 369, categoryId: 3",
                             OwnerId = 2
                         },
                         new
                         {
-                            Id = 370,
+                            Id = 368,
                             CategoryId = 3,
-                            Description = "Description: lotid: 370, category: 3",
-                            Name = "lot 370, categoryId: 3",
+                            Description = "Description: lotid: 368, category: 3",
+                            Name = "lot 368, categoryId: 3",
+                            OwnerId = 2
+                        },
+                        new
+                        {
+                            Id = 369,
+                            CategoryId = 2,
+                            Description = "Description: lotid: 369, category: 2",
+                            Name = "lot 369, categoryId: 2",
+                            OwnerId = 3
+                        },
+                        new
+                        {
+                            Id = 370,
+                            CategoryId = 1,
+                            Description = "Description: lotid: 370, category: 1",
+                            Name = "lot 370, categoryId: 1",
                             OwnerId = 2
                         },
                         new
@@ -8597,7 +8597,7 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 371, category: 1",
                             Name = "lot 371, categoryId: 1",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
@@ -8605,7 +8605,7 @@ namespace Data.Migrations
                             CategoryId = 3,
                             Description = "Description: lotid: 372, category: 3",
                             Name = "lot 372, categoryId: 3",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
@@ -8621,38 +8621,38 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 374, category: 1",
                             Name = "lot 374, categoryId: 1",
-                            OwnerId = 2
-                        },
-                        new
-                        {
-                            Id = 375,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 375, category: 2",
-                            Name = "lot 375, categoryId: 2",
-                            OwnerId = 2
-                        },
-                        new
-                        {
-                            Id = 376,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 376, category: 2",
-                            Name = "lot 376, categoryId: 2",
                             OwnerId = 3
                         },
                         new
                         {
-                            Id = 377,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 377, category: 2",
-                            Name = "lot 377, categoryId: 2",
+                            Id = 375,
+                            CategoryId = 3,
+                            Description = "Description: lotid: 375, category: 3",
+                            Name = "lot 375, categoryId: 3",
+                            OwnerId = 3
+                        },
+                        new
+                        {
+                            Id = 376,
+                            CategoryId = 3,
+                            Description = "Description: lotid: 376, category: 3",
+                            Name = "lot 376, categoryId: 3",
                             OwnerId = 2
                         },
                         new
                         {
+                            Id = 377,
+                            CategoryId = 3,
+                            Description = "Description: lotid: 377, category: 3",
+                            Name = "lot 377, categoryId: 3",
+                            OwnerId = 3
+                        },
+                        new
+                        {
                             Id = 378,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 378, category: 2",
-                            Name = "lot 378, categoryId: 2",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 378, category: 1",
+                            Name = "lot 378, categoryId: 1",
                             OwnerId = 2
                         },
                         new
@@ -8674,178 +8674,178 @@ namespace Data.Migrations
                         new
                         {
                             Id = 381,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 381, category: 1",
-                            Name = "lot 381, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 2,
+                            Description = "Description: lotid: 381, category: 2",
+                            Name = "lot 381, categoryId: 2",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 382,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 382, category: 1",
-                            Name = "lot 382, categoryId: 1",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 382, category: 2",
+                            Name = "lot 382, categoryId: 2",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 383,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 383, category: 2",
-                            Name = "lot 383, categoryId: 2",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 383, category: 3",
+                            Name = "lot 383, categoryId: 3",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 384,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 384, category: 3",
-                            Name = "lot 384, categoryId: 3",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 384, category: 1",
+                            Name = "lot 384, categoryId: 1",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 385,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 385, category: 2",
-                            Name = "lot 385, categoryId: 2",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 385, category: 3",
+                            Name = "lot 385, categoryId: 3",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 386,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 386, category: 1",
-                            Name = "lot 386, categoryId: 1",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 386, category: 3",
+                            Name = "lot 386, categoryId: 3",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 387,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 387, category: 1",
-                            Name = "lot 387, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 3,
+                            Description = "Description: lotid: 387, category: 3",
+                            Name = "lot 387, categoryId: 3",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 388,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 388, category: 1",
-                            Name = "lot 388, categoryId: 1",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 388, category: 3",
+                            Name = "lot 388, categoryId: 3",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 389,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 389, category: 1",
-                            Name = "lot 389, categoryId: 1",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 389, category: 3",
+                            Name = "lot 389, categoryId: 3",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 390,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 390, category: 2",
-                            Name = "lot 390, categoryId: 2",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 390, category: 3",
+                            Name = "lot 390, categoryId: 3",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 391,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 391, category: 2",
-                            Name = "lot 391, categoryId: 2",
-                            OwnerId = 2
-                        },
-                        new
-                        {
-                            Id = 392,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 392, category: 3",
-                            Name = "lot 392, categoryId: 3",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 391, category: 1",
+                            Name = "lot 391, categoryId: 1",
                             OwnerId = 3
                         },
                         new
                         {
-                            Id = 393,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 393, category: 3",
-                            Name = "lot 393, categoryId: 3",
+                            Id = 392,
+                            CategoryId = 2,
+                            Description = "Description: lotid: 392, category: 2",
+                            Name = "lot 392, categoryId: 2",
                             OwnerId = 2
                         },
                         new
                         {
+                            Id = 393,
+                            CategoryId = 2,
+                            Description = "Description: lotid: 393, category: 2",
+                            Name = "lot 393, categoryId: 2",
+                            OwnerId = 3
+                        },
+                        new
+                        {
                             Id = 394,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 394, category: 3",
-                            Name = "lot 394, categoryId: 3",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 394, category: 1",
+                            Name = "lot 394, categoryId: 1",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 395,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 395, category: 3",
-                            Name = "lot 395, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 395, category: 2",
+                            Name = "lot 395, categoryId: 2",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 396,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 396, category: 3",
-                            Name = "lot 396, categoryId: 3",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 396, category: 1",
+                            Name = "lot 396, categoryId: 1",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 397,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 397, category: 1",
-                            Name = "lot 397, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 2,
+                            Description = "Description: lotid: 397, category: 2",
+                            Name = "lot 397, categoryId: 2",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 398,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 398, category: 2",
-                            Name = "lot 398, categoryId: 2",
-                            OwnerId = 3
+                            CategoryId = 1,
+                            Description = "Description: lotid: 398, category: 1",
+                            Name = "lot 398, categoryId: 1",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 399,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 399, category: 3",
-                            Name = "lot 399, categoryId: 3",
-                            OwnerId = 3
+                            CategoryId = 2,
+                            Description = "Description: lotid: 399, category: 2",
+                            Name = "lot 399, categoryId: 2",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 400,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 400, category: 2",
-                            Name = "lot 400, categoryId: 2",
-                            OwnerId = 3
+                            CategoryId = 3,
+                            Description = "Description: lotid: 400, category: 3",
+                            Name = "lot 400, categoryId: 3",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 401,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 401, category: 1",
-                            Name = "lot 401, categoryId: 1",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 401, category: 2",
+                            Name = "lot 401, categoryId: 2",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 402,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 402, category: 1",
-                            Name = "lot 402, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 3,
+                            Description = "Description: lotid: 402, category: 3",
+                            Name = "lot 402, categoryId: 3",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -8861,22 +8861,22 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 404, category: 1",
                             Name = "lot 404, categoryId: 1",
-                            OwnerId = 2
-                        },
-                        new
-                        {
-                            Id = 405,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 405, category: 3",
-                            Name = "lot 405, categoryId: 3",
                             OwnerId = 3
                         },
                         new
                         {
+                            Id = 405,
+                            CategoryId = 2,
+                            Description = "Description: lotid: 405, category: 2",
+                            Name = "lot 405, categoryId: 2",
+                            OwnerId = 2
+                        },
+                        new
+                        {
                             Id = 406,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 406, category: 3",
-                            Name = "lot 406, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 406, category: 2",
+                            Name = "lot 406, categoryId: 2",
                             OwnerId = 3
                         },
                         new
@@ -8885,15 +8885,15 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 407, category: 2",
                             Name = "lot 407, categoryId: 2",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 408,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 408, category: 1",
-                            Name = "lot 408, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 3,
+                            Description = "Description: lotid: 408, category: 3",
+                            Name = "lot 408, categoryId: 3",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -8901,119 +8901,119 @@ namespace Data.Migrations
                             CategoryId = 3,
                             Description = "Description: lotid: 409, category: 3",
                             Name = "lot 409, categoryId: 3",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 410,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 410, category: 3",
-                            Name = "lot 410, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 410, category: 2",
+                            Name = "lot 410, categoryId: 2",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 411,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 411, category: 2",
-                            Name = "lot 411, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 1,
+                            Description = "Description: lotid: 411, category: 1",
+                            Name = "lot 411, categoryId: 1",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 412,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 412, category: 2",
-                            Name = "lot 412, categoryId: 2",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 412, category: 3",
+                            Name = "lot 412, categoryId: 3",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 413,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 413, category: 1",
-                            Name = "lot 413, categoryId: 1",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 413, category: 3",
+                            Name = "lot 413, categoryId: 3",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 414,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 414, category: 3",
-                            Name = "lot 414, categoryId: 3",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 414, category: 1",
+                            Name = "lot 414, categoryId: 1",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 415,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 415, category: 3",
-                            Name = "lot 415, categoryId: 3",
-                            OwnerId = 3
+                            CategoryId = 2,
+                            Description = "Description: lotid: 415, category: 2",
+                            Name = "lot 415, categoryId: 2",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 416,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 416, category: 2",
-                            Name = "lot 416, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 3,
+                            Description = "Description: lotid: 416, category: 3",
+                            Name = "lot 416, categoryId: 3",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 417,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 417, category: 1",
-                            Name = "lot 417, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 3,
+                            Description = "Description: lotid: 417, category: 3",
+                            Name = "lot 417, categoryId: 3",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 418,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 418, category: 3",
-                            Name = "lot 418, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 418, category: 2",
+                            Name = "lot 418, categoryId: 2",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 419,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 419, category: 3",
-                            Name = "lot 419, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 419, category: 2",
+                            Name = "lot 419, categoryId: 2",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 420,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 420, category: 3",
-                            Name = "lot 420, categoryId: 3",
-                            OwnerId = 2
+                            CategoryId = 2,
+                            Description = "Description: lotid: 420, category: 2",
+                            Name = "lot 420, categoryId: 2",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 421,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 421, category: 3",
-                            Name = "lot 421, categoryId: 3",
-                            OwnerId = 3
+                            CategoryId = 2,
+                            Description = "Description: lotid: 421, category: 2",
+                            Name = "lot 421, categoryId: 2",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 422,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 422, category: 2",
-                            Name = "lot 422, categoryId: 2",
-                            OwnerId = 3
+                            CategoryId = 1,
+                            Description = "Description: lotid: 422, category: 1",
+                            Name = "lot 422, categoryId: 1",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 423,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 423, category: 2",
-                            Name = "lot 423, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 1,
+                            Description = "Description: lotid: 423, category: 1",
+                            Name = "lot 423, categoryId: 1",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -9026,17 +9026,17 @@ namespace Data.Migrations
                         new
                         {
                             Id = 425,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 425, category: 3",
-                            Name = "lot 425, categoryId: 3",
-                            OwnerId = 2
+                            CategoryId = 2,
+                            Description = "Description: lotid: 425, category: 2",
+                            Name = "lot 425, categoryId: 2",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 426,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 426, category: 2",
-                            Name = "lot 426, categoryId: 2",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 426, category: 3",
+                            Name = "lot 426, categoryId: 3",
                             OwnerId = 2
                         },
                         new
@@ -9050,9 +9050,9 @@ namespace Data.Migrations
                         new
                         {
                             Id = 428,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 428, category: 1",
-                            Name = "lot 428, categoryId: 1",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 428, category: 2",
+                            Name = "lot 428, categoryId: 2",
                             OwnerId = 2
                         },
                         new
@@ -9061,15 +9061,15 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 429, category: 2",
                             Name = "lot 429, categoryId: 2",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 430,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 430, category: 1",
-                            Name = "lot 430, categoryId: 1",
-                            OwnerId = 3
+                            CategoryId = 3,
+                            Description = "Description: lotid: 430, category: 3",
+                            Name = "lot 430, categoryId: 3",
+                            OwnerId = 2
                         },
                         new
                         {
@@ -9077,14 +9077,14 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 431, category: 1",
                             Name = "lot 431, categoryId: 1",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 432,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 432, category: 1",
-                            Name = "lot 432, categoryId: 1",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 432, category: 2",
+                            Name = "lot 432, categoryId: 2",
                             OwnerId = 3
                         },
                         new
@@ -9093,38 +9093,38 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 433, category: 2",
                             Name = "lot 433, categoryId: 2",
-                            OwnerId = 3
-                        },
-                        new
-                        {
-                            Id = 434,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 434, category: 2",
-                            Name = "lot 434, categoryId: 2",
                             OwnerId = 2
                         },
                         new
                         {
-                            Id = 435,
+                            Id = 434,
                             CategoryId = 3,
-                            Description = "Description: lotid: 435, category: 3",
-                            Name = "lot 435, categoryId: 3",
+                            Description = "Description: lotid: 434, category: 3",
+                            Name = "lot 434, categoryId: 3",
+                            OwnerId = 3
+                        },
+                        new
+                        {
+                            Id = 435,
+                            CategoryId = 2,
+                            Description = "Description: lotid: 435, category: 2",
+                            Name = "lot 435, categoryId: 2",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 436,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 436, category: 2",
-                            Name = "lot 436, categoryId: 2",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 436, category: 1",
+                            Name = "lot 436, categoryId: 1",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 437,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 437, category: 2",
-                            Name = "lot 437, categoryId: 2",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 437, category: 1",
+                            Name = "lot 437, categoryId: 1",
                             OwnerId = 3
                         },
                         new
@@ -9133,22 +9133,22 @@ namespace Data.Migrations
                             CategoryId = 3,
                             Description = "Description: lotid: 438, category: 3",
                             Name = "lot 438, categoryId: 3",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 439,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 439, category: 3",
-                            Name = "lot 439, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 439, category: 2",
+                            Name = "lot 439, categoryId: 2",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 440,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 440, category: 1",
-                            Name = "lot 440, categoryId: 1",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 440, category: 2",
+                            Name = "lot 440, categoryId: 2",
                             OwnerId = 2
                         },
                         new
@@ -9157,31 +9157,31 @@ namespace Data.Migrations
                             CategoryId = 3,
                             Description = "Description: lotid: 441, category: 3",
                             Name = "lot 441, categoryId: 3",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 442,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 442, category: 2",
-                            Name = "lot 442, categoryId: 2",
-                            OwnerId = 3
+                            CategoryId = 1,
+                            Description = "Description: lotid: 442, category: 1",
+                            Name = "lot 442, categoryId: 1",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 443,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 443, category: 2",
-                            Name = "lot 443, categoryId: 2",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 443, category: 1",
+                            Name = "lot 443, categoryId: 1",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 444,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 444, category: 1",
-                            Name = "lot 444, categoryId: 1",
-                            OwnerId = 3
+                            CategoryId = 3,
+                            Description = "Description: lotid: 444, category: 3",
+                            Name = "lot 444, categoryId: 3",
+                            OwnerId = 2
                         },
                         new
                         {
@@ -9189,15 +9189,15 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 445, category: 2",
                             Name = "lot 445, categoryId: 2",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 446,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 446, category: 1",
-                            Name = "lot 446, categoryId: 1",
-                            OwnerId = 3
+                            CategoryId = 3,
+                            Description = "Description: lotid: 446, category: 3",
+                            Name = "lot 446, categoryId: 3",
+                            OwnerId = 2
                         },
                         new
                         {
@@ -9205,23 +9205,23 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 447, category: 2",
                             Name = "lot 447, categoryId: 2",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 448,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 448, category: 2",
-                            Name = "lot 448, categoryId: 2",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 448, category: 3",
+                            Name = "lot 448, categoryId: 3",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 449,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 449, category: 2",
-                            Name = "lot 449, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 1,
+                            Description = "Description: lotid: 449, category: 1",
+                            Name = "lot 449, categoryId: 1",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -9229,38 +9229,38 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 450, category: 2",
                             Name = "lot 450, categoryId: 2",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 451,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 451, category: 3",
-                            Name = "lot 451, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 451, category: 2",
+                            Name = "lot 451, categoryId: 2",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 452,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 452, category: 3",
-                            Name = "lot 452, categoryId: 3",
-                            OwnerId = 2
+                            CategoryId = 2,
+                            Description = "Description: lotid: 452, category: 2",
+                            Name = "lot 452, categoryId: 2",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 453,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 453, category: 1",
-                            Name = "lot 453, categoryId: 1",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 453, category: 2",
+                            Name = "lot 453, categoryId: 2",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 454,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 454, category: 3",
-                            Name = "lot 454, categoryId: 3",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 454, category: 1",
+                            Name = "lot 454, categoryId: 1",
                             OwnerId = 2
                         },
                         new
@@ -9285,23 +9285,23 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 457, category: 1",
                             Name = "lot 457, categoryId: 1",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 458,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 458, category: 2",
-                            Name = "lot 458, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 1,
+                            Description = "Description: lotid: 458, category: 1",
+                            Name = "lot 458, categoryId: 1",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 459,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 459, category: 3",
-                            Name = "lot 459, categoryId: 3",
-                            OwnerId = 2
+                            CategoryId = 2,
+                            Description = "Description: lotid: 459, category: 2",
+                            Name = "lot 459, categoryId: 2",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -9322,18 +9322,18 @@ namespace Data.Migrations
                         new
                         {
                             Id = 462,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 462, category: 3",
-                            Name = "lot 462, categoryId: 3",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 462, category: 1",
+                            Name = "lot 462, categoryId: 1",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 463,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 463, category: 2",
-                            Name = "lot 463, categoryId: 2",
-                            OwnerId = 3
+                            CategoryId = 3,
+                            Description = "Description: lotid: 463, category: 3",
+                            Name = "lot 463, categoryId: 3",
+                            OwnerId = 2
                         },
                         new
                         {
@@ -9341,7 +9341,7 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 464, category: 2",
                             Name = "lot 464, categoryId: 2",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
@@ -9349,22 +9349,22 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 465, category: 1",
                             Name = "lot 465, categoryId: 1",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 466,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 466, category: 2",
-                            Name = "lot 466, categoryId: 2",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 466, category: 1",
+                            Name = "lot 466, categoryId: 1",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 467,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 467, category: 2",
-                            Name = "lot 467, categoryId: 2",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 467, category: 3",
+                            Name = "lot 467, categoryId: 3",
                             OwnerId = 2
                         },
                         new
@@ -9373,7 +9373,7 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 468, category: 1",
                             Name = "lot 468, categoryId: 1",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
@@ -9386,18 +9386,18 @@ namespace Data.Migrations
                         new
                         {
                             Id = 470,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 470, category: 1",
-                            Name = "lot 470, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 2,
+                            Description = "Description: lotid: 470, category: 2",
+                            Name = "lot 470, categoryId: 2",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 471,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 471, category: 1",
-                            Name = "lot 471, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 3,
+                            Description = "Description: lotid: 471, category: 3",
+                            Name = "lot 471, categoryId: 3",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -9405,7 +9405,7 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 472, category: 1",
                             Name = "lot 472, categoryId: 1",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
@@ -9413,38 +9413,38 @@ namespace Data.Migrations
                             CategoryId = 3,
                             Description = "Description: lotid: 473, category: 3",
                             Name = "lot 473, categoryId: 3",
-                            OwnerId = 2
-                        },
-                        new
-                        {
-                            Id = 474,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 474, category: 1",
-                            Name = "lot 474, categoryId: 1",
                             OwnerId = 3
                         },
                         new
                         {
+                            Id = 474,
+                            CategoryId = 2,
+                            Description = "Description: lotid: 474, category: 2",
+                            Name = "lot 474, categoryId: 2",
+                            OwnerId = 2
+                        },
+                        new
+                        {
                             Id = 475,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 475, category: 3",
-                            Name = "lot 475, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 475, category: 2",
+                            Name = "lot 475, categoryId: 2",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 476,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 476, category: 3",
-                            Name = "lot 476, categoryId: 3",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 476, category: 1",
+                            Name = "lot 476, categoryId: 1",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 477,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 477, category: 2",
-                            Name = "lot 477, categoryId: 2",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 477, category: 1",
+                            Name = "lot 477, categoryId: 1",
                             OwnerId = 2
                         },
                         new
@@ -9458,50 +9458,50 @@ namespace Data.Migrations
                         new
                         {
                             Id = 479,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 479, category: 3",
-                            Name = "lot 479, categoryId: 3",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 479, category: 2",
+                            Name = "lot 479, categoryId: 2",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 480,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 480, category: 1",
-                            Name = "lot 480, categoryId: 1",
+                            CategoryId = 2,
+                            Description = "Description: lotid: 480, category: 2",
+                            Name = "lot 480, categoryId: 2",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 481,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 481, category: 2",
-                            Name = "lot 481, categoryId: 2",
-                            OwnerId = 2
+                            CategoryId = 3,
+                            Description = "Description: lotid: 481, category: 3",
+                            Name = "lot 481, categoryId: 3",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 482,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 482, category: 1",
-                            Name = "lot 482, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 2,
+                            Description = "Description: lotid: 482, category: 2",
+                            Name = "lot 482, categoryId: 2",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 483,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 483, category: 2",
-                            Name = "lot 483, categoryId: 2",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 483, category: 3",
+                            Name = "lot 483, categoryId: 3",
                             OwnerId = 3
                         },
                         new
                         {
                             Id = 484,
-                            CategoryId = 3,
-                            Description = "Description: lotid: 484, category: 3",
-                            Name = "lot 484, categoryId: 3",
-                            OwnerId = 2
+                            CategoryId = 1,
+                            Description = "Description: lotid: 484, category: 1",
+                            Name = "lot 484, categoryId: 1",
+                            OwnerId = 3
                         },
                         new
                         {
@@ -9517,7 +9517,7 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 486, category: 2",
                             Name = "lot 486, categoryId: 2",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
@@ -9525,7 +9525,7 @@ namespace Data.Migrations
                             CategoryId = 1,
                             Description = "Description: lotid: 487, category: 1",
                             Name = "lot 487, categoryId: 1",
-                            OwnerId = 2
+                            OwnerId = 3
                         },
                         new
                         {
@@ -9533,7 +9533,7 @@ namespace Data.Migrations
                             CategoryId = 3,
                             Description = "Description: lotid: 488, category: 3",
                             Name = "lot 488, categoryId: 3",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
@@ -9546,26 +9546,26 @@ namespace Data.Migrations
                         new
                         {
                             Id = 490,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 490, category: 1",
-                            Name = "lot 490, categoryId: 1",
-                            OwnerId = 2
+                            CategoryId = 3,
+                            Description = "Description: lotid: 490, category: 3",
+                            Name = "lot 490, categoryId: 3",
+                            OwnerId = 3
                         },
                         new
                         {
                             Id = 491,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 491, category: 1",
-                            Name = "lot 491, categoryId: 1",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 491, category: 3",
+                            Name = "lot 491, categoryId: 3",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 492,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 492, category: 2",
-                            Name = "lot 492, categoryId: 2",
-                            OwnerId = 3
+                            CategoryId = 1,
+                            Description = "Description: lotid: 492, category: 1",
+                            Name = "lot 492, categoryId: 1",
+                            OwnerId = 2
                         },
                         new
                         {
@@ -9578,9 +9578,9 @@ namespace Data.Migrations
                         new
                         {
                             Id = 494,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 494, category: 1",
-                            Name = "lot 494, categoryId: 1",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 494, category: 3",
+                            Name = "lot 494, categoryId: 3",
                             OwnerId = 3
                         },
                         new
@@ -9589,30 +9589,30 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 495, category: 2",
                             Name = "lot 495, categoryId: 2",
-                            OwnerId = 3
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 496,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 496, category: 1",
-                            Name = "lot 496, categoryId: 1",
+                            CategoryId = 3,
+                            Description = "Description: lotid: 496, category: 3",
+                            Name = "lot 496, categoryId: 3",
                             OwnerId = 2
                         },
                         new
                         {
                             Id = 497,
-                            CategoryId = 1,
-                            Description = "Description: lotid: 497, category: 1",
-                            Name = "lot 497, categoryId: 1",
-                            OwnerId = 3
+                            CategoryId = 3,
+                            Description = "Description: lotid: 497, category: 3",
+                            Name = "lot 497, categoryId: 3",
+                            OwnerId = 2
                         },
                         new
                         {
                             Id = 498,
-                            CategoryId = 2,
-                            Description = "Description: lotid: 498, category: 2",
-                            Name = "lot 498, categoryId: 2",
+                            CategoryId = 1,
+                            Description = "Description: lotid: 498, category: 1",
+                            Name = "lot 498, categoryId: 1",
                             OwnerId = 2
                         },
                         new
@@ -9621,7 +9621,7 @@ namespace Data.Migrations
                             CategoryId = 2,
                             Description = "Description: lotid: 499, category: 2",
                             Name = "lot 499, categoryId: 2",
-                            OwnerId = 3
+                            OwnerId = 2
                         });
                 });
 

@@ -19,6 +19,11 @@ namespace InternetAuction.Validation
                 context.Result = new BadRequestObjectResult(ex.Message);
                 context.ExceptionHandled = true;
             }
+            else if (context.Exception is AuthorizationExeption ex_autorization)
+            {
+                context.Result = new BadRequestObjectResult(ex_autorization.Message);
+                context.ExceptionHandled = true;
+            }
         }
     }
 }

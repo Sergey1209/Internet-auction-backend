@@ -106,32 +106,40 @@ namespace InternetAuction.Controllers
         public async Task Put([FromForm] InputLotModel inputModel)
         {
             ValidateModel(inputModel);
-
-            if (await IsOwnerOfLot(inputModel.Id))
-                await _service.UpdateAsyc(inputModel);
-            else
-                throw new System.Exception("Only the owner can change the lot");
+            var lot = await _service.GetByIdAsync(inputModel.Id);
+            if (lot != null)
+            {
+                if (IsOwnerOfLot(lot))
+                    await _service.UpdateAsyc(inputModel);
+                else
+                    throw new AuctionBusinessException("Only the owner can change the lot");
+            }
         }
 
         [Authorize(Roles = "Administrator, RegisteredUser")]
         [HttpDelete("{id}")]
         public async Task Delete(int id)
         {
-            if (await IsOwnerOfLot(id) || IsAdmin())
-                await _service.DeleteAsync(id);
-            else
-                throw new System.Exception("Only the owner and administrator can change the lot");
+            var lot = await _service.GetByIdAsync(id);
+            if (lot != null)
+            {
+                if (IsOwnerOfLot(lot) || IsAdmin())
+                    await _service.DeleteAsync(id);
+                else
+                    throw new AuctionBusinessException("Insufficient rights to perform this operation");
+            }
         }
 
-        private async Task<bool> IsOwnerOfLot(int lotId)
+        private bool IsOwnerOfLot(LotModel lot)
         {
-            var lot = await _service.GetByIdAsync(lotId);
             return lot.OwnerId == _token.GetPersonId(HttpContext);
         }
+
         private bool IsAdmin()
         {
             return _token.GetRole(HttpContext).ToString() == "Administrator";
         }
+
         private void ValidateModel(InputLotModel model)
         {
             if (model == null)

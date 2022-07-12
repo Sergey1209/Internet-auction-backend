@@ -133,7 +133,8 @@ namespace Business.Services
 
             foreach (var lotImage in lotImages)
             {
-                if (lotImage != null && lotImage.File != null && !NotChangedFiles.Contains(lotImage.File.Name))
+                if (lotImage != null && lotImage.File != null &&
+                    NotChangedFiles != null && !NotChangedFiles.Contains(lotImage.File.Name))
                 {
                     await _imageFileHelper.RemoveFileAsync(lotImage.File.Name);
                     await _fileRepository.DeleteByIdAsync(lotImage.FileId);

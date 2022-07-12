@@ -61,13 +61,15 @@ namespace Business.Services
             var dbLotCategory = await _repository.GetByIdWithDetailsAsync(inputLotCategoryModel.Id);
 
             await _imageFileHelper.RemoveFileAsync(dbLotCategory.Name);
-            var newImage = await _imageFileHelper.SaveImage(inputLotCategoryModel.File);
+            string newImage;
+            if (inputLotCategoryModel.File != null)
+            {
+                newImage = await _imageFileHelper.SaveImage(inputLotCategoryModel.File);
+                dbLotCategory.File.Name = newImage;
+            }
 
-            dbLotCategory.File.Name = newImage;
             dbLotCategory.Name = inputLotCategoryModel.Name;
-
             _repository.Update(dbLotCategory);
-
             await _unitOfWork.SaveAsync();
         }
 

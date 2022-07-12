@@ -85,7 +85,7 @@ namespace Data.Data
                 });
 
                 var dateCreated = startedDate.AddDays(0.4 * lotId);
-                var priceRnd = rnd.Next(100_000);
+                var priceRnd = rnd.Next(10, 900);
                 var offsetDeadLineRnd = rnd.Next(1, 30);
 
                 auctions.Add(new Auction()
