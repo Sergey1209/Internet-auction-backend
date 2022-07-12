@@ -50,6 +50,11 @@ namespace Data.Migrations.AuthDb
                         {
                             Id = 3,
                             Nickname = "Person3"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Nickname = "Person4"
                         });
                 });
 
@@ -95,16 +100,23 @@ namespace Data.Migrations.AuthDb
                         new
                         {
                             PersonId = 2,
-                            Email = "user1@auction.com",
+                            Email = "user2@auction.com",
                             Password = "1",
-                            Role = 2
+                            Role = 0
                         },
                         new
                         {
                             PersonId = 3,
-                            Email = "user2@auction.com",
+                            Email = "user3@auction.com",
                             Password = "1",
-                            Role = 1
+                            Role = 0
+                        },
+                        new
+                        {
+                            PersonId = 4,
+                            Email = "user4@auction.com",
+                            Password = "1",
+                            Role = 0
                         });
                 });
 

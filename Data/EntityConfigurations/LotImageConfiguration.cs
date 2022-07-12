@@ -16,12 +16,6 @@ namespace Data.EntityConfigurations
 
             builder.HasOne(x => x.File).WithMany(b => b.LotImages).OnDelete(DeleteBehavior.Cascade);
             builder.HasOne(a => a.Lot).WithMany(b => b.LotImages).OnDelete(DeleteBehavior.Cascade);
-
-            builder.HasData(
-                new LotImage() { Id = 1, LotId = 1, FileId = 11 },
-                new LotImage() { Id = 2, LotId = 1, FileId = 12 },
-                new LotImage() { Id = 3, LotId = 2, FileId = 13 }
-            );
         }
     }
 }

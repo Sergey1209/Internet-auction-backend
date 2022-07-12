@@ -27,7 +27,29 @@ namespace Data.Data
         {
             modelBuilder.ApplyConfiguration(new PersonAuthConfiguration());
             modelBuilder.ApplyConfiguration(new PersonConfiguration());
+            FillDataBase(modelBuilder);
         }
 
+        private void FillDataBase(ModelBuilder modelBuilder)
+        {
+            for (var i = 1; i < 5; i++)
+            {
+                modelBuilder.Entity<Person>().HasData(
+                    new Person()
+                    {
+                        Id = i,
+                        Nickname = $"Person{i}"
+                    });
+
+                modelBuilder.Entity<PersonAuth>().HasData(
+                    new PersonAuth()
+                    {
+                        Email = i == 1 ? "admin@auction.com" : $"user{i}@auction.com",
+                        Password = "1",
+                        Role = i == 1 ? Role.Administrator : Role.UnRegisteredUser,
+                        PersonId = i
+                    });
+            }
+        }
     }
 }

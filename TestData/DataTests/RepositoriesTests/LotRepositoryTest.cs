@@ -134,17 +134,6 @@ namespace InternetAuction.Tests.DataTests.RepositoriesTests
         }
 
         [Test]
-        public async Task LotRepository_GetAllByDetalsByCategoryIdAsync_ReturnsValuesFromCategory()
-        {
-            var dbContext = UnitTestHelper.CreateInternetAuctionDbContextWhitDataTest();
-            var repository = new LotRepository(dbContext);
-
-            var actualy = await repository.GetAllByDetalsByCategoryIdAsync(categoryId: 2);
-
-            Assert.AreEqual(2, actualy.Count());
-        }
-
-        [Test]
         public async Task LotRepository_GetByIdWithDetailsAsync_ReturnsValuesFromCategory()
         {
             var dbContext = UnitTestHelper.CreateInternetAuctionDbContextWhitDataTest();

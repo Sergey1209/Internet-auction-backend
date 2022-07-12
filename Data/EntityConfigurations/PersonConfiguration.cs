@@ -10,12 +10,6 @@ namespace Data.EntityConfigurations
         {
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Nickname).IsRequired().IsUnicode().HasMaxLength(30);
-
-            builder.HasData(
-                new Person() { Id = 1, Nickname = "Person1" },
-                new Person() { Id = 2, Nickname = "Person2" },
-                new Person() { Id = 3, Nickname = "Person3" }
-            );
         }
     }
 }

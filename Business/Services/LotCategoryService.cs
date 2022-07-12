@@ -2,10 +2,8 @@
 using Business.Helpers;
 using Business.Interfaces;
 using Business.Models;
-using Business.Validation;
 using Data.Entities;
 using Data.Interfaces;
-using Microsoft.AspNetCore.Http;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -47,9 +45,10 @@ namespace Business.Services
         {
             var fileName = await _imageFileHelper.SaveImage(inputLotCategoryModel.File);
 
-            var lotCategory = new LotCategory() { 
-                Name = inputLotCategoryModel.Name, 
-                File = new File() { Name = fileName } 
+            var lotCategory = new LotCategory()
+            {
+                Name = inputLotCategoryModel.Name,
+                File = new File() { Name = fileName }
             };
 
             await _repository.AddAsync(lotCategory);
@@ -63,7 +62,7 @@ namespace Business.Services
 
             await _imageFileHelper.RemoveFileAsync(dbLotCategory.Name);
             var newImage = await _imageFileHelper.SaveImage(inputLotCategoryModel.File);
-            
+
             dbLotCategory.File.Name = newImage;
             dbLotCategory.Name = inputLotCategoryModel.Name;
 

@@ -1,7 +1,6 @@
 ﻿using Data.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System.Collections.Generic;
 
 namespace Data.EntityConfigurations
 {
@@ -18,14 +17,6 @@ namespace Data.EntityConfigurations
 
             builder.HasOne(a => a.Category).WithMany(b => b.Lots).OnDelete(DeleteBehavior.NoAction);
 
-            List<Lot> lots = new List<Lot>();
-            for (var i = 1; i < 100; i++)
-            {
-                lots.Add(new Lot() { Id = i, Name = $"lot {i}", CategoryId = 2, Description = $"Description {i}", OwnerId = i % 5 == 0 ? 3 : 2 });
-            }
-            lots.Add(new Lot() { Id = 1000, Name = $"lot 1000", CategoryId = 2, Description = $"Description 1000", OwnerId = 1 });
-
-            builder.HasData(lots);
         }
     }
 }
